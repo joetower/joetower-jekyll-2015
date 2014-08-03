@@ -1,0 +1,144 @@
+// @_typography.scss
+// Typography definitions.
+// 
+
+body,
+p,
+label {
+  font-family: $proxima;
+  font-weight: 400;
+}
+label,
+p,
+input,
+textarea,
+button {
+  font-size: em(24);
+  @include breakpoint($handheld){
+    font-size: em(20);
+  }
+}
+p {
+  margin-bottom: em(20);
+  line-height: 1.5;
+}
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6 {
+  font-family: $adelle;
+  line-height: 1.3;
+}
+blockquote,
+blockquote p {
+  font-family: $adelle;
+  font-weight: 600;
+  font-size: em(26);
+  line-height: 1.3;
+  font-style: italic;
+  @include breakpoint($quotes) {    
+    font-size: em(20);
+  }
+  cite {
+    text-transform: uppercase;
+    font-style: normal;
+    display:block;
+    font-size: em(10);
+    padding:.5em 0;
+    margin-top: .5em;
+    border-top:.1em solid lighten($jt-blue, 10%);
+    @include breakpoint($quotes) {    
+      font-size: em(12);
+    }    
+    span {
+      font-style: italic;
+      text-transform: none;
+      display:block;
+      font-size: em(10);
+      @include breakpoint($quotes) {    
+        font-size: em(12);
+      }   
+    }
+  }    
+}
+
+
+// Headings 
+h1 {
+  font-size: em(60);
+  font-weight: 600;
+  margin-bottom: em(8);
+  color: $jt-gray;
+  @include breakpoint($tablet-large) {    
+    font-size: em(48);
+  }
+}
+h2 {
+  font-size: em(48);
+  font-weight: 600;
+  margin-bottom: em(4);
+  color: lighten($jt-gray,15%);
+  @include breakpoint($tablet-large) {    
+    font-size: em(36);
+  }  
+}
+h3 {
+  font-size: em(36);
+  font-weight: 400;
+  margin-bottom: em(4);
+  color: lighten($jt-gray,25%);
+  @include breakpoint($tablet-large) {    
+    font-size: em(24);
+  }  
+}
+h4 {
+  font-size: em(24);
+  font-weight: 400;
+  margin-bottom: em(4);
+  color: lighten($jt-gray,30%);
+  @include breakpoint($tablet-large) {    
+    font-size: em(21);
+  }    
+}
+h5 {
+  font-size: em(21);
+  font-weight: 400;
+  margin-bottom: em(4);
+  @include breakpoint($tablet-large) {    
+    font-size: em(18);
+  }      
+}
+
+// Lists 
+.posts {
+  li {
+    .post-link {
+      font-size: em(32);
+    }
+  }
+}
+
+.meta,
+.post-date {
+  color: lighten($jt-gray,25%);
+  font-size: em(18);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// Navigation
+.site-nav {
+  font-size: em(26);
+  font-weight: 700;
+  text-transform: uppercase;
+}

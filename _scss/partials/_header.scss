@@ -1,0 +1,67 @@
+// @_header.scss
+// Header elements
+// 
+
+.site-header {
+  @include grid-span(12,1);
+  &.page-color {
+    background-color: rgba($jt-green, .8);    
+  }
+  &.about-color {
+    @include breakpoint($tablet-large) {    
+      background-color: rgba($black,.40);
+    } 
+  }  
+  .logo-wrap {
+    @include grid-span(4,1);
+  }
+  .logo {
+    fill: $white; 
+    &:hover {
+      filter: url(#blur);
+      fill: rgba($white, .8);
+    }
+    svg {
+      transition: all 200ms ease-in-out;
+    }
+  }
+  .site-nav {
+    @include grid-span(8,5);
+    a {
+      color: $white;
+      display: block;
+      &:hover {
+        color: rgba($white, .75);
+        text-decoration: none;
+      }
+    } 
+    .menu {
+      margin: 0;
+      padding: 0;
+      float: right;
+      li {
+        list-style-type: none;
+        margin-left: em(20);
+        display: inline;
+        float: left;  
+        @include breakpoint($nav) {    
+          text-align: right;
+          margin: 0;
+          width: 100%;
+        }
+        &.first {
+          margin-left: 0;
+        }
+        &.active {
+          a,
+          a:hover {
+            color: rgba($white, .65);
+          }
+        }             
+      }
+    }
+    .menu-icon { 
+      display: none;
+    }
+  }
+}

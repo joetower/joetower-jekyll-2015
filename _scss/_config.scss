@@ -1,0 +1,98 @@
+//
+// Sass configuration
+//
+// This is a silent file that only contains internal config used by Sass.
+// Nothing in this file is output into the final stylesheet.
+//
+
+//
+// Gems
+//
+@import 'breakpoint';
+@import 'singularitygs';
+
+//
+// Breakpoints
+//
+// For oldIE compatability, we enable the no-query fallbacks. Each breakpoint
+// will be followed by the same set of arguments since we have a single
+// conditional class to indicate that a browser can't cut the mustard.
+$breakpoint-no-query-fallbacks: true;
+$breakpoint-to-ems:             true;
+
+// $breakpoints: add-breakpoint('one column to two columns', 456px);
+// $breakpoints: add-breakpoint('between medium and large', (876px 1324px, 'no-query' '.no-mq'));
+// $breakpoints: add-breakpoint('high resolution', min-resolution 1.5dppx);
+// $breakpoints: add-breakpoint('desktop', 1280px 1400px);
+// $breakpoints: add-breakpoint('laptop thirteen', 1279px);
+// $breakpoints: add-breakpoint('tablet large', 940px);
+
+$desktop-huge:1921 2300px;
+$desktop-large:0 1920px;
+$desktop-medium:0 1600px;
+$desktop:1280px 1599px;
+$laptop-thirteen:0 1279px;
+$tablet-large:0 950px;
+$nav: 0 720px;
+$social-icons: 0 695px;
+$archive-page: 0 610px;
+$quotes: 0 580px;
+$handheld: 0 490px;
+
+
+//
+// Space
+//
+
+$space:2em 0;
+$space-button:.5em 1.2em;
+
+//
+// Singularity
+//
+
+$grids: 12;
+$gutters: 1/3;
+
+
+//
+// Typography
+//
+$proxima: "proxima-nova",sans-serif; // 400 and 700
+$adelle: "adelle",serif; // 400, 600 and 700
+
+
+//
+// Colors
+//
+$jt-gray: #1c1c1c;
+$jt-olive: #4d6736;
+$jt-orange-muted: #b57c25;
+$jt-orange: #df9246;
+$jt-blue: #4da195;
+$jt-green: #92b82b;
+$jt-red: #B83B2B;
+$jt-yellow: #d9d336;
+$jt-gold: #8b8673;
+$jt-brown: #3A2F1D;
+
+$white: #fff;
+$black: #000;
+$excop: #320E07;
+$british-blue: #00247d;
+$design-for-one:#371F0C;
+$design-for-two:#371F0C;
+$saul-purple: #442948;
+$drupal-blue: #03486c;
+$drupal-blue2: #0077b6;
+$drupal-green: #636900;
+$drupal-green2: #98a013;
+$never-better: #d71a62;
+$dapper-green: #676944;
+$gossip-purple: #8d5595;
+$jamaica: #009b3a;
+$jamaica-yellow: #fed100;
+$tycho: #ab627d;
+$lazerbeak: #314b61;
+$dessa-pink: #CA3197;
+$dessa-blue: #125480;

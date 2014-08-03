@@ -1,0 +1,28 @@
+// @_container.scss
+// Container and structural styles
+// 
+
+*,
+*:before,
+*:after {
+  @include box-sizing('border-box');
+}
+
+::selection {
+  color: $white;
+  background: $jt-green;
+} 
+
+hr {
+  border: 0;
+  height: em(2);
+  margin: em(40) 0 em(60);
+  background-image: linear-gradient(left, 
+    rgba(0,0,0,0), 
+    rgba(0,0,0,0.55), 
+    rgba(0,0,0,0)
+  );
+  @include grid-span(12,1, $output-style:"float");
+  position:relative;
+  @include clearfix;
+}

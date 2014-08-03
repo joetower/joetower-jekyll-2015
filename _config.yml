@@ -1,0 +1,27 @@
+# Site settings
+title: Joe Tower
+email: joe-at-joetower.com
+description: "Design. Development. Music. Drupal. Opinions."
+baseurl: ""
+twitter_username: joeydollaz
+github_username: joetower
+drupal_username: 615178
+dribbble_username: joetower
+instagram_username: joetower
+google_username: joetower
+lastfm_username: georgehower
+linkedin_username: joetower
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title
+exclude: [.bowerrc, .csslintrc, .editorconfig, .gitattributes, .gitignore, .jshintrc, _config_build.yaml, _config.yml, config.rb, Gemfile, Gemfile.lock, Gruntfile.js bower.json]
+
+
+navigation:
+ - title: Archive
+   url: /archive
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact

@@ -1,0 +1,152 @@
+// @_post_colors.scss
+// Body colors for special posts - custom designed posts.
+// 
+
+body {
+  &.dark {
+    background-color: $black;
+  }
+  &.dark-texture {
+    background-image: image-url('tpl/dark-texture.png');
+    background-repeat: repeat;
+    background-color: $black;
+  }
+  &.about-color {
+    background-color: $jt-brown;
+    .logo {
+      fill: $jt-yellow; 
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($jt-yellow, .8);
+      }
+    }
+    .site-nav {
+      a {
+        color: $jt-yellow; 
+        &:hover {
+          color: rgba($jt-yellow, .8);
+        }
+      }
+    }            
+  }
+  &.ex-cop {
+    background-color: $excop;   
+  }  
+  &.brown {
+    background-color: $jt-brown;   
+  }
+  &.british-blue {
+    background-color: $british-blue;
+  }
+  &.design-for-one {
+    background-color: $design-for-one;
+  }
+  &.design-for-two {
+    background-color: $design-for-two;
+  }
+  &.saul-purple {
+    background-color: $saul-purple;
+  }
+  &.drupal-blue {
+    background-color: $drupal-blue;
+  } 
+  &.drupal-blue2 {
+    background-color: $drupal-blue2;
+  }  
+  &.drupal-green {
+    background-color: $drupal-green;
+  }   
+  &.drupal-green2 {
+    background-color: $drupal-green2;
+  }  
+  &.never-better {
+    background-color: $never-better;
+    .logo {
+      fill: $jt-yellow; 
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($jt-yellow, .8);
+      }
+    }
+    .site-nav {
+      a {
+        color: $jt-yellow; 
+        &:hover {
+          color: rgba($jt-yellow, .8);
+        }
+      }
+    }    
+  }     
+  &.dapper-green {
+    background-color: $dapper-green;
+  }      
+  &.gossip-purple {
+    background-color: $gossip-purple;
+    .logo {
+      fill: $jt-orange;
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($jt-orange, .8);
+      }         
+    }
+    .site-nav {
+      a {
+        color: $jt-orange;
+        &:hover {
+          color: rgba($jt-orange, .8);
+        }
+      }
+    }        
+  }
+  &.awake {
+    background-color: $tycho;
+  }
+  &.lazerbeak {
+    background-color: $lazerbeak;    
+  }
+  &.blake {
+    .logo {
+      fill: $jt-blue;
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($jt-blue, .8);
+      }         
+    }
+    .site-nav {
+      a {
+        color: $jt-blue;
+        &:hover {
+          color: rgba($jt-blue, .8);
+        }
+      }
+    }     
+  }  
+  &.jamaica {
+    background-color: $jamaica;
+    .logo {
+      fill: $jamaica-yellow;
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($jamaica-yellow, .8);
+      }         
+    }
+  }
+  &.dessa {
+    background-color: $dessa-blue;
+    .logo {
+      fill: $dessa-pink;
+      &:hover {
+        filter: url(#blur);
+        fill: rgba($dessa-pink, .8);
+      }         
+    }
+    .site-nav {
+      a {
+        color: $dessa-pink;
+        &:hover {
+          color: rgba($dessa-pink, .8);
+        }
+      }
+    }     
+  }  
+}

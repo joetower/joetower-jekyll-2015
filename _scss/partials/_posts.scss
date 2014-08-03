@@ -1,0 +1,193 @@
+// @_posts.scss
+// Basic post styles - establishing grid spans and padding. _post_colors and _post_special have more specific styles.
+//
+
+.meta {
+  .category,
+  .tag {
+    display:block;
+    color:lighten($jt-gray, 55%);
+  }
+}
+
+.full-width {
+  @include grid-span(12,1);
+}
+.post-header { 
+  @include grid-span(12,1);
+  .meta {
+    @include grid-span(2,1, $output-style:'float');
+    padding: 1em 0;
+    @include breakpoint($tablet-large) {    
+      @include grid-span(12,1);
+      margin-bottom: 0;
+      padding-bottom: 0;
+    } 
+  }
+  h1 {
+    @include grid-span(10,4, $output-style:'float'); 
+    @include breakpoint($tablet-large) {    
+      @include grid-span(12,1);
+    }        
+  }
+}
+
+/* Post Content Styles */
+.post-content { 
+  margin: 0 0 em(30); 
+  @include breakpoint($desktop-huge) {
+    @include grid-span(9,1, $output-style:'float');
+  }
+  @include breakpoint($desktop-large) {
+    @include grid-span(8,1, $output-style:'float');
+  }
+  @include breakpoint($desktop-medium) {
+    @include grid-span(7,1, $output-style:'float');
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(9,1, $output-style:'float');
+  }
+  @include breakpoint($laptop-thirteen) {    
+    @include grid-span(8,1, $output-style:'float');
+  }
+  @include breakpoint($tablet-large) {    
+    @include grid-span(10,1, $output-style:'float');
+  }  
+  @include breakpoint($handheld) {    
+    @include grid-span(12,1, $output-style:'float');
+  }      
+  ul,
+  ol { 
+    padding-left: em(20); 
+  }  
+}
+.post-content blockquote,
+.page-content blockquote {
+  color: $jt-gray;
+  margin: 2em 0;
+  padding-left: 1em;
+  border-left: .8em solid $jt-blue;
+  cite {
+   color: lighten($jt-gray, 30%);
+  }
+}
+
+.post {
+  pre,
+  code {
+    border: .2em solid $jt-brown;
+    background-color: $jt-yellow;
+    padding: em(16) em(30);
+    color:$jt-brown;
+    overflow:scroll;
+    @include grid-span(12,1);
+    margin:em(20) 0 em(40);
+  }
+  pre code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }  
+  pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    code { 
+      background-color: #333;
+    } 
+  }
+  ul,
+  ol { 
+    margin-left: 1.35em; 
+  }  
+}
+
+// Post bottom - comemnts and meta
+.post-comment-wrap {
+  @include grid-span(12,1);
+}
+.recent {
+  @include grid-span(4,1, $output-style:'float', $gutter:3);
+  clear: none;
+  a {
+    display:block;
+    padding: .8em 0;
+  }
+  ul {
+    li {
+      border-bottom: 1px solid rgba($jt-gray, .55);
+      list-style: none;
+      font-size: em(18);
+    }
+  }
+  @include breakpoint($tablet-large) {    
+    @include grid-span(12,1, $output-style:'float');
+    padding-top: 1em;    
+    padding-bottom: 1em;    
+  }
+}
+.comments {
+  @include grid-span(8,5, $output-style:'float', $gutter:3);  
+  @include breakpoint($tablet-large) {    
+    @include grid-span(12,1, $output-style:'float');
+    padding-top: 1em;    
+  }
+}
+
+/* Post ul styles */
+/* ----------------------------------------------------------*/
+.posts { 
+  list-style-type: none;
+  padding-top: 1em; 
+
+  @include grid-span(12,1);
+  clear:both;
+
+  &.archive {
+    padding-top: 2em; 
+  }
+  a {
+    @include grid-span(12,1);
+    display:block;
+    clear:both;
+  }
+  li { 
+    margin-bottom: 2em;
+    @include grid-span(12,1);      
+    @include breakpoint($handheld) {    
+      margin-bottom: 3.2em;
+    }
+  }
+  .post-date {
+    padding: .5em 0;
+    @include breakpoint($desktop-large) {
+      @include grid-span(2,1);
+      border:.1em solid lighten($jt-gray, 75%);
+      text-align: center;
+    }
+    @include breakpoint($desktop-medium) {
+      @include grid-span(3,1);
+    }    
+    @include breakpoint($tablet-large) {    
+      @include grid-span(12,1);
+      clear:both;      
+      border:none;
+      text-align: left;      
+    }
+  }
+  .post-link {
+    @include breakpoint($desktop-large) {
+      @include grid-span(10,3);
+    }
+    @include breakpoint($desktop-medium) {
+      @include grid-span(9,4);
+    }
+    @include breakpoint($tablet-large) {    
+      @include grid-span(12,1);
+      clear:both;            
+    }
+  }  
+}

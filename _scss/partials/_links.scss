@@ -1,0 +1,36 @@
+// Links
+a,
+a:visited {
+  color: darken($jt-green, 15%);
+  &:hover {
+    color: $jt-green;
+    text-decoration: none;
+  }
+}
+
+button,
+.button,
+input[type="submit"] {
+  padding:$space-button;
+  background: $white;
+  color: darken($jt-green, 15%);
+  border: .2em solid darken($jt-green, 15%);
+  @include border-radius(4px);
+  font-weight: 600;
+  cursor:pointer;
+  float:left;
+  transition:  all 0.3s ease 0s;
+  @include clearfix;
+  &:hover {
+    background: $jt-green;
+    color:$white;
+    border-color: darken($jt-green, 5%);
+  }
+  &.active {
+    background: lighten($jt-gray, 30%);
+    color: darken($white, 10%);
+    border-color: lighten($jt-gray, 30%);  
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;   
+  }
+}

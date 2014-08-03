@@ -1,0 +1,57 @@
+// @_images.scss
+// Images - special cases throughout the site.
+// 
+
+
+img {
+  &.profile,
+  &.dogs {
+    margin: 0 auto;
+    display: block;
+    border-style: solid;
+    border-color: transparent;
+    @include box-shadow(rgba($black, .4) 0 0 6px); 
+    @include border-radius(400px);
+
+    @include breakpoint($desktop-large) {
+      padding:em(64);
+      border-width:em(16);          
+      @include border-radius(400px);
+    }
+    @include breakpoint($desktop-medium) {    
+      @include border-radius(400px);
+      border-width:em(8);          
+    }
+    @include breakpoint($tablet-large) {
+      padding:em(16);
+      border-width:em(6);          
+    }      
+    &:hover {
+      padding: 0;
+      @include transition (all .2s linear);    
+      @include box-shadow(rgba($black, .8) 0 2px 4px); 
+      border-width:em(4);          
+    }
+  }
+  &.profile {
+    padding: em(16);
+    &:hover {
+      border-color: darken($jt-green, 10%);
+    }
+    @include breakpoint($laptop-thirteen) {
+      padding:0;
+    }
+  }
+  &.dogs {
+    padding: em(32);
+    &:hover {
+      border-color: darken($jt-blue, 10%);
+    }
+    @include breakpoint($desktop-large) {
+      padding:em(16);
+    }   
+    @include breakpoint($laptop-thirteen) {
+      padding:0;
+    }       
+  }
+}

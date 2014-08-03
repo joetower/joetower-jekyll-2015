@@ -1,0 +1,32 @@
+// @_wraps.scss
+// Wrap defaults.
+// 
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  padding:  em(30) em(30) em(40);
+  margin: 0 auto;
+  zoom: 1;
+  @include breakpoint($desktop-huge) {
+    max-width: em(2000);
+  }
+  @include breakpoint($desktop-large) {
+    max-width: em(1900);
+  }
+  @include breakpoint($desktop-medium) {
+    max-width: em(1560);
+  }   
+  @include breakpoint($desktop) {
+    max-width: em(1260);
+  }
+  @include breakpoint($laptop-thirteen) {    
+    max-width: em(960);
+    padding-top: 3em;
+  }   
+  @include breakpoint($tablet-large) {    
+    padding:  em(20) em(20) 0;
+    max-width: em(860);
+  } 
+}

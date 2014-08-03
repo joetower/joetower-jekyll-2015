@@ -1,0 +1,91 @@
+// Body animation effects for special posts
+
+.featured-image {
+  &.blake {
+    background:image-url('posts/james-blake/blake-body-repeat.jpg') no-repeat top center;
+    display: block;
+    line-height: 0;
+    -webkit-animation-name: bg_special;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bg_special;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: bg_special;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  &.state-of-tv {
+    background:image-url('posts/state-of-tv/tv_bg.png') repeat top center;
+    display: block;
+    line-height: 0;
+    -webkit-animation-name: bg_tv;
+    -webkit-animation-duration: .1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bg_tv;
+    -moz-animation-duration: .1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: bg_tv;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+
+// Blake
+@-webkit-keyframes bg_special {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right top;
+  }
+}
+@-moz-keyframes bg_special {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right top;
+  }
+}
+@keyframes bg_special {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right top;
+  }
+}
+
+// TV 
+@-webkit-keyframes bg_tv {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}
+@-moz-keyframes bg_tv {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}
+@keyframes bg_tv {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}

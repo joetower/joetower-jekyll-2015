@@ -1,0 +1,39 @@
+// @_forms.scss
+// Forms! Yay Forms!
+//
+
+form {
+  @include grid-span(12,1);
+}
+fieldset {
+  border: none;
+  padding: em(20) 0;
+  @include grid-span(12,1);
+}
+label {
+  display: block;
+}
+input {
+  @include grid-span(7,1, $output-style:"float", $gutter:0);
+  @include breakpoint($handheld) {    
+    @include grid-span(12,1);
+  }  
+}
+textarea {
+  height:auto;
+  @include grid-span(10,1, $output-style:"float", $gutter:0);
+  @include breakpoint($handheld) {    
+    @include grid-span(12,1);
+  }  
+}
+input,
+textarea {
+  border:4px solid $jt-gray;
+  padding: .5em;
+  float: left;
+}
+input:focus,
+textarea:focus {
+  border:4px solid $jt-green;
+  outline: $jt-green;
+}

@@ -1,0 +1,38 @@
+---
+title: Archive
+
+layout: default
+
+header-class: page-color
+
+meta_title: Archive of posts written about various topics.
+
+meta_description: A one-page collection of all posts on my website - by category and listed chronologically.
+
+page-class: archive-color
+
+---
+<div class="top archive">
+  <h1>Archive of Posts</h1>
+  <span class="button by-category toggle">By Category</span>
+  <div class="browse-by-category toggle-it fade">
+    <ul>
+    {% for categories in site.categories %}
+      <li><a href="/categories/{{ categories[0] }}">{{ categories[0] }}</a></li>
+    {% endfor %}
+    </ul>
+  </div><!--/.browse-by-category-->  
+</div>
+<div class="page archive">
+  <ul class="posts archive">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-link">{{ post.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

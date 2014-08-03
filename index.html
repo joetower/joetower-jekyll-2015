@@ -1,0 +1,28 @@
+---
+
+layout: default
+
+header-class: page-color
+
+meta_title: "Thoughts, work, and nonsense by Minneapolis Designer Joe Tower"
+
+meta_description: "Thoughts, work, and nonsense by Minneapolis Designer Joe Tower"
+
+---
+
+<div class="home">
+
+  <h1>Latest Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts limit:6 %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

@@ -1,0 +1,64 @@
+// @_archive_page.scss
+// Archive Page elements
+// 
+
+.top {
+  &.archive {
+    h1 {
+      @include grid-span(8,1);
+      @include breakpoint($archive-page) {    
+        @include grid-span(12,1);
+      }    
+    }
+    .button {
+      &.by-category {
+        @include grid-span(4,9);
+        text-align: center;
+        margin-top: 2em;
+        @include breakpoint($tablet-large) {    
+          margin-top: 1em;
+        } 
+        @include breakpoint($archive-page) {    
+          @include grid-span(5,1);
+          clear:both;
+        }
+        @include breakpoint($handheld) {    
+          @include grid-span(12,1);
+        }                 
+      }
+    }
+  }
+}
+.toggle-it {
+  display:none;
+}
+.browse-by-category {
+  @include grid-span(12,1);
+  @include breakpoint($archive-page) {    
+    clear:both;
+  }     
+  ul {
+    padding:1em .5em;
+    margin:0;
+    @include grid-span(12,1);
+    background: darken($white, 2%);
+    border:.2em solid lighten($jt-gray, 30%);
+    li {
+      list-style: none;
+      margin:.3em;
+      float:left;
+    }
+  }
+  a {
+    padding:.3em .6em;
+    float:left;
+    display:block;
+    border:.1em solid $jt-green;
+    transition:  all 0.3s ease 0s;
+    &:hover {
+      color:$white;
+      background: darken($jt-green, 20%);
+      border:.1em solid darken($jt-green, 15%);
+    }
+  }
+}

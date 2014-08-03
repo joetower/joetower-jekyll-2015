@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body {% if page.page-class %}class="{{ page.page-class }}"{% endif %}>
+    {% include header.html %}
+    {% include featured_image.html %}
+    {% include post_summary.html %}
+    <div class="page-wrapper{% if page.page-class %} {{ page.page-class }}{% endif %}">
+      <div class="wrap post">
+       {{ content }}
+         <div class="meta full-width">
+          <span class="category">Posted in: {{ page.categories | array_to_sentence_string }}</span>
+          <span class="tag">Tagged: {{ page.tags | array_to_sentence_string }}</span>
+        </div>
+      </div>
+
+      <div class="post-comment-wrap">
+        <div class="wrap meta-comment">
+          
+          {% include recent_posts.html %}
+
+          <section class="comments">
+          {% include disqus.html %}
+
+          </section><!--/.comments-->
+        </div><!--/.wrap comments-->
+      </div><!--/.post-comment-wrap-->
+    </div><!--/.page-wrap-->
+
+    {% include footer.html %}
+
+    </body>
+</html>

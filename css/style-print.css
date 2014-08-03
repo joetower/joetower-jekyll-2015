@@ -1,0 +1,80 @@
+/* CSS Document */
+/* line 3, ../_scss/style-print.scss */
+#purple-rect, #secondary, #top-wrapper, #container #action_icons, #header-region, span.back_to_top, #page #left, #footer #block-menu-menu-footer-links, #footer #footer-social, .to-top, #breadcrumb, .back-link, ul.tabs, .views-admin-links {
+  display: none;
+}
+
+/* line 6, ../_scss/style-print.scss */
+body {
+  padding: 0 10px;
+}
+
+/* line 9, ../_scss/style-print.scss */
+#wrapper {
+  width: 100%;
+}
+
+/* line 12, ../_scss/style-print.scss */
+#header, #container, #content, .two-column #content {
+  float: none;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* line 19, ../_scss/style-print.scss */
+#main-squeeze h1#page-title,
+#main-squeeze div#page-title {
+  left: 0px;
+  background: none;
+  color: #4a1748;
+  padding: 0px;
+  margin: 35px 0;
+}
+
+/* line 26, ../_scss/style-print.scss */
+#page #container, #main-squeeze #content {
+  min-height: inherit;
+  background-color: #fff;
+}
+
+/* for Internet Explorer */
+/*\*/
+/* line 32, ../_scss/style-print.scss */
+* html div#container {
+  height: auto;
+}
+
+/**/
+/* line 36, ../_scss/style-print.scss */
+#header {
+  border-bottom: 1px solid #CCCCCC;
+  height: 80px;
+}
+
+/* line 42, ../_scss/style-print.scss */
+#content .heading {
+  padding-top: 10px;
+}
+
+/* line 45, ../_scss/style-print.scss */
+h1 {
+  color: #000;
+}
+
+/* line 49, ../_scss/style-print.scss */
+span.source-title {
+  font-weight: bold;
+  padding-right: 7px;
+}
+
+/* line 54, ../_scss/style-print.scss */
+#block-nyucn_admin-print_source_url {
+  float: left;
+  padding-top: 8px;
+}
+
+/* line 59, ../_scss/style-print.scss */
+#footer-wrapper {
+  margin-bottom: 58px;
+}

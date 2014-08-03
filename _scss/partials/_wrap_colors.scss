@@ -1,0 +1,48 @@
+// @_wrap_colors.scss
+// Wrap colors for specific wraps
+// 
+
+.wrap {
+  &.post-head {
+    padding: em(32) em(64);
+    background-color: rgba($white,.95);
+    @include breakpoint($tablet-large) {    
+      padding:  em(16) em(32);
+    }      
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+  &.post {
+    padding: em(24) em(64);
+    background-color: rgba($white,.90);
+    @include breakpoint($tablet-large) {    
+      padding:  em(16) em(32);
+    }      
+  }
+  &.meta-comment {
+    padding: em(32) em(64);
+    background-color: rgba($white,.80);
+    @include breakpoint($tablet-large) {    
+      padding:  em(16) em(32);
+    }      
+  }  
+  &.header {
+    padding: em(16) em(64) em(128);
+    @include breakpoint($desktop-large) {    
+      padding-bottom:em(288);
+    }  
+    @include breakpoint($desktop-medium) {    
+      padding-bottom:em(192);
+    } 
+    @include breakpoint($laptop-thirteen) {    
+      padding-bottom:em(128);
+    }     
+    @include breakpoint($tablet-large) {    
+      padding: em(16) em(16) em(64);
+    } 
+    @include breakpoint($handheld) {    
+      padding: em(16);
+    }      
+  }    
+}
