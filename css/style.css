@@ -270,7 +270,7 @@ h5 {
 @media (min-width: 0) and (max-width: 120em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    max-width: 118.75em;
+    max-width: 105em;
   }
 }
 @media (min-width: 0) and (max-width: 100em) {
