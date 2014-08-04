@@ -15,8 +15,7 @@ linkedin_username: joetower
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title
-exclude: [_site, package.json, .bowerrc, Gruntfile.js, .csslintrc, .editorconfig, .gitattributes, .gitignore, .jshintrc, _config_build.yaml, _config.yml, config.rb, Gemfile, Gemfile.lock, Gruntfile.js bower.json]
-
+exclude: [_site, package.json, Gruntfile.js, .gitignore, node_modules, _config.yml, config.rb, Gemfile, Gemfile.lock,]
 
 navigation:
  - title: Archive
