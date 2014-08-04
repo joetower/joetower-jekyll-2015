@@ -36,7 +36,8 @@
 ehthumbs.db
 Thumbs.db
 node_modules
-
+_site
+ 
 # Sass Stuff 
 #####################
 .sass-cache

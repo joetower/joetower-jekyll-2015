@@ -10,16 +10,16 @@
   margin: 0 auto;
   zoom: 1;
   @include breakpoint($desktop-huge) {
-    max-width: em(2000);
+    max-width: em(1600);
   }
   @include breakpoint($desktop-large) {
-    max-width: em(1580);
+    max-width: em(1400);
   }
   @include breakpoint($desktop-medium) {
-    max-width: em(1460);
+    max-width: em(1300);
   }   
   @include breakpoint($desktop) {
-    max-width: em(1260);
+    max-width: em(1200);
   }
   @include breakpoint($laptop-thirteen) {    
     max-width: em(960);

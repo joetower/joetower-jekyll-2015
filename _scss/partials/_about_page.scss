@@ -8,8 +8,8 @@
   &.about {
     @include grid-span(7,1);
     @include breakpoint($desktop-large) {    
-      @include grid-span(7,1);    
-    }
+      @include grid-span(8,1);    
+    }  
     @include breakpoint($laptop-thirteen) {    
       @include grid-span(7,1);    
     }  
@@ -27,7 +27,7 @@
     clear:right;
     margin:0;
     @include breakpoint($desktop-large) {    
-      @include grid-span(5,8);    
+      @include grid-span(4,9);    
     }
     @include breakpoint($laptop-thirteen) {    
       @include grid-span(5,8);    

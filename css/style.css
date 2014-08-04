@@ -264,25 +264,25 @@ h5 {
 @media (min-width: 1921) and (max-width: 143.75em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    max-width: 125em;
+    max-width: 100em;
   }
 }
 @media (min-width: 0) and (max-width: 120em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    max-width: 105em;
+    max-width: 87.5em;
   }
 }
 @media (min-width: 0) and (max-width: 100em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    max-width: 97.5em;
+    max-width: 81.25em;
   }
 }
 @media (min-width: 80em) and (max-width: 99.9375em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    max-width: 78.75em;
+    max-width: 75em;
   }
 }
 @media (min-width: 0) and (max-width: 79.9375em) {
@@ -392,7 +392,7 @@ h5 {
 }
 /* line 15, ../_scss/partials/_header.scss */
 .site-header .logo-wrap {
-  width: 31.91489%;
+  width: 23.40426%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;
@@ -404,8 +404,8 @@ h5 {
 }
 /* line 20, ../_scss/partials/_header.scss */
 .site-header .logo:hover {
-  filter: url(#blur);
-  fill: rgba(255, 255, 255, 0.8);
+  filter: url(#blur-more);
+  fill: rgba(255, 255, 255, 0.7);
 }
 /* line 24, ../_scss/partials/_header.scss */
 .site-header .logo svg {
@@ -413,7 +413,7 @@ h5 {
 }
 /* line 28, ../_scss/partials/_header.scss */
 .site-header .site-nav {
-  width: 65.95745%;
+  width: 74.46809%;
   float: right;
   margin-left: 0;
   margin-right: 0;
@@ -1706,7 +1706,7 @@ body.dessa .site-nav a:hover {
 @media (min-width: 0) and (max-width: 120em) {
   /* line 8, ../_scss/partials/_about_page.scss */
   .top.about {
-    width: 57.44681%;
+    width: 65.95745%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
@@ -1757,7 +1757,7 @@ body.dessa .site-nav a:hover {
 @media (min-width: 0) and (max-width: 120em) {
   /* line 25, ../_scss/partials/_about_page.scss */
   .photo.me {
-    width: 40.42553%;
+    width: 31.91489%;
     float: right;
     margin-left: 0;
     margin-right: 0;
