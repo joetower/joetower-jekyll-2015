@@ -948,9 +948,10 @@ img.dogs:hover {
 .meta .tag {
   display: block;
   color: #a8a8a8;
+  padding-bottom: 1.25em;
 }
 
-/* line 13, ../_scss/partials/_posts.scss */
+/* line 14, ../_scss/partials/_posts.scss */
 .full-width {
   width: 100%;
   float: right;
@@ -959,7 +960,7 @@ img.dogs:hover {
   clear: none;
 }
 
-/* line 16, ../_scss/partials/_posts.scss */
+/* line 17, ../_scss/partials/_posts.scss */
 .post-header {
   width: 100%;
   float: right;
@@ -967,7 +968,7 @@ img.dogs:hover {
   margin-right: 0;
   clear: none;
 }
-/* line 18, ../_scss/partials/_posts.scss */
+/* line 19, ../_scss/partials/_posts.scss */
 .post-header .meta {
   width: 14.89362%;
   clear: right;
@@ -977,7 +978,7 @@ img.dogs:hover {
   padding: 1em 0;
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 18, ../_scss/partials/_posts.scss */
+  /* line 19, ../_scss/partials/_posts.scss */
   .post-header .meta {
     width: 100%;
     float: right;
@@ -988,14 +989,14 @@ img.dogs:hover {
     padding-bottom: 0;
   }
 }
-/* line 27, ../_scss/partials/_posts.scss */
+/* line 28, ../_scss/partials/_posts.scss */
 .post-header h1 {
   width: 82.97872%;
   clear: right;
   float: left;
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 27, ../_scss/partials/_posts.scss */
+  /* line 28, ../_scss/partials/_posts.scss */
   .post-header h1 {
     width: 100%;
     float: right;
@@ -1006,12 +1007,12 @@ img.dogs:hover {
 }
 
 /* Post Content Styles */
-/* line 36, ../_scss/partials/_posts.scss */
+/* line 37, ../_scss/partials/_posts.scss */
 .post-content {
   margin: 0 0 1.875em;
 }
 @media (min-width: 1921) and (max-width: 143.75em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 74.46809%;
     clear: right;
@@ -1021,7 +1022,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 120em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 65.95745%;
     clear: right;
@@ -1031,7 +1032,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 100em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 57.44681%;
     clear: right;
@@ -1041,7 +1042,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 80em) and (max-width: 99.9375em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 74.46809%;
     clear: right;
@@ -1051,7 +1052,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 79.9375em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 65.95745%;
     clear: right;
@@ -1061,7 +1062,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 82.97872%;
     clear: right;
@@ -1071,7 +1072,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 30.625em) {
-  /* line 36, ../_scss/partials/_posts.scss */
+  /* line 37, ../_scss/partials/_posts.scss */
   .post-content {
     width: 100%;
     clear: right;
@@ -1079,13 +1080,14 @@ img.dogs:hover {
     margin-right: 0;
   }
 }
-/* line 60, ../_scss/partials/_posts.scss */
+/* line 61, ../_scss/partials/_posts.scss */
 .post-content ul,
 .post-content ol {
   padding-left: 1.25em;
+  margin-bottom: 1.875em;
 }
 
-/* line 65, ../_scss/partials/_posts.scss */
+/* line 67, ../_scss/partials/_posts.scss */
 .post-content blockquote,
 .page-content blockquote {
   color: #1c1c1c;
@@ -1093,13 +1095,13 @@ img.dogs:hover {
   padding-left: 1em;
   border-left: 0.8em solid #4da195;
 }
-/* line 70, ../_scss/partials/_posts.scss */
+/* line 72, ../_scss/partials/_posts.scss */
 .post-content blockquote cite,
 .page-content blockquote cite {
   color: dimgrey;
 }
 
-/* line 77, ../_scss/partials/_posts.scss */
+/* line 79, ../_scss/partials/_posts.scss */
 .post pre,
 .post code {
   border: 0.2em solid #3a2f1d;
@@ -1114,13 +1116,13 @@ img.dogs:hover {
   clear: none;
   margin: 1.25em 0 2.5em;
 }
-/* line 86, ../_scss/partials/_posts.scss */
+/* line 88, ../_scss/partials/_posts.scss */
 .post pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
-/* line 91, ../_scss/partials/_posts.scss */
+/* line 93, ../_scss/partials/_posts.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
@@ -1129,17 +1131,17 @@ img.dogs:hover {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 98, ../_scss/partials/_posts.scss */
+/* line 100, ../_scss/partials/_posts.scss */
 .post pre.terminal code {
   background-color: #333;
 }
-/* line 103, ../_scss/partials/_posts.scss */
+/* line 105, ../_scss/partials/_posts.scss */
 .post ul,
 .post ol {
   margin-left: 1.35em;
 }
 
-/* line 109, ../_scss/partials/_posts.scss */
+/* line 111, ../_scss/partials/_posts.scss */
 .post-comment-wrap {
   width: 100%;
   float: right;
@@ -1148,7 +1150,7 @@ img.dogs:hover {
   clear: none;
 }
 
-/* line 112, ../_scss/partials/_posts.scss */
+/* line 114, ../_scss/partials/_posts.scss */
 .recent {
   width: 28.88889%;
   clear: right;
@@ -1157,19 +1159,19 @@ img.dogs:hover {
   margin-right: 6.66667%;
   clear: none;
 }
-/* line 115, ../_scss/partials/_posts.scss */
+/* line 117, ../_scss/partials/_posts.scss */
 .recent a {
   display: block;
   padding: .8em 0;
 }
-/* line 120, ../_scss/partials/_posts.scss */
+/* line 122, ../_scss/partials/_posts.scss */
 .recent ul li {
   border-bottom: 1px solid rgba(28, 28, 28, 0.55);
   list-style: none;
   font-size: 1.125em;
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 112, ../_scss/partials/_posts.scss */
+  /* line 114, ../_scss/partials/_posts.scss */
   .recent {
     width: 100%;
     clear: right;
@@ -1180,7 +1182,7 @@ img.dogs:hover {
   }
 }
 
-/* line 132, ../_scss/partials/_posts.scss */
+/* line 134, ../_scss/partials/_posts.scss */
 .comments {
   width: 64.44444%;
   clear: right;
@@ -1188,7 +1190,7 @@ img.dogs:hover {
   margin-right: 0;
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 132, ../_scss/partials/_posts.scss */
+  /* line 134, ../_scss/partials/_posts.scss */
   .comments {
     width: 100%;
     clear: right;
@@ -1200,7 +1202,7 @@ img.dogs:hover {
 
 /* Post ul styles */
 /* ----------------------------------------------------------*/
-/* line 142, ../_scss/partials/_posts.scss */
+/* line 144, ../_scss/partials/_posts.scss */
 .posts {
   list-style-type: none;
   padding-top: 1em;
@@ -1211,11 +1213,11 @@ img.dogs:hover {
   clear: none;
   clear: both;
 }
-/* line 149, ../_scss/partials/_posts.scss */
+/* line 151, ../_scss/partials/_posts.scss */
 .posts.archive {
   padding-top: 2em;
 }
-/* line 152, ../_scss/partials/_posts.scss */
+/* line 154, ../_scss/partials/_posts.scss */
 .posts a {
   width: 100%;
   float: right;
@@ -1225,7 +1227,7 @@ img.dogs:hover {
   display: block;
   clear: both;
 }
-/* line 157, ../_scss/partials/_posts.scss */
+/* line 159, ../_scss/partials/_posts.scss */
 .posts li {
   margin-bottom: 2em;
   width: 100%;
@@ -1235,17 +1237,17 @@ img.dogs:hover {
   clear: none;
 }
 @media (min-width: 0) and (max-width: 30.625em) {
-  /* line 157, ../_scss/partials/_posts.scss */
+  /* line 159, ../_scss/partials/_posts.scss */
   .posts li {
     margin-bottom: 3.2em;
   }
 }
-/* line 164, ../_scss/partials/_posts.scss */
+/* line 166, ../_scss/partials/_posts.scss */
 .posts .post-date {
   padding: .5em 0;
 }
 @media (min-width: 0) and (max-width: 120em) {
-  /* line 164, ../_scss/partials/_posts.scss */
+  /* line 166, ../_scss/partials/_posts.scss */
   .posts .post-date {
     width: 14.89362%;
     float: left;
@@ -1257,7 +1259,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 100em) {
-  /* line 164, ../_scss/partials/_posts.scss */
+  /* line 166, ../_scss/partials/_posts.scss */
   .posts .post-date {
     width: 23.40426%;
     float: left;
@@ -1267,7 +1269,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 164, ../_scss/partials/_posts.scss */
+  /* line 166, ../_scss/partials/_posts.scss */
   .posts .post-date {
     width: 100%;
     float: right;
@@ -1280,7 +1282,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 120em) {
-  /* line 181, ../_scss/partials/_posts.scss */
+  /* line 183, ../_scss/partials/_posts.scss */
   .posts .post-link {
     width: 82.97872%;
     float: right;
@@ -1290,7 +1292,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 100em) {
-  /* line 181, ../_scss/partials/_posts.scss */
+  /* line 183, ../_scss/partials/_posts.scss */
   .posts .post-link {
     width: 74.46809%;
     float: right;
@@ -1300,7 +1302,7 @@ img.dogs:hover {
   }
 }
 @media (min-width: 0) and (max-width: 59.375em) {
-  /* line 181, ../_scss/partials/_posts.scss */
+  /* line 183, ../_scss/partials/_posts.scss */
   .posts .post-link {
     width: 100%;
     float: right;

@@ -13,7 +13,7 @@ summary: Desktop wallpaper inspired by local hip-hop and a love of type. This is
 
 summary-class: design
 
-page-class: never-better
+page-class: dark-texture
 
 categories:
 - design

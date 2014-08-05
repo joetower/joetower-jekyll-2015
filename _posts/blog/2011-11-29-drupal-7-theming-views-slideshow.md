@@ -32,24 +32,21 @@ This is a nifty way to go about styling <a href="http://drupal.org/project/views
 In Drupal 6 to achieve this very functionality (though you could've used preprocess there too), I would take the "<a href="http://mustardseedmedia.com/podcast/episode30" title="MustardSeed Media Views Row Theming podcast">Views Row Theming</a>" approach by overriding the respective view template file. While overriding a views template works, as does hiding all your views fields and re-writing the output (as you need it to render - wrapping divs and all) in a Custom Text Field, neither are the best solution. Now, if you're a programmer and proficient in writing custom node templates, this method may or may not be the best solution.
 
 ## Process by example
-See: *Image 1 - to the right*
 In designing <a href="http://joetower.com/work/stereoland" title="Stereoland Redesign">Stereoland.com</a> I needed to implement a slideshow with the Title and Body fields wrapped by a containing div. To achieve this design it is necessary to absolutely position the "wrapped" fields on top of the slideshow image field. The challenge presented here is that you can not natively wrap a specific group of fields in an outer-div through the Drupal UI. Now, I'm no programmer and I don't pretend to understand Drupal at code level or anything beyond theming. If I do hit a wall while theming, I use google, drupal.org documentation, or if really stuck, consult a Drupal programmer.
 
-Utilizing preprocess_views_view_fields within your theme template.php file will allow for successful wrapping of your desired fields. My working example can be seen on <a href="http://www.stereoland.com" title="Stereoland">stereoland.com</a>.
+Utilizing preprocess-views-view-fields within your theme template.php file will allow for successful wrapping of your desired fields. My working example can be seen on <a href="http://www.stereoland.com" title="Stereoland">stereoland.com</a>.
 
 ## Setting up the view
-See: *Image 2 - to the right*
 In this example, you want to display the following fields in order, within your slideshow block:
-<ul>
-<li>Slideshow Image</li>
-<li>Slideshow Title Field</li>
-<li>Body Field (Summary or Trimmed)</li>
-</ul>
+
+* Slideshow Image
+* Slideshow Title Field
+* Body Field (Summary or Trimmed)
 
 ## The code
 The following code can be placed in your theme's template.php file (after the opening PHP tag).
 
-```php
+```
 // Slideshow wrapper to allow absolute placement of slideshow content
 function Your_Theme_Name_preprocess_views_view_fields(&$vars, $hook){
   if ($vars['view']->name == 'Your_Slideshow_View_Name') {
@@ -58,13 +55,16 @@ function Your_Theme_Name_preprocess_views_view_fields(&$vars, $hook){
   }
 }
 ```
-To implement this in your theme, replace **Your_Theme_Name** with your theme's name, **Your_Slideshow_View_Name** with your slideshow_view_name, and the final line **Closing_Field_Name** with the desired last field_name in your view.
+
+To implement this in your theme, replace "Your-Theme-Name" with your theme's name, "Your-Slideshow-View-Name" with your "slideshow-view-name", and the final line **Closing Field Name** with the desired last "field_name" in your view.
 
 ## What does this code do?
-This code places an opening DIV tag for the div class of "slideshow-content-wrapper" *before*> the first specified field_name, and closes it *after*> the last specified field in your view. For the purpose of the above code, I wanted the wrapper-div to start before the Title_Field and close after the Body_Field, since those are the fields I needed wrapped.
+
+This code places an opening DIV tag for the div class of "slideshow-content-wrapper" *before* the first specified "field-name", and closes it *after* the last specified field in your view. For the purpose of the above code, I wanted the wrapper-div to start before the "Title_Field" and close after the "Body-Field", since those are the fields I needed wrapped.
 
 **The resulting HTML source code should look something like this:**
-```html
+
+```
 <div class="field-content slideshow-image">
        <img src="your-slideshow-image.jpg" />
 </div><!--/slideshow-image-->

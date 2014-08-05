@@ -31,6 +31,7 @@ I haven't owned an iPhone since the 3G. I've planned on purchasing an iPhone sin
 
 ### iOS
 When iOS7 was announced, I said to myself...
+
 > Finally, Apple has redesigned iOS. It's about damn time. Maybe I'll...
 
 Nope. The too-little/too-late updates were not enough to bring me back. Sure, iOS _feels_ better than ever, but it has still not changed, really. It's kind of ugly; having some truly disgusting icons, and possibly not as intuitive as it once was. Sure, it's still the same polished turd it's always been, at its heart. I feel like Apple has lost that brilliant glimmer that once so proudly excelled at _"giving people what they didn't know they needed"_. A somewhat odd redesign isn't enough.

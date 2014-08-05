@@ -7,6 +7,7 @@
   .tag {
     display:block;
     color:lighten($jt-gray, 55%);
+    padding-bottom: em(20);
   }
 }
 
@@ -59,6 +60,7 @@
   ul,
   ol { 
     padding-left: em(20); 
+    margin-bottom: em(30);
   }  
 }
 .post-content blockquote,
