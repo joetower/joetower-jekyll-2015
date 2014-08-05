@@ -37,6 +37,8 @@ ehthumbs.db
 Thumbs.db
 node_modules
 _site
+*.sublime-project
+*.sublime-workspace
  
 # Sass Stuff 
 #####################
