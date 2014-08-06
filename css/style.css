@@ -1333,7 +1333,7 @@ body.about-color .logo {
 }
 /* line 18, ../_scss/partials/_post_colors.scss */
 body.about-color .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 /* line 24, ../_scss/partials/_post_colors.scss */
@@ -1394,7 +1394,7 @@ body.never-better .logo {
 }
 /* line 66, ../_scss/partials/_post_colors.scss */
 body.never-better .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 /* line 72, ../_scss/partials/_post_colors.scss */
@@ -1419,7 +1419,7 @@ body.gossip-purple .logo {
 }
 /* line 87, ../_scss/partials/_post_colors.scss */
 body.gossip-purple .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(223, 146, 70, 0.8);
 }
 /* line 93, ../_scss/partials/_post_colors.scss */
@@ -1444,7 +1444,7 @@ body.blake .logo {
 }
 /* line 110, ../_scss/partials/_post_colors.scss */
 body.blake .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(77, 161, 149, 0.8);
 }
 /* line 116, ../_scss/partials/_post_colors.scss */
@@ -1465,7 +1465,7 @@ body.jamaica .logo {
 }
 /* line 128, ../_scss/partials/_post_colors.scss */
 body.jamaica .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(254, 209, 0, 0.8);
 }
 /* line 134, ../_scss/partials/_post_colors.scss */
@@ -1478,7 +1478,7 @@ body.dessa .logo {
 }
 /* line 138, ../_scss/partials/_post_colors.scss */
 body.dessa .logo:hover {
-  filter: url(#blur);
+  filter: url(#blur-more);
   fill: rgba(202, 49, 151, 0.8);
 }
 /* line 144, ../_scss/partials/_post_colors.scss */

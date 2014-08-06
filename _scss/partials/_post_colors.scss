@@ -16,7 +16,7 @@ body {
     .logo {
       fill: $jt-yellow; 
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($jt-yellow, .8);
       }
     }
@@ -64,7 +64,7 @@ body {
     .logo {
       fill: $jt-yellow; 
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($jt-yellow, .8);
       }
     }
@@ -85,7 +85,7 @@ body {
     .logo {
       fill: $jt-orange;
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($jt-orange, .8);
       }         
     }
@@ -108,7 +108,7 @@ body {
     .logo {
       fill: $jt-blue;
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($jt-blue, .8);
       }         
     }
@@ -126,7 +126,7 @@ body {
     .logo {
       fill: $jamaica-yellow;
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($jamaica-yellow, .8);
       }         
     }
@@ -136,7 +136,7 @@ body {
     .logo {
       fill: $dessa-pink;
       &:hover {
-        filter: url(#blur);
+        filter: url(#blur-more);
         fill: rgba($dessa-pink, .8);
       }         
     }
