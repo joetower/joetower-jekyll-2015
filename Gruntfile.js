@@ -62,6 +62,6 @@ module.exports = function(grunt) {
  
    // TASKS =====================================/
    grunt.registerTask('prod', ['compass:dev']);
-   grunt.registerTask('default', ['compass:dev' , 'uglify' , 'autoprefixer', 'watch']);
+   grunt.registerTask('default', ['compass:dev' , 'uglify' , 'watch']);
  
  };
