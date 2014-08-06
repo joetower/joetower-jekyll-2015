@@ -14,7 +14,7 @@ module.exports = function(grunt) {
            tasks: ['uglify']
           },
           autoprefixer: {
-            files: ['css/style.css'],
+            files: ['_site/css/style.css'],
             tasks: ['autoprefixer']
         }
      },
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
         autoprefixer: {
             all: {
                 files: {
-                    '_site/css/style.css': 'css/style.css'
+                    '_site/css/style.css': '_site/css/style.css'
                 }
             }
         },
@@ -62,6 +62,6 @@ module.exports = function(grunt) {
  
    // TASKS =====================================/
    grunt.registerTask('prod', ['compass:dev']);
-   grunt.registerTask('default', ['compass:dev' , 'uglify' , 'watch']);
+   grunt.registerTask('default', ['compass:dev' , 'autoprefixer', 'uglify' , 'watch']);
  
  };
