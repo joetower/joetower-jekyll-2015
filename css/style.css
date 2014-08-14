@@ -295,7 +295,7 @@ h5 {
 @media (min-width: 0) and (max-width: 59.375em) {
   /* line 8, ../_scss/partials/_wraps.scss */
   .wrap {
-    padding: 1.25em 1.25em 0;
+    padding: 3.75em 1.25em 0;
     max-width: 53.75em;
   }
 }
@@ -362,7 +362,7 @@ h5 {
 @media (min-width: 0) and (max-width: 59.375em) {
   /* line 30, ../_scss/partials/_wrap_colors.scss */
   .wrap.header {
-    padding: 1em 1em 4em;
+    padding: 1em 1em 6.25em;
   }
 }
 @media (min-width: 0) and (max-width: 30.625em) {
@@ -404,14 +404,12 @@ h5 {
 }
 /* line 20, ../_scss/partials/_header.scss */
 .site-header .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(255, 255, 255, 0.7);
 }
 /* line 24, ../_scss/partials/_header.scss */
 .site-header .logo svg {
-  -webkit-transition: all 200ms ease-in-out;
-          transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 /* line 28, ../_scss/partials/_header.scss */
 .site-header .site-nav {
@@ -470,15 +468,12 @@ h5 {
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* line 11, ../_scss/partials/_container.scss */
-::-moz-selection {
-  color: white;
-  background: #92b82b;
-}
 ::selection {
   color: white;
   background: #92b82b;
@@ -489,7 +484,6 @@ hr {
   border: 0;
   height: 0.125em;
   margin: 2.5em 0 3.75em;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
   background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
   width: 100%;
   clear: right;
@@ -524,13 +518,15 @@ input[type="submit"] {
   background: white;
   color: #617a1d;
   border: 0.2em solid #617a1d;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
   float: left;
-  -webkit-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 /* line 65, ../../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 button:after,
@@ -766,6 +762,9 @@ input[type="submit"].active {
   background-color: rgba(255, 255, 255, 0.8);
   float: left;
   padding: .5em;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
   -o-border-radius: 26px;
   border-radius: 26px;
 }
@@ -778,13 +777,11 @@ input[type="submit"].active {
   display: block;
   position: relative;
   margin: 0 auto;
-  -webkit-transition: all 200ms ease-in-out;
-          transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 /* line 109, ../_scss/partials/_footer.scss */
 .site-footer ul li a svg:hover {
-  -webkit-filter: url(#blur-less);
-          filter: url(#blur-less);
+  filter: url(#blur-less);
 }
 
 /* line 2, ../_scss/partials/_featured_image.scss */
@@ -809,7 +806,12 @@ img.profile, img.dogs {
   display: block;
   border-style: solid;
   border-color: transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
+  -webkit-border-radius: 400px;
+  -moz-border-radius: 400px;
+  -ms-border-radius: 400px;
   -o-border-radius: 400px;
   border-radius: 400px;
 }
@@ -818,6 +820,9 @@ img.profile, img.dogs {
   img.profile, img.dogs {
     padding: 4em;
     border-width: 1em;
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px;
+    -ms-border-radius: 400px;
     -o-border-radius: 400px;
     border-radius: 400px;
   }
@@ -825,6 +830,9 @@ img.profile, img.dogs {
 @media (min-width: 0) and (max-width: 100em) {
   /* line 8, ../_scss/partials/_images.scss */
   img.profile, img.dogs {
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px;
+    -ms-border-radius: 400px;
     -o-border-radius: 400px;
     border-radius: 400px;
     border-width: 0.5em;
@@ -841,7 +849,11 @@ img.profile, img.dogs {
 img.profile:hover, img.dogs:hover {
   padding: 0;
   -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 2px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 2px 4px;
   box-shadow: rgba(0, 0, 0, 0.8) 0 2px 4px;
   border-width: 0.25em;
 }
@@ -853,28 +865,34 @@ img.profile {
 img.profile:hover {
   border-color: #718f21;
 }
+@media (min-width: 0) and (max-width: 120em) {
+  /* line 36, ../_scss/partials/_images.scss */
+  img.profile {
+    padding: 0.5em;
+  }
+}
 @media (min-width: 0) and (max-width: 79.9375em) {
   /* line 36, ../_scss/partials/_images.scss */
   img.profile {
     padding: 0;
   }
 }
-/* line 45, ../_scss/partials/_images.scss */
+/* line 48, ../_scss/partials/_images.scss */
 img.dogs {
   padding: 2em;
 }
-/* line 47, ../_scss/partials/_images.scss */
+/* line 50, ../_scss/partials/_images.scss */
 img.dogs:hover {
   border-color: #3c7f75;
 }
 @media (min-width: 0) and (max-width: 120em) {
-  /* line 45, ../_scss/partials/_images.scss */
+  /* line 48, ../_scss/partials/_images.scss */
   img.dogs {
-    padding: 1em;
+    padding: 0.5em;
   }
 }
 @media (min-width: 0) and (max-width: 79.9375em) {
-  /* line 45, ../_scss/partials/_images.scss */
+  /* line 48, ../_scss/partials/_images.scss */
   img.dogs {
     padding: 0;
   }
@@ -1115,6 +1133,8 @@ img.dogs:hover {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 100, ../_scss/partials/_posts.scss */
@@ -1319,8 +1339,7 @@ body.about-color .logo {
 }
 /* line 18, ../_scss/partials/_post_colors.scss */
 body.about-color .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 /* line 24, ../_scss/partials/_post_colors.scss */
@@ -1381,8 +1400,7 @@ body.never-better .logo {
 }
 /* line 66, ../_scss/partials/_post_colors.scss */
 body.never-better .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 /* line 72, ../_scss/partials/_post_colors.scss */
@@ -1407,8 +1425,7 @@ body.gossip-purple .logo {
 }
 /* line 87, ../_scss/partials/_post_colors.scss */
 body.gossip-purple .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(223, 146, 70, 0.8);
 }
 /* line 93, ../_scss/partials/_post_colors.scss */
@@ -1433,8 +1450,7 @@ body.blake .logo {
 }
 /* line 110, ../_scss/partials/_post_colors.scss */
 body.blake .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(77, 161, 149, 0.8);
 }
 /* line 116, ../_scss/partials/_post_colors.scss */
@@ -1455,8 +1471,7 @@ body.jamaica .logo {
 }
 /* line 128, ../_scss/partials/_post_colors.scss */
 body.jamaica .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(254, 209, 0, 0.8);
 }
 /* line 134, ../_scss/partials/_post_colors.scss */
@@ -1469,8 +1484,7 @@ body.dessa .logo {
 }
 /* line 138, ../_scss/partials/_post_colors.scss */
 body.dessa .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
+  filter: url(#blur-more);
   fill: rgba(202, 49, 151, 0.8);
 }
 /* line 144, ../_scss/partials/_post_colors.scss */
@@ -1495,14 +1509,10 @@ body.dessa .site-nav a:hover {
   -moz-animation-duration: 15s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
-  -webkit-animation-name: bg_special;
-          animation-name: bg_special;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: bg_special;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 /* line 21, ../_scss/partials/_post_special.scss */
 .featured-image.state-of-tv {
@@ -1517,14 +1527,10 @@ body.dessa .site-nav a:hover {
   -moz-animation-duration: .1s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
-  -webkit-animation-name: bg_tv;
-          animation-name: bg_tv;
-  -webkit-animation-duration: .1s;
-          animation-duration: .1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: bg_tv;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @-webkit-keyframes bg_special {
@@ -1534,6 +1540,18 @@ body.dessa .site-nav a:hover {
   }
 
   /* line 46, ../_scss/partials/_post_special.scss */
+  100% {
+    background-position: right top;
+  }
+}
+
+@-moz-keyframes bg_special {
+  /* line 51, ../_scss/partials/_post_special.scss */
+  0% {
+    background-position: left top;
+  }
+
+  /* line 54, ../_scss/partials/_post_special.scss */
   100% {
     background-position: right top;
   }
@@ -1558,6 +1576,18 @@ body.dessa .site-nav a:hover {
   }
 
   /* line 72, ../_scss/partials/_post_special.scss */
+  100% {
+    background-position: right bottom;
+  }
+}
+
+@-moz-keyframes bg_tv {
+  /* line 77, ../_scss/partials/_post_special.scss */
+  0% {
+    background-position: left top;
+  }
+
+  /* line 80, ../_scss/partials/_post_special.scss */
   100% {
     background-position: right bottom;
   }
@@ -1862,12 +1892,12 @@ body.dessa .site-nav a:hover {
   margin-right: 0;
   clear: none;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 @media (min-width: 0) and (max-width: 59.375em) {
   /* line 14, ../_scss/partials/_archive_page.scss */
   .top.archive .button.by-category {
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 }
 @media (min-width: 0) and (max-width: 38.125em) {
@@ -1935,8 +1965,7 @@ body.dessa .site-nav a:hover {
   float: left;
   display: block;
   border: 0.1em solid #92b82b;
-  -webkit-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 /* line 58, ../_scss/partials/_archive_page.scss */
 .browse-by-category a:hover {

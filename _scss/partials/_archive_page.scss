@@ -14,9 +14,9 @@
       &.by-category {
         @include grid-span(4,9);
         text-align: center;
-        margin-top: 2em;
+        margin-top: em(24);
         @include breakpoint($tablet-large) {    
-          margin-top: 1em;
+          margin-top: em(8);
         } 
         @include breakpoint($archive-page) {    
           @include grid-span(5,1);

@@ -39,7 +39,7 @@
       padding-bottom:em(128);
     }     
     @include breakpoint($tablet-large) {    
-      padding: em(16) em(16) em(64);
+      padding: em(16) em(16) em(100);
     } 
     @include breakpoint($handheld) {    
       padding: em(16);

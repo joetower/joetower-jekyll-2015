@@ -26,7 +26,7 @@
     padding-top: 3em;
   }   
   @include breakpoint($tablet-large) {    
-    padding:  em(20) em(20) 0;
+    padding:  em(60) em(20) 0;
     max-width: em(860);
   } 
 }
