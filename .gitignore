@@ -45,3 +45,4 @@ _site
 .sass-cache
 .tmp
 .jekyll
+.bundle
