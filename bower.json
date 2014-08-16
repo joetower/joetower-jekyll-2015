@@ -1,0 +1,11 @@
+{
+  "name": "joetower.com",
+  "version": "0.1.0",
+  "dependencies": {
+    "singularity": "1.2.1",
+    "compass-breakpoint": "2.4.2",
+    "sass-toolkit": "2.3.0",
+    "sass-css3-mixins": "master",
+    "jquery": "2.1.0"
+  }
+}

@@ -11,7 +11,7 @@
 @import 'breakpoint';
 @import 'singularitygs';
 @import 'toolkit';
-
+@import 'bower_components/sass-css3-mixins/css3-mixins.scss';
 //
 // Breakpoints
 //
@@ -51,9 +51,8 @@ $space-button:.5em 1.2em;
 //
 // Singularity
 //
-
-$grids: 12;
-$gutters: 1/3;
+@include add-grid(12);
+@include add-gutter(1/3);
 
 
 //
