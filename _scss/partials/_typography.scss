@@ -1,7 +1,9 @@
 // @_typography.scss
 // Typography definitions.
 // 
-
+html {
+  font-size: 62.5%;
+}
 body,
 p,
 label {
@@ -14,7 +16,7 @@ input,
 textarea,
 button {
   font-size: em(24);
-  @include breakpoint($handheld){
+  @include breakpoint($handheld) {
     font-size: em(20);
   }
 }

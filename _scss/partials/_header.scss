@@ -39,15 +39,14 @@
       margin: 0;
       padding: 0;
       float: right;
+      text-align: right;
       li {
         list-style-type: none;
-        margin-left: em(20);
-        display: inline;
-        float: left;  
+        display: inline-block;
+
         @include breakpoint($nav) {    
           text-align: right;
           margin: 0;
-          width: 100%;
         }
         &.first {
           margin-left: 0;

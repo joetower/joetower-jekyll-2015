@@ -13,10 +13,11 @@ var changed = require('gulp-changed');
 var deploy = require("gulp-gh-pages");
 
 var paths = {
-  sass: ['_scss/**/*.scss'],
-  css: 'css',
   imagesSrc: ['_img/**/*'],
   imagesDest: 'img',
+  sass: '_scss/style.scss',
+  sassFiles: '_scss/**/*.scss',
+  css: '_site/css/',
   jekyll: ['**/*.html', '**/*.md', '!_site/**/*.html', '!node_modules/**/*'],
 };
 
@@ -24,8 +25,8 @@ gulp.task('sass', function() {
   browserSync.notify('<span style="color: grey">Running:</span> Sass compiling');
   return gulp.src(paths.sass)
     .pipe(sass({
-      sourcemap: false,
       bundleExec: true,
+      style: 'expanded',
       loadPath: [
         'bower_components/singularity/stylesheets',
         'bower_components/breakpoint-sass/stylesheets',
@@ -35,6 +36,7 @@ gulp.task('sass', function() {
       ]
     }))
     .pipe(prefix("last 2 versions", "> 1%"))
+    .pipe(gulp.dest('css'))
     .pipe(gulp.dest(paths.css))
     .pipe(browserSync.reload({stream:true}));
 });
@@ -51,7 +53,7 @@ gulp.task('images', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-  gulp.watch(paths.sass, ['sass']);
+  gulp.watch(paths.sassFiles, ['sass']);
   gulp.watch(paths.imagesSrc, function() {
     runSequence(['images'], ['jekyll-rebuild']);
   });
@@ -64,12 +66,14 @@ gulp.task('watch', function() {
 //////////////////////////////
 gulp.task('browserSync', function () {
   browserSync.init([
-    '_site/' + paths +  '/**/*.css',
+    '_site/' + paths +  '/*.css',
+    '_site/' + paths + '/*.js',
     '_site/**/*.html',
   ], {
     server: {
       baseDir: '_site'
-    }
+    },
+    host: "localhost"
   });
 });
 

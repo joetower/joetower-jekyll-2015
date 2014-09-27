@@ -7,7 +7,7 @@
 
 
 .page-wrapper {
-  @include grid-span(12,1);
+  @include clearfix;
   &.about-color {
     background-color: rgba($white,.90);    
   }
@@ -15,33 +15,32 @@
 
 // Page styles
 .page-wrap {
-  @include grid-span(12,1);    
+  @include clearfix;
 }
 
 /* Page Content Styles */
 .page-content { 
   margin: 0 0 em(30);
-  @include grid-span(12,1);   
+  @include clearfix;
 
   .page { 
-    @include breakpoint($desktop-large) {
-      @include grid-span(7,1);
-    }
-    @include breakpoint($desktop-medium) {
-      @include grid-span(7,1);
-    }
     @include breakpoint($desktop) {
       @include grid-span(9,1);
     }
+    
     @include breakpoint($laptop-thirteen) {    
       @include grid-span(8,1);
     }
-    @include breakpoint($tablet-large) {    
-      @include grid-span(12,1, $output-style:'float');
-    }  
-    @include breakpoint($handheld) {    
-      @include grid-span(12,1, $output-style:'float');
+
+    @include breakpoint($desktop-medium) {
+      @include grid-span(7,1);
     }
+    
+    @include breakpoint($desktop-large) {
+      @include grid-span(7,1);
+    }
+
+
     &.about {
       clear:both;
     }    

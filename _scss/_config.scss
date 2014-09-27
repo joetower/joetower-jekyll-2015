@@ -21,24 +21,19 @@
 $breakpoint-no-query-fallbacks: true;
 $breakpoint-to-ems:             true;
 
-// $breakpoints: add-breakpoint('one column to two columns', 456px);
-// $breakpoints: add-breakpoint('between medium and large', (876px 1324px, 'no-query' '.no-mq'));
-// $breakpoints: add-breakpoint('high resolution', min-resolution 1.5dppx);
-// $breakpoints: add-breakpoint('desktop', 1280px 1400px);
-// $breakpoints: add-breakpoint('laptop thirteen', 1279px);
-// $breakpoints: add-breakpoint('tablet large', 940px);
 
-$desktop-huge:1921 2300px;
-$desktop-large:0 1920px;
-$desktop-medium:0 1600px;
-$desktop:1280px 1599px;
-$laptop-thirteen:0 1279px;
-$tablet-large:0 950px;
-$nav: 0 720px;
-$social-icons: 0 695px;
-$archive-page: 0 610px;
-$quotes: 0 580px;
-$handheld: 0 490px;
+$desktop-huge:2300px;
+$desktop-large:1920px;
+$desktop-medium:1600px;
+$desktop:1280px;
+$laptop-thirteen:951px;
+$tablet-large:491px;
+$handheld: 490px;
+
+$nav: 720px;
+$social-icons: 695px;
+$archive-page: 610px;
+$quotes: 580px;
 
 
 //
