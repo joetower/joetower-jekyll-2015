@@ -2,11 +2,6 @@
 // Container and structural styles
 // 
 
-*,
-*:before,
-*:after {
-  @include box-sizing('border-box');
-}
 
 ::selection {
   color: $white;
@@ -22,7 +17,7 @@ hr {
     rgba(0,0,0,0.55), 
     rgba(0,0,0,0)
   );
-  @include grid-span(12,1, $output-style:"float");
   position:relative;
-  @include clearfix;
+
+  @extend %clearfix;  
 }

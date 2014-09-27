@@ -2,23 +2,21 @@
 // Wrap defaults.
 // 
 
-.wrap:before,
-.wrap:after { content:""; display:table; }
-.wrap:after { clear: both; }
 .wrap {
-  padding:  em(30) em(30) em(40);
+  padding: $space $space $space-double;
   margin: 0 auto;
   zoom: 1;
-
+  @extend %clearfix;  
+  
   @include breakpoint($tablet-large) {    
-    padding:  em(60) em(20) 0;
+    padding: $space-triple $space 0;
+
     max-width: em(860);
   } 
   @include breakpoint($laptop-thirteen) {    
     max-width: em(960);
     padding-top: 3em;
   }  
-
   @include breakpoint($desktop) {
     max-width: em(1200);
   }  

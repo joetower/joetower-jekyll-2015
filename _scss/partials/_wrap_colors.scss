@@ -3,46 +3,54 @@
 // 
 
 .wrap {
+
   &.post-head {
-    padding: em(32) em(64);
+    padding: $space $space-double;
     background-color: rgba($white,.95);
+
     @include breakpoint($tablet-large) {    
-      padding:  em(16) em(32);
+      padding: $space-one-half $space;
     }      
     h1 {
       margin-bottom: 0;
     }
   }
+
   &.post {
-    padding: em(24) em(64);
+    padding: $space $space-double;
     background-color: rgba($white,.90);
+
     @include breakpoint($tablet-large) {    
-      padding:  em(16) em(32);
+      padding: $space-one-half $space;
     }      
   }
+
   &.meta-comment {
-    padding: em(32) em(64);
+    padding: $space-double $space-triple;
     background-color: rgba($white,.80);
+
     @include breakpoint($tablet-large) {    
-      padding:  em(16) em(32);
+      padding: $space $space-double;
     }      
   }  
+  
   &.header {
-    padding: em(16) em(64) em(128);
-    @include breakpoint($desktop-large) {    
-      padding-bottom:em(288);
-    }  
-    @include breakpoint($desktop-medium) {    
-      padding-bottom:em(192);
-    } 
-    @include breakpoint($laptop-thirteen) {    
-      padding-bottom:em(128);
-    }     
-    @include breakpoint($tablet-large) {    
-      padding: em(16) em(16) em(100);
-    } 
+    padding: $space $space-double $space-quintuple;
+
     @include breakpoint($handheld) {    
-      padding: em(16);
-    }      
+      padding: $space;
+    }   
+    @include breakpoint($laptop-thirteen) {    
+      padding-bottom: $space-quintuple;
+    }  
+     @include breakpoint($desktop-medium) {    
+      padding-bottom: $space-sextuple;
+    }    
+    @include breakpoint($tablet-large) {    
+      padding: $space $space $space-quadruple;
+    }    
+    @include breakpoint($desktop-large) {    
+      padding-bottom: $space-septuple;
+    }  
   }    
 }
