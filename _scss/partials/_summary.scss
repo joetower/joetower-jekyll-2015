@@ -2,7 +2,8 @@
 // Summary defaults. These are used in blog post summary only.
 // 
 .summary {
-  @include grid-span(12,1); 
+  @extend %clearfix;  
+
   blockquote,
   blockquote p {
     @include grid-span(9,1); 
@@ -11,8 +12,8 @@
     padding: 1em 4em;
     border-left:1em solid darken($white, 65%);    
     background-color: rgba(darken($white, 15%), .90);
-    @include breakpoint($tablet-large) {    
-      padding:  1em 2em;
+    @include breakpoint($tablet) {    
+      padding: 1em 2em;
     }      
     &.reviews {
       color:$white;

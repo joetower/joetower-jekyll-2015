@@ -25,13 +25,13 @@
     display:block;
     padding: 1em 0;
 
-    @include breakpoint($tablet-large) {    
+    @include breakpoint($laptop-thirteen) {    
       @include grid-span(2,1, $output-style:'float');
     } 
   }
   h1 {
-    @include breakpoint($desktop) {
-      @include grid-span(10,4, $output-style:'float'); 
+    @include breakpoint($laptop-thirteen) {
+      @include grid-span(10,3, $output-style:'float'); 
     }        
   }
 }
@@ -40,7 +40,7 @@
 .post-content { 
   margin: 0 0 $space-double; 
 
-  @include breakpoint($tablet-large) {    
+  @include breakpoint($handheld) {    
     @include grid-span(10,1, $output-style:'float');
   }  
   @include breakpoint($laptop-thirteen) {    
@@ -147,7 +147,7 @@
 .posts { 
   list-style-type: none;
   padding-top: 1em; 
-
+  
   @extend %clearfix;  
 
   &.archive {

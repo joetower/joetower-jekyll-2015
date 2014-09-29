@@ -4,27 +4,32 @@
 
 .top {
   &.archive {
+    @extend %clearfix;  
+
     h1 {
-      @include grid-span(8,1);  
+      @include breakpoint($tablet) {
+        @include grid-span(7,1);  
+        margin-top: $space-one-half;
+      }
+      @include breakpoint($laptop-thirteen) {
+        @include grid-span(8,1);  
+      }
     }
     .button {
       &.by-category {
-        @include clearfix;
-
-        @include breakpoint($desktop) {    
-          @include grid-span(4,9);
+        @extend %clearfix;  
+        
+        @include breakpoint($tablet) {
+          @include grid-span(5,8);
           text-align: center;
-          margin-top: em(24);
-        }
-
-        @include breakpoint($tablet-large) {    
-          margin-top: em(8);
-        } 
-        @include breakpoint($archive-page) {    
-          @include grid-span(5,1);
-          clear:both;
-        }
-               
+          vertical-align: bottom;
+          margin-top: $space + 5px;
+          padding-top: $space-one-half + 3;
+          padding-bottom: $space-one-half + 3;
+        }  
+        @include breakpoint($laptop-thirteen) {
+          @include grid-span(4,9);
+        }              
       }
     }
   }
@@ -33,23 +38,24 @@
   display:none;
 }
 .browse-by-category {
-  @include breakpoint($archive-page) {    
-    clear:both;
-  }     
+  @extend %clearfix;  
+
   ul {
-    padding:1em .5em;
+    padding:$space-one-half;
     margin:0;
     background: darken($white, 2%);
-    border:.2em solid lighten($jt-gray, 30%);
+    border:$space-one-fourth solid lighten($jt-gray, 30%);
+    display:block;
+    clear:both;
+    
     li {
       list-style: none;
       margin:.3em;
-      float:left;
+      display:inline-block;
     }
   }
   a {
     padding:.3em .6em;
-    float:left;
     display:block;
     border:.1em solid $jt-green;
     transition:  all 0.3s ease 0s;

@@ -7,7 +7,7 @@
 .top {
   &.about {
  
-    @include breakpoint($tablet-large) {    
+    @include breakpoint($handheld) {    
       @include grid-span(7,6);  
     }  
     @include breakpoint($laptop-thirteen) {    

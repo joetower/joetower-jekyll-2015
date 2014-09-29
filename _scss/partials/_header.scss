@@ -9,7 +9,7 @@
     background-color: rgba($jt-green, .8);    
   }
   &.about-color {
-    @include breakpoint($tablet-large) {    
+    @include breakpoint($tablet) {    
       background-color: rgba($black,.40);
     } 
   }  

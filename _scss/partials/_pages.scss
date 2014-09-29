@@ -19,6 +19,9 @@
   @extend %clearfix;
 }
 
+.page {
+  @extend %clearfix;  
+}
 /* Page Content Styles */
 .page-content { 
   margin: 0 0 em(30);

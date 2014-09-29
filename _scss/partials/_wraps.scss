@@ -8,11 +8,6 @@
   zoom: 1;
   @extend %clearfix;  
   
-  @include breakpoint($tablet-large) {    
-    padding: $space-triple $space 0;
-
-    max-width: em(860);
-  } 
   @include breakpoint($laptop-thirteen) {    
     max-width: em(960);
     padding-top: 3em;

@@ -1,4 +1,13 @@
 /* CSS Document */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 /* -------------------------------------------------------------
   Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
   By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
@@ -67,6 +76,9 @@ hr:after,
 button:after,
 .button:after,
 input[type="submit"]:after,
+.site-footer:after,
+.site-footer ul:after,
+.summary:after,
 .meta:after,
 .full-width:after,
 .post:after,
@@ -77,7 +89,12 @@ input[type="submit"]:after,
 .posts li:after,
 .page-wrapper:after,
 .page-wrap:after,
-.page-content:after {
+.page:after,
+.page-content:after,
+.top.archive:after,
+.top.archive .button.by-category:after,
+.browse-by-category:after,
+form:after {
   content: "";
   display: table;
   clear: both;
@@ -281,12 +298,6 @@ h5 {
   margin: 0 auto;
   zoom: 1;
 }
-@media (min-width: 30.6875em) {
-  .wrap {
-    padding: 60px 20px 0;
-    max-width: 53.75em;
-  }
-}
 @media (min-width: 59.4375em) {
   .wrap {
     max-width: 60em;
@@ -318,9 +329,9 @@ h5 {
   padding: 20px 40px;
   background-color: rgba(255, 255, 255, 0.95);
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 59.4375em) {
   .wrap.post-head {
-    padding: 10px 20px;
+    padding: 60px 40px;
   }
 }
 .wrap.post-head h1 {
@@ -330,27 +341,17 @@ h5 {
   padding: 20px 40px;
   background-color: rgba(255, 255, 255, 0.9);
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 59.4375em) {
   .wrap.post {
-    padding: 10px 20px;
+    padding: 20px 40px;
   }
 }
 .wrap.meta-comment {
   padding: 40px 60px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-@media (min-width: 30.6875em) {
-  .wrap.meta-comment {
-    padding: 20px 40px;
-  }
-}
 .wrap.header {
   padding: 20px 40px 100px;
-}
-@media (min-width: 30.625em) {
-  .wrap.header {
-    padding: 20px;
-  }
 }
 @media (min-width: 59.4375em) {
   .wrap.header {
@@ -362,11 +363,6 @@ h5 {
     padding-bottom: 120px;
   }
 }
-@media (min-width: 30.6875em) {
-  .wrap.header {
-    padding: 20px 20px 80px;
-  }
-}
 @media (min-width: 120em) {
   .wrap.header {
     padding-bottom: 140px;
@@ -376,7 +372,7 @@ h5 {
 .site-header.page-color {
   background-color: rgba(146, 184, 43, 0.8);
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 37.5em) {
   .site-header.about-color {
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -507,11 +503,6 @@ input[type="submit"].active {
 
 .site-footer {
   padding: 1.875em 0;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   background-color: rgba(0, 0, 0, 0.8);
   color: #f2f2f2;
 }
@@ -519,6 +510,15 @@ input[type="submit"].active {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1em;
   font-weight: 400;
+}
+@media (min-width: 59.4375em) {
+  .site-footer p span.text {
+    width: 48.93617%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 2.12766%;
+  }
 }
 @media (min-width: 80em) {
   .site-footer p span.text {
@@ -530,26 +530,12 @@ input[type="submit"].active {
   }
 }
 @media (min-width: 59.4375em) {
-  .site-footer p span.text {
+  .site-footer p span.email {
     width: 48.93617%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 2.12766%;
-  }
-}
-@media (min-width: 30.6875em) {
-  .site-footer p span.text {
-    width: 100%;
     clear: right;
     float: right;
     margin-right: 0;
-  }
-}
-@media (min-width: 120em) {
-  .site-footer p span.email {
-    display: block;
-    clear: left;
+    text-align: right;
   }
 }
 @media (min-width: 80em) {
@@ -561,25 +547,36 @@ input[type="submit"].active {
     text-align: right;
   }
 }
-@media (min-width: 59.4375em) {
+@media (min-width: 120em) {
   .site-footer p span.email {
-    width: 48.93617%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    text-align: right;
-  }
-}
-@media (min-width: 30.6875em) {
-  .site-footer p span.email {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    text-align: left;
+    display: block;
+    clear: left;
   }
 }
 
+@media (min-width: 59.4375em) {
+  .footer-col-1 {
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 100em) {
+  .footer-col-1 {
+    width: 48.93617%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 2.12766%;
+  }
+}
+@media (min-width: 120em) {
+  .footer-col-1 {
+    width: 40.42553%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 2.12766%;
+  }
+}
 @media (min-width: 143.75em) {
   .footer-col-1 {
     width: 31.91489%;
@@ -589,46 +586,16 @@ input[type="submit"].active {
     margin-right: 2.12766%;
   }
 }
-@media (min-width: 120em) {
-  .footer-col-1 {
-    width: 40.42553%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 2.12766%;
+
+@media (min-width: 59.4375em) {
+  .footer-col-2 {
+    border-top: 1px solid #4d6736;
+    padding-top: 2em;
   }
 }
 @media (min-width: 100em) {
-  .footer-col-1 {
-    width: 48.93617%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 2.12766%;
-  }
-}
-@media (min-width: 80em) {
-  .footer-col-1 {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    padding-bottom: 1em;
-  }
-}
-@media (min-width: 59.4375em) {
-  .footer-col-1 {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    padding-bottom: 1em;
-  }
-}
-
-@media (min-width: 143.75em) {
   .footer-col-2 {
-    width: 65.95745%;
+    width: 48.93617%;
     clear: right;
     float: right;
     margin-right: 0;
@@ -642,42 +609,17 @@ input[type="submit"].active {
     margin-right: 0;
   }
 }
-@media (min-width: 100em) {
+@media (min-width: 143.75em) {
   .footer-col-2 {
-    width: 48.93617%;
+    width: 65.95745%;
     clear: right;
     float: right;
     margin-right: 0;
-  }
-}
-@media (min-width: 80em) {
-  .footer-col-2 {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    border-top: 1px solid #4d6736;
-    padding-top: 2em;
-  }
-}
-@media (min-width: 59.4375em) {
-  .footer-col-2 {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    border-top: 1px solid #4d6736;
-    padding-top: 2em;
   }
 }
 
 .site-footer ul {
   list-style: none;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
 }
 .site-footer ul li {
   display: inline-block;
@@ -690,7 +632,7 @@ input[type="submit"].active {
   background-color: rgba(255, 255, 255, 0.8);
   float: left;
   padding: .5em;
-  border-radius: 26px;
+  border-radius: 20px;
 }
 .site-footer ul li a:hover {
   background-color: rgba(255, 255, 255, 0.95);
@@ -729,23 +671,22 @@ img.profile, img.dogs {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px 2px 5px rgba(0, 0, 0, 0.4);
   border-radius: 400px;
 }
-@media (min-width: 120em) {
+@media (min-width: 37.5em) {
   img.profile, img.dogs {
-    padding: 4em;
-    border-width: 1em;
-    border-radius: 400px;
+    padding: 20px;
+    border-width: 4px;
   }
 }
 @media (min-width: 100em) {
   img.profile, img.dogs {
     border-radius: 400px;
-    border-width: 0.5em;
+    border-width: 5px;
   }
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 120em) {
   img.profile, img.dogs {
-    padding: 1em;
-    border-width: 0.375em;
+    padding: 60px;
+    border-width: 10px;
   }
 }
 img.profile:hover, img.dogs:hover {
@@ -753,7 +694,7 @@ img.profile:hover, img.dogs:hover {
   -webkit-transition: all 0.2s linear 1s ease-in-out;
   transition: all 0.2s linear 1s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.8) 0 2px 4px 2px 5px rgba(0, 0, 0, 0.4);
-  border-width: 0.25em;
+  border-width: 5px;
 }
 img.profile {
   padding: 1em;
@@ -761,40 +702,33 @@ img.profile {
 img.profile:hover {
   border-color: #718f21;
 }
-@media (min-width: 120em) {
-  img.profile {
-    padding: 0.5em;
-  }
-}
 @media (min-width: 59.4375em) {
   img.profile {
     padding: 0;
   }
 }
+@media (min-width: 120em) {
+  img.profile {
+    padding: 6.66667px;
+  }
+}
 img.dogs {
-  padding: 2em;
+  padding: 40px;
 }
 img.dogs:hover {
   border-color: #3c7f75;
 }
-@media (min-width: 120em) {
-  img.dogs {
-    padding: 0.5em;
-  }
-}
 @media (min-width: 59.4375em) {
   img.dogs {
     padding: 0;
   }
 }
-
-.summary {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
+@media (min-width: 120em) {
+  img.dogs {
+    padding: 6.66667px;
+  }
 }
+
 .summary blockquote,
 .summary blockquote p {
   width: 74.46809%;
@@ -808,7 +742,7 @@ img.dogs:hover {
   border-left: 1em solid #595959;
   background-color: rgba(217, 217, 217, 0.9);
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 37.5em) {
   .summary .wrap {
     padding: 1em 2em;
   }
@@ -847,7 +781,7 @@ img.dogs:hover {
   display: block;
   padding: 1em 0;
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 59.4375em) {
   .post-header .meta {
     width: 14.89362%;
     clear: right;
@@ -856,12 +790,12 @@ img.dogs:hover {
     margin-right: 2.12766%;
   }
 }
-@media (min-width: 80em) {
+@media (min-width: 59.4375em) {
   .post-header h1 {
     width: 82.97872%;
     clear: right;
-    float: left;
-    margin-right: 2.12766%;
+    float: right;
+    margin-right: 0;
   }
 }
 
@@ -869,7 +803,7 @@ img.dogs:hover {
 .post-content {
   margin: 0 0 40px;
 }
-@media (min-width: 30.6875em) {
+@media (min-width: 30.625em) {
   .post-content {
     width: 82.97872%;
     clear: right;
@@ -1321,7 +1255,7 @@ body.dessa .site-nav a:hover {
 }
 
 /* About Page */
-@media (min-width: 30.6875em) {
+@media (min-width: 30.625em) {
   .top.about {
     width: 57.44681%;
     float: right;
@@ -1392,42 +1326,46 @@ body.dessa .site-nav a:hover {
   font-weight: 600;
 }
 
-.top.archive h1 {
-  width: 65.95745%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
+@media (min-width: 37.5em) {
+  .top.archive h1 {
+    width: 57.44681%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    margin-top: 10px;
+  }
 }
-.top.archive .button.by-category:after {
-  content: "";
-  display: table;
-  clear: both;
+@media (min-width: 59.4375em) {
+  .top.archive h1 {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
 }
-@media (min-width: 80em) {
+@media (min-width: 37.5em) {
+  .top.archive .button.by-category {
+    width: 40.42553%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}
+@media (min-width: 59.4375em) {
   .top.archive .button.by-category {
     width: 31.91489%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    text-align: center;
-    margin-top: 1.5em;
-  }
-}
-@media (min-width: 30.6875em) {
-  .top.archive .button.by-category {
-    margin-top: 0.5em;
-  }
-}
-@media (min-width: 38.125em) {
-  .top.archive .button.by-category {
-    width: 40.42553%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-    clear: both;
   }
 }
 
@@ -1435,25 +1373,21 @@ body.dessa .site-nav a:hover {
   display: none;
 }
 
-@media (min-width: 38.125em) {
-  .browse-by-category {
-    clear: both;
-  }
-}
 .browse-by-category ul {
-  padding: 1em .5em;
+  padding: 10px;
   margin: 0;
   background: #fafafa;
-  border: 0.2em solid dimgray;
+  border: 5px solid dimgray;
+  display: block;
+  clear: both;
 }
 .browse-by-category ul li {
   list-style: none;
   margin: .3em;
-  float: left;
+  display: inline-block;
 }
 .browse-by-category a {
   padding: .3em .6em;
-  float: left;
   display: block;
   border: 0.1em solid #92b82b;
   -webkit-transition: all 0.3s ease 0s;
@@ -1465,22 +1399,9 @@ body.dessa .site-nav a:hover {
   border: 0.1em solid #617a1d;
 }
 
-form {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-}
-
 fieldset {
   border: none;
-  padding: 1.25em 0;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
+  padding: 20px 0;
 }
 
 label {
@@ -1488,37 +1409,21 @@ label {
 }
 
 input {
-  width: 58.33333%;
-  clear: right;
-  float: left;
-  margin-left: 0;
-  margin-right: 0%;
+  width: 100%;
 }
-@media (min-width: 30.625em) {
+@media (min-width: 37.5em) {
   input {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
+    width: 60%;
   }
 }
 
 textarea {
+  width: 100%;
   height: auto;
-  width: 83.33333%;
-  clear: right;
-  float: left;
-  margin-left: 0;
-  margin-right: 0%;
 }
-@media (min-width: 30.625em) {
+@media (min-width: 37.5em) {
   textarea {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
+    width: 80%;
   }
 }
 

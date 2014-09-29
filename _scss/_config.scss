@@ -11,6 +11,7 @@
 @import 'breakpoint';
 @import 'singularitygs';
 @import 'toolkit';
+@import 'toolkit/kickstart';
 @import 'bower_components/sass-css3-mixins/css3-mixins.scss';
 //
 // Breakpoints
@@ -21,13 +22,12 @@
 $breakpoint-no-query-fallbacks: true;
 $breakpoint-to-ems:             true;
 
-
 $desktop-huge:2300px;
 $desktop-large:1920px;
 $desktop-medium:1600px;
 $desktop:1280px;
 $laptop-thirteen:951px;
-$tablet-large:491px;
+$tablet:600px;
 $handheld: 490px;
 
 $nav: 680px;

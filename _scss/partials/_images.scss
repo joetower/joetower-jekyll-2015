@@ -13,24 +13,24 @@ img {
     @include box-shadow(rgba($black, .4) 0 0 6px); 
     @include border-radius(400px);
 
-    @include breakpoint($desktop-large) {
-      padding:em(64);
-      border-width:em(16);          
-      @include border-radius(400px);
-    }
+    @include breakpoint($tablet) {
+      padding:$space;
+      border-width:$space-one-fifth;          
+    }   
     @include breakpoint($desktop-medium) {    
       @include border-radius(400px);
-      border-width:em(8);          
+      border-width:$space-one-fourth;          
     }
-    @include breakpoint($tablet-large) {
-      padding:em(16);
-      border-width:em(6);          
-    }      
+    @include breakpoint($desktop-large) {
+      padding:$space-triple;
+      border-width:$space-one-half;          
+    }
+   
     &:hover {
       padding: 0;
       @include transition (all .2s linear);    
       @include box-shadow(rgba($black, .8) 0 2px 4px); 
-      border-width:em(4);          
+      border-width:$space-one-fourth;          
     }
   }
   &.profile {
@@ -38,23 +38,23 @@ img {
     &:hover {
       border-color: darken($jt-green, 10%);
     }
-    @include breakpoint($desktop-large) {
-      padding:em(8);
-    }       
     @include breakpoint($laptop-thirteen) {
       padding:0;
     }
+    @include breakpoint($desktop-large) {
+      padding:$space-one-third;
+    }       
   }
   &.dogs {
-    padding: em(32);
+    padding: $space-double;
     &:hover {
       border-color: darken($jt-blue, 10%);
     }
-    @include breakpoint($desktop-large) {
-      padding:em(8);
-    }   
-    @include breakpoint($laptop-thirteen) {
+     @include breakpoint($laptop-thirteen) {
       padding:0;
+    }   
+    @include breakpoint($desktop-large) {
+      padding:$space-one-third;
     }       
   }
 }

@@ -3,27 +3,29 @@
 //
 
 form {
-  @include grid-span(12,1);
+  @extend %clearfix;  
 }
 fieldset {
   border: none;
-  padding: em(20) 0;
-  @include grid-span(12,1);
+  padding: $space 0;
+
 }
 label {
   display: block;
 }
 input {
-  @include grid-span(7,1, $output-style:"float", $gutter:0);
-  @include breakpoint($handheld) {    
-    @include grid-span(12,1);
+  width:100%;
+
+  @include breakpoint($tablet) {    
+    width:60%;
   }  
 }
 textarea {
+  width:100%;
   height:auto;
-  @include grid-span(10,1, $output-style:"float", $gutter:0);
-  @include breakpoint($handheld) {    
-    @include grid-span(12,1);
+
+  @include breakpoint($tablet) {    
+    width:80%;
   }  
 }
 input,

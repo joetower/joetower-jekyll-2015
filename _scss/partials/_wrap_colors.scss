@@ -8,9 +8,9 @@
     padding: $space $space-double;
     background-color: rgba($white,.95);
 
-    @include breakpoint($tablet-large) {    
-      padding: $space-one-half $space;
-    }      
+    @include breakpoint($laptop-thirteen) {    
+      padding: $space-triple $space-double;
+    }    
     h1 {
       margin-bottom: 0;
     }
@@ -20,35 +20,25 @@
     padding: $space $space-double;
     background-color: rgba($white,.90);
 
-    @include breakpoint($tablet-large) {    
-      padding: $space-one-half $space;
+    @include breakpoint($laptop-thirteen) {    
+      padding: $space $space-double;
     }      
   }
 
   &.meta-comment {
     padding: $space-double $space-triple;
-    background-color: rgba($white,.80);
-
-    @include breakpoint($tablet-large) {    
-      padding: $space $space-double;
-    }      
+    background-color: rgba($white,.80);   
   }  
-  
+
   &.header {
     padding: $space $space-double $space-quintuple;
 
-    @include breakpoint($handheld) {    
-      padding: $space;
-    }   
     @include breakpoint($laptop-thirteen) {    
       padding-bottom: $space-quintuple;
     }  
      @include breakpoint($desktop-medium) {    
       padding-bottom: $space-sextuple;
-    }    
-    @include breakpoint($tablet-large) {    
-      padding: $space $space $space-quadruple;
-    }    
+    }      
     @include breakpoint($desktop-large) {    
       padding-bottom: $space-septuple;
     }  
