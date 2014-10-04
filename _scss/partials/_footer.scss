@@ -12,7 +12,7 @@
     font-weight: 400;
     span {
       &.text {
-  
+        @extend %clearfix;  
         @include breakpoint($laptop-thirteen) {
           @include grid-span(6, 1, $output-style:'float');   
         }  
@@ -21,6 +21,7 @@
         }    
       }
       &.email {
+        @extend %clearfix;  
         @include breakpoint($laptop-thirteen) {
           @include grid-span(6, 7, $output-style:'float');
           text-align: right;      
@@ -39,6 +40,8 @@
 }
 
 .footer-col-1 {
+  @extend %clearfix;  
+
   @include breakpoint($laptop-thirteen) {
     padding-bottom: 1em;
   } 
@@ -53,6 +56,8 @@
   }
 }
 .footer-col-2 {
+  @extend %clearfix;  
+ 
   @include breakpoint($laptop-thirteen) {
     border-top: 1px solid $jt-olive;
     padding-top: 2em;
@@ -77,7 +82,7 @@
     display: inline-block;
     clear: none;
     text-align: center;
-    margin: 0 .4em .8em;
+    margin: 0 $space-one-third $space-one-fifth;
     a {
       display: block;
       background-color: rgba($white, .8);

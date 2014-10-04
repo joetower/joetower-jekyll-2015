@@ -1,9 +1,12 @@
-// @_wrap_colors.scss
-// Wrap colors for specific wraps
+// @_wrap_spacing.scss
+// Wrap spacing for specific wraps
 // 
 
 .wrap {
-
+    padding: $space $space $space-double;
+    margin: 0 auto;
+    zoom: 1;
+    
   &.post-head {
     padding: $space $space-double;
     background-color: rgba($white,.95);

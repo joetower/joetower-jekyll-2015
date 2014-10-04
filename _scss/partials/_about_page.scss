@@ -6,12 +6,11 @@
 /* About Page */
 .top {
   &.about {
- 
-    @include breakpoint($handheld) {    
-      @include grid-span(7,6);  
-    }  
+    @include breakpoint($tablet) {
+      @include grid-span(6,7);  
+    }
     @include breakpoint($laptop-thirteen) {    
-      @include grid-span(7,1);    
+      @include grid-span(8,1);    
     }      
     @include breakpoint($desktop-large) {    
       @include grid-span(8,1);    
@@ -20,21 +19,26 @@
 }
 .photo {
   &.me {
-         
+    @include breakpoint($tablet) {    
+      @include grid-span(6,1);  
+    }
+    @include breakpoint($laptop-thirteen) {    
+      @include grid-span(4,9); 
+      margin:0;   
+    }   
+     @include breakpoint($desktop-large) {    
+      @include grid-span(4,9);    
+    }    
   }
 }
 .photo {
   margin: 2em 0;
   padding:0 1em;
 }
-.dogs,
-.this-site {
-  @include grid-span(12,1);  
-}
+
 .dog {
-  @include grid-span(6,1, $output-style:'float', $gutter:0);
-  @include breakpoint($handheld) {
-    @include grid-span(12,1, $output-style:'float', $gutter:0);
+  @include breakpoint($tablet) {
+    @include grid-span(6,1, $output-style:'float', $gutter:0);
   }
   h4,
   h5 {
