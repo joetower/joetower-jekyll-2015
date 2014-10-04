@@ -41,52 +41,41 @@
 
 .footer-col-1 {
   @extend %clearfix;  
+  padding-bottom: $space-one-third;
 
-  @include breakpoint($laptop-thirteen) {
-    padding-bottom: 1em;
-  } 
   @include breakpoint($desktop-medium) {
-    @include grid-span(6, 1, $output-style:'float');
+    @include grid-span(6, 1);
+     padding-bottom: none;   
   } 
-  @include breakpoint($desktop-large) {
-    @include grid-span(5, 1, $output-style:'float');
-  }  
-  @include breakpoint($desktop-huge) {
-    @include grid-span(4, 1, $output-style:'float');
-  }
 }
 .footer-col-2 {
   @extend %clearfix;  
- 
-  @include breakpoint($laptop-thirteen) {
-    border-top: 1px solid $jt-olive;
-    padding-top: 2em;
-  }  
+   border-top: $space-one-tenth solid $jt-olive;
+  padding-top: $space;
 
   @include breakpoint($desktop-medium) {
-    @include grid-span(6, 7, $output-style:'float');
+    @include grid-span(6, 7);
+     border-top: none;
+    padding-top: 0;   
   }   
-  @include breakpoint($desktop-large) {
-    @include grid-span(7, 6, $output-style:'float');    
-  }  
-  @include breakpoint($desktop-huge) {
-    @include grid-span(8, 5, $output-style:'float');
-  }
+
 }
 
 .site-footer ul {
   list-style: none; 
   @extend %clearfix;  
 
+  @include breakpoint($desktop-medium) {
+    float:right;
+  }
   li {
     display: inline-block;
     clear: none;
     text-align: center;
     margin: 0 $space-one-third $space-one-fifth;
     a {
-      display: block;
+      display: inline-block;
       background-color: rgba($white, .8);
-      float: left;
       padding: .5em;
       @include border-radius($space); 
       &:hover {

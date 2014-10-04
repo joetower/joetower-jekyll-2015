@@ -15,7 +15,12 @@
   }  
 
   .logo-wrap {
-    @include grid-span(4,1);
+    text-align: center;
+
+    @include breakpoint($handheld) {
+      @include grid-span(4,1);
+      text-align: left;
+    }
   }
   .logo {
     fill: $white; 
@@ -31,7 +36,12 @@
   }
 
   .site-nav {
-    @include grid-span(8,5);
+    padding-top: $space;
+    
+    @include breakpoint($handheld) {
+      @include grid-span(8,5);
+      padding:0;
+    } 
 
     a {
       color: $white;
@@ -44,8 +54,10 @@
     .menu {
       margin: 0;
       padding: 0;
-      float: right;
-      text-align: right;
+      text-align: center;
+      @include breakpoint($handheld) {
+        float: right;
+      } 
       li {
         list-style-type: none;
         display:block;

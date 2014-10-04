@@ -6,7 +6,7 @@
     padding: $space $space $space-double;
     margin: 0 auto;
     zoom: 1;
-    
+
   &.post-head {
     padding: $space $space-double;
     background-color: rgba($white,.95);
@@ -34,16 +34,22 @@
   }  
 
   &.header {
-    padding: $space $space-double $space-quintuple;
+    padding: $space;
 
-    @include breakpoint($laptop-thirteen) {    
-      padding-bottom: $space-quintuple;
-    }  
+    @include breakpoint($tablet) {
+      padding: $space $space-double $space-quintuple;
+    }
+    @include breakpoint($laptop-thirteen) {
+      padding-bottom: $space-septuple;
+    } 
+    @include breakpoint($desktop) {
+      padding-bottom: $space-nonuple;
+    }
      @include breakpoint($desktop-medium) {    
-      padding-bottom: $space-sextuple;
+      padding-bottom: $space-uncuple;
     }      
     @include breakpoint($desktop-large) {    
-      padding-bottom: $space-septuple;
+      padding-bottom: $space-tredecuple;
     }  
   }    
 }
