@@ -12,8 +12,8 @@
     @include breakpoint($laptop-thirteen) {    
       @include grid-span(8,1);    
     }      
-    @include breakpoint($desktop-large) {    
-      @include grid-span(8,1);    
+    @include breakpoint($desktop-medium) {    
+      @include grid-span(9,1);    
     }  
   }
 }
@@ -26,8 +26,8 @@
       @include grid-span(4,9); 
       margin:0;   
     }   
-     @include breakpoint($desktop-large) {    
-      @include grid-span(4,9);    
+     @include breakpoint($desktop-medium) {    
+      @include grid-span(3,10);    
     }    
   }
 }

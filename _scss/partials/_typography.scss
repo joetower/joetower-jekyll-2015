@@ -66,43 +66,43 @@ blockquote p {
 
 // Headings 
 h1 {
-  font-size: 52px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: $space-one-half;
   color: $jt-gray;
 
-  @include breakpoint($small-text) {    
-    font-size: 40px;
+  @include breakpoint($big-heading) {    
+    font-size: 52px;
   }
 }
 h2 {
-  font-size: 48px;
+  font-size: 34px;
   font-weight: 600;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,15%);
 
-  @include breakpoint($small-text) {    
-    font-size: 34px;
+  @include breakpoint($big-heading) {    
+    font-size: 40px;
   }
 }
 h3 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,25%);
 
-  @include breakpoint($small-text) {    
-    font-size: 28px;
+  @include breakpoint($big-heading) {    
+    font-size: 36px;
   }  
 }
 h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,30%);
 
-  @include breakpoint($small-text) {    
-    font-size: 20px;
+  @include breakpoint($big-heading) {    
+    font-size: 24px;
   }  
 }
 h5 {
@@ -115,9 +115,9 @@ h5 {
 .posts {
   li {
     .post-link {
-      font-size: 30px;
-      @include breakpoint($small-text) {    
-        font-size: 24px;
+      font-size: 24px;
+      @include breakpoint($big-heading) {    
+        font-size: 30px;
       }
     }
   }

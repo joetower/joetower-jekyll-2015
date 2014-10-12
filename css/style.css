@@ -223,50 +223,50 @@ blockquote p cite span {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #1c1c1c;
 }
-@media (min-width: 0) and (max-width: 30.625em) {
+@media (min-width: 50em) {
   h1 {
-    font-size: 40px;
+    font-size: 52px;
   }
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 34px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #424242;
 }
-@media (min-width: 0) and (max-width: 30.625em) {
+@media (min-width: 50em) {
   h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: 5px;
   color: #5c5c5c;
 }
-@media (min-width: 0) and (max-width: 30.625em) {
+@media (min-width: 50em) {
   h3 {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 5px;
   color: dimgray;
 }
-@media (min-width: 0) and (max-width: 30.625em) {
+@media (min-width: 50em) {
   h4 {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -277,11 +277,11 @@ h5 {
 }
 
 .posts li .post-link {
-  font-size: 30px;
+  font-size: 24px;
 }
-@media (min-width: 0) and (max-width: 30.625em) {
+@media (min-width: 50em) {
   .posts li .post-link {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 
@@ -1274,9 +1274,9 @@ body.dessa .site-nav a:hover {
     clear: none;
   }
 }
-@media (min-width: 120em) {
+@media (min-width: 100em) {
   .top.about {
-    width: 65.95745%;
+    width: 74.46809%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -1303,9 +1303,9 @@ body.dessa .site-nav a:hover {
     margin: 0;
   }
 }
-@media (min-width: 120em) {
+@media (min-width: 100em) {
   .photo.me {
-    width: 31.91489%;
+    width: 23.40426%;
     float: right;
     margin-left: 0;
     margin-right: 0;

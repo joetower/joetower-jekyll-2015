@@ -43,8 +43,7 @@
     @include breakpoint($desktop-large) {
       @include grid-span(7,1);
     }
-
-
+    
     &.about {
       clear:both;
     }    
