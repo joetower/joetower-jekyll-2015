@@ -449,6 +449,7 @@ h5 {
 @media (min-width: 30.625em) {
   .site-header .site-nav .menu {
     float: right;
+    text-align: right;
   }
 }
 .site-header .site-nav .menu li {
@@ -457,7 +458,6 @@ h5 {
 }
 @media (min-width: 42.5em) {
   .site-header .site-nav .menu li {
-    text-align: right;
     margin: 0 0 0 20px;
     display: inline-block;
   }

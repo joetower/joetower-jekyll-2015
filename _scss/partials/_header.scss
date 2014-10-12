@@ -37,7 +37,7 @@
 
   .site-nav {
     padding-top: $space;
-    
+
     @include breakpoint($handheld) {
       @include grid-span(8,5);
       padding:0;
@@ -57,13 +57,13 @@
       text-align: center;
       @include breakpoint($handheld) {
         float: right;
+        text-align: right;
       } 
       li {
         list-style-type: none;
         display:block;
 
         @include breakpoint($nav) {    
-          text-align: right;
           margin: 0 0 0 $space;
           display: inline-block;
         }
