@@ -3,7 +3,7 @@
 // 
 
 .wrap {
-    padding: $space $space $space-double;
+    padding: $space $space-double $space-double;
     margin: 0 auto;
     zoom: 1;
 
@@ -29,7 +29,7 @@
   }
 
   &.meta-comment {
-    padding: $space-double $space-triple;
+    padding: $space-double;
     background-color: rgba($white,.80);   
   }  
 

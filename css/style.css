@@ -330,7 +330,7 @@ input {
 }
 
 .wrap {
-  padding: 20px 20px 40px;
+  padding: 20px 40px 40px;
   margin: 0 auto;
   zoom: 1;
 }
@@ -356,7 +356,7 @@ input {
   }
 }
 .wrap.meta-comment {
-  padding: 40px 60px;
+  padding: 40px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 .wrap.header {
@@ -730,37 +730,33 @@ img.dogs:hover {
 
 .summary blockquote,
 .summary blockquote p {
-  width: 74.46809%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
+  max-width: 78%;
 }
 .summary .wrap {
-  padding: 1em 4em;
-  border-left: 1em solid #595959;
+  padding: 40px 20px;
+  border-left: 20px solid #595959;
   background-color: rgba(217, 217, 217, 0.9);
 }
-@media (min-width: 37.5em) {
+@media (min-width: 59.4375em) {
   .summary .wrap {
-    padding: 1em 2em;
+    padding: 40px;
   }
 }
 .summary .wrap.reviews {
   color: white;
-  border-left: 1em solid #7a271d;
+  border-color: #7a271d;
   background-color: rgba(184, 59, 43, 0.9);
   text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 .summary .wrap.health {
   color: #ddd84b;
-  border-left: 1em solid #617a1d;
+  border-color: #617a1d;
   background-color: rgba(146, 184, 43, 0.85);
   text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 .summary .wrap.design {
   color: #e39f5c;
-  border-left: 1em solid #755018;
+  border-color: #755018;
   background-color: rgba(181, 124, 37, 0.85);
   text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 0 2px 5px rgba(0, 0, 0, 0.4);
 }
@@ -988,7 +984,7 @@ body.dark {
   background-color: black;
 }
 body.dark-texture {
-  background-image: image-url("tpl/dark-texture.png");
+  background-image: url(/img/tpl/dark-texture.png);
   background-repeat: repeat;
   background-color: black;
 }
@@ -1126,7 +1122,7 @@ body.dessa .site-nav a:hover {
 }
 
 .featured-image.blake {
-  background: image-url("posts/james-blake/blake-body-repeat.jpg") no-repeat top center;
+  background: url(/img/posts/james-blake/blake-body-repeat.jpg) no-repeat top center;
   display: block;
   line-height: 0;
   -webkit-animation-name: bg_special;
@@ -1147,7 +1143,7 @@ body.dessa .site-nav a:hover {
           animation-timing-function: linear;
 }
 .featured-image.state-of-tv {
-  background: image-url("posts/state-of-tv/tv_bg.png") repeat top center;
+  background: url(/img/posts/state-of-tv/tv_bg.png) repeat top center;
   display: block;
   line-height: 0;
   -webkit-animation-name: bg_tv;
@@ -1262,6 +1258,8 @@ body.dessa .site-nav a:hover {
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 59.4375em) {

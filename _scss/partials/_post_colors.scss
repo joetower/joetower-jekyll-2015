@@ -7,7 +7,7 @@ body {
     background-color: $black;
   }
   &.dark-texture {
-    background-image: image-url('tpl/dark-texture.png');
+    background-image: url(/img/tpl/dark-texture.png);
     background-repeat: repeat;
     background-color: $black;
   }

@@ -8,6 +8,8 @@
   &.about {
     @include breakpoint($tablet) {
       @include grid-span(6,7);  
+      margin-top: $space-triple;
+      margin-bottom: $space;
     }
     @include breakpoint($laptop-thirteen) {    
       @include grid-span(8,1);    

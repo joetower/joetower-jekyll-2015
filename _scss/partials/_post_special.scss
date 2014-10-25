@@ -2,7 +2,7 @@
 
 .featured-image {
   &.blake {
-    background:image-url('posts/james-blake/blake-body-repeat.jpg') no-repeat top center;
+    background: url(/img/posts/james-blake/blake-body-repeat.jpg) no-repeat top center;
     display: block;
     line-height: 0;
     -webkit-animation-name: bg_special;
@@ -19,7 +19,7 @@
     animation-timing-function: linear;
   }
   &.state-of-tv {
-    background:image-url('posts/state-of-tv/tv_bg.png') repeat top center;
+    background: url(/img/posts/state-of-tv/tv_bg.png) repeat top center;
     display: block;
     line-height: 0;
     -webkit-animation-name: bg_tv;

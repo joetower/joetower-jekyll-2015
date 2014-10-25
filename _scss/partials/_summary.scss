@@ -6,30 +6,32 @@
 
   blockquote,
   blockquote p {
-    @include grid-span(9,1); 
+    max-width: 78%;
   }
   .wrap {
-    padding: 1em 4em;
-    border-left:1em solid darken($white, 65%);    
+    padding: $space-double $space;
+    border-left:$space solid darken($white, 65%);    
     background-color: rgba(darken($white, 15%), .90);
-    @include breakpoint($tablet) {    
-      padding: 1em 2em;
-    }      
+    
+    @include breakpoint($laptop-thirteen) {
+      padding: $space-double;
+    }
+
     &.reviews {
       color:$white;
-      border-left:1em solid darken($jt-red, 15%);
+      border-color: darken($jt-red, 15%);
       background-color: rgba($jt-red, .9);
       @include text-shadow(rgba($black, 0.6) -1px -1px 0 ); 
     }
     &.health {
       color: lighten($jt-yellow, 5%);
-      border-left:1em solid darken($jt-green, 15%);
+      border-color: darken($jt-green, 15%);
       background-color: rgba($jt-green, .85);
       @include text-shadow(rgba($black, 0.6) -1px -1px 0 );       
     }
     &.design {
       color: lighten($jt-orange, 5%);
-      border-left:1em solid darken($jt-orange-muted, 15%);      
+      border-color: darken($jt-orange-muted, 15%);      
       background-color: rgba($jt-orange-muted, .85);
       @include text-shadow(rgba($black, 0.6) -1px -1px 0 );         
     }
