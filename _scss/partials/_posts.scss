@@ -11,7 +11,8 @@
   .tag {
     display:block;
     color:lighten($jt-gray, 55%);
-    padding-bottom: em(20);
+    padding-bottom: $space;
+    text-align: left;
   }
 }
 
@@ -129,7 +130,7 @@
     li {
       border-bottom: 1px solid rgba($jt-gray, .55);
       list-style: none;
-      font-size: em(18);
+      font-size: 18px;
     }
   }
 }

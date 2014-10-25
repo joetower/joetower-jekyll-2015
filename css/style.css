@@ -773,7 +773,8 @@ img.dogs:hover {
 .meta .tag {
   display: block;
   color: #a8a8a8;
-  padding-bottom: 1.25em;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 .post-header .meta {
@@ -921,7 +922,7 @@ img.dogs:hover {
 .recent ul li {
   border-bottom: 1px solid rgba(28, 28, 28, 0.55);
   list-style: none;
-  font-size: 1.125em;
+  font-size: 18px;
 }
 
 .comments {
