@@ -24,16 +24,22 @@
 
   .meta {
     display:block;
-    padding: 1em 0;
+    padding: $space-one-half 0;
+    border-bottom:$space-one-fourth solid lighten($jt-gray, 75%);
+    margin-bottom: $space;
 
     @include breakpoint($laptop-thirteen) {    
-      @include grid-span(2,1, $output-style:'float');
+      display:inline-block;
+      border-bottom: none;
+      margin-bottom: 0;
+      vertical-align: text-bottom;
     } 
   }
   h1 {
-    @include breakpoint($laptop-thirteen) {
-      @include grid-span(10,3, $output-style:'float'); 
-    }        
+    @include breakpoint($laptop-thirteen) {    
+      display:inline-block;
+      margin-left: $space;
+    }    
   }
 }
 
@@ -69,9 +75,9 @@
 .post-content blockquote,
 .page-content blockquote {
   color: $jt-gray;
-  margin: 2em 0;
-  padding-left: 1em;
-  border-left: .8em solid $jt-blue;
+  margin: $space-double 0;
+  padding-left: $space;
+  border-left: $space solid $jt-blue;
   cite {
    color: lighten($jt-gray, 30%);
   }
@@ -96,7 +102,7 @@
     padding-left: 0;
   }  
   pre.terminal {
-    border: 1px solid #000;
+    border: $space-one-third solid #000;
     background-color: #333;
     color: #FFF;
     @include border-radius(3px);
@@ -147,7 +153,7 @@
 /* ----------------------------------------------------------*/
 .posts { 
   list-style-type: none;
-  padding-top: 1em; 
+  padding-top: $space; 
   
   @extend %clearfix;  
 
@@ -174,7 +180,7 @@
     }  
     
     @include breakpoint($desktop-large) {
-      border:.1em solid lighten($jt-gray, 75%);
+      border:$space-one-fourth solid lighten($jt-gray, 75%);
       text-align: center;
     }  
 

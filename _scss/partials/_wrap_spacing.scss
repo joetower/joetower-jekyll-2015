@@ -3,9 +3,9 @@
 // 
 
 .wrap {
-    padding: $space $space-double $space-double;
-    margin: 0 auto;
-    zoom: 1;
+  padding: $space-double;
+  margin: 0 auto;
+  zoom: 1;
 
   &.post-head {
     padding: $space $space-double;
@@ -20,7 +20,7 @@
   }
 
   &.post {
-    padding: $space $space-double;
+    padding: $space-double;
     background-color: rgba($white,.90);
 
     @include breakpoint($laptop-thirteen) {    
