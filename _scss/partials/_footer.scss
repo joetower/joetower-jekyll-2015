@@ -76,8 +76,8 @@
     a {
       display: inline-block;
       background-color: rgba($white, .8);
-      padding: .5em;
-      @include border-radius($space); 
+      padding: $space-one-half;
+      @include border-radius($space-double); 
       &:hover {
         background-color: rgba($white, .95);
       }
