@@ -12,18 +12,19 @@ img {
     border-color: transparent;
     @include box-shadow(rgba($black, .4) 0 0 6px); 
     @include border-radius(400px);
+    padding:$space;
+    border-width:$space-one-half;          
 
     @include breakpoint($tablet) {
       padding:$space;
       border-width:$space-one-fifth;          
     }   
     @include breakpoint($desktop-medium) {    
-      @include border-radius(400px);
       border-width:$space-one-fourth;          
     }
     @include breakpoint($desktop-large) {
       padding:$space-triple;
-      border-width:$space-one-half;          
+      border-width:$space;          
     }
    
     &:hover {
@@ -34,7 +35,6 @@ img {
     }
   }
   &.profile {
-    padding: $space-one-half;
     &:hover {
       border-color: darken($jt-green, 10%);
     }
@@ -45,9 +45,7 @@ img {
       padding:$space-one-third;
     }       
   }
-  &.dogs {
-    padding: $space-double;
-    
+  &.dogs {    
     &:hover {
       border-color: darken($jt-blue, 10%);
     }

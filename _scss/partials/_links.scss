@@ -18,7 +18,7 @@ input[type="submit"] {
   @include border-radius(4px);
   font-weight: 600;
   cursor:pointer;
-  float:left;
+  display:block;
   @include transition(background, 0.2s, ease);
 
   @extend %clearfix;  
