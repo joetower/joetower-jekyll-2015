@@ -6,7 +6,7 @@
 
   blockquote,
   blockquote p {
-    max-width: 78%;
+    max-width: 80%;
   }
   .wrap {
     padding: $space-double $space;
@@ -30,7 +30,7 @@
       @include text-shadow(rgba($black, 0.6) -1px -1px 0 );       
     }
     &.design {
-      color: lighten($jt-orange, 5%);
+      color: lighten($jt-orange, 14%);
       border-color: darken($jt-orange-muted, 15%);      
       background-color: rgba($jt-orange-muted, .85);
       @include text-shadow(rgba($black, 0.6) -1px -1px 0 );         

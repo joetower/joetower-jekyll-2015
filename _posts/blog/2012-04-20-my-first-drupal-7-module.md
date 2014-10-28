@@ -49,7 +49,8 @@ So, say you want the default menu setting to be "true" on node creation for a sp
 </ul>
 
 Your module .info file should follow <a href="http://drupal.org/node/542202" title="Drupal 7 .info file conventions">Drupal 7 conventions</a>.
-### Perhaps it would look like the following:
+
+###Perhaps it would look like the following:
 
 ```
 name = My Menu Module

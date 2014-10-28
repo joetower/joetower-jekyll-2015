@@ -154,7 +154,7 @@ body {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 1.5;
 }
 
@@ -730,7 +730,7 @@ img.dogs:hover {
 
 .summary blockquote,
 .summary blockquote p {
-  max-width: 78%;
+  max-width: 80%;
 }
 .summary .wrap {
   padding: 40px 20px;
@@ -755,7 +755,7 @@ img.dogs:hover {
   text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 .summary .wrap.design {
-  color: #e39f5c;
+  color: #eab683;
   border-color: #755018;
   background-color: rgba(181, 124, 37, 0.85);
   text-shadow: rgba(0, 0, 0, 0.6) -1px -1px 0 2px 5px rgba(0, 0, 0, 0.4);
@@ -872,12 +872,12 @@ img.dogs:hover {
 
 .post pre,
 .post code {
-  border: 0.2em solid #3a2f1d;
+  border: 3.33333px solid #3a2f1d;
   background-color: #d9d336;
-  padding: 20px 40px;
   color: #3a2f1d;
   overflow: scroll;
-  padding: 20px 40px;
+  padding: 20px;
+  display: block;
 }
 .post pre code {
   border: 0;
@@ -912,10 +912,10 @@ img.dogs:hover {
 }
 .recent a {
   display: block;
-  padding: .8em 0;
+  padding: 10px 0;
 }
 .recent ul li {
-  border-bottom: 1px solid rgba(28, 28, 28, 0.55);
+  border-bottom: 2px solid rgba(28, 28, 28, 0.55);
   list-style: none;
   font-size: 18px;
 }
@@ -941,7 +941,7 @@ img.dogs:hover {
   padding-top: 20px;
 }
 .posts.archive {
-  padding-top: 2em;
+  padding-top: 40px;
 }
 .posts a {
   display: block;

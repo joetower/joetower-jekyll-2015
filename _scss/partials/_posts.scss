@@ -88,13 +88,13 @@
 
   pre,
   code {
-    border: .2em solid $jt-brown;
+    border: $space-one-sixth solid $jt-brown;
     background-color: $jt-yellow;
-    padding: $space $space-double;
     color:$jt-brown;
     overflow:scroll;
-    padding: $space $space-double;
-    @extend %clearfix;  
+    padding: $space;
+    @extend %clearfix; 
+    display:block;
   }
   pre code {
     border: 0;
@@ -129,12 +129,12 @@
   
   a {
     display:block;
-    padding: .8em 0;
+    padding: $space-one-half 0;
   }
 
   ul {
     li {
-      border-bottom: 1px solid rgba($jt-gray, .55);
+      border-bottom: $space-one-tenth solid rgba($jt-gray, .55);
       list-style: none;
       font-size: 18px;
     }
@@ -158,7 +158,7 @@
   @extend %clearfix;  
 
   &.archive {
-    padding-top: 2em; 
+    padding-top: $space-double; 
   }
 
   a {
