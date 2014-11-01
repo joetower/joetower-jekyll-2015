@@ -176,19 +176,22 @@
     display: block;
 
     @include breakpoint($laptop-thirteen) {
-      @include grid-span(3,1);
+      display:inline-block;
+      padding:$space-one-half $space;
     }  
     
     @include breakpoint($desktop-large) {
       border:$space-one-fourth solid lighten($jt-gray, 75%);
       text-align: center;
+
     }  
 
   }
   .post-link {
 
     @include breakpoint($laptop-thirteen) {
-      @include grid-span(10,3);
+      display:inline-block;
+      margin-left: $space-one-half;
     }    
 
   }  

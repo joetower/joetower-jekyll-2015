@@ -12,28 +12,16 @@
     font-weight: 400;
     span {
       &.text {
-        @extend %clearfix;  
         @include breakpoint($laptop-thirteen) {
-          @include grid-span(6, 1, $output-style:'float');   
-        }  
-        @include breakpoint($desktop) {
-          @include grid-span(5, 1, $output-style:'float');
-        }    
+          display:inline-block;
+        }     
       }
       &.email {
-        @extend %clearfix;  
         @include breakpoint($laptop-thirteen) {
-          @include grid-span(6, 7, $output-style:'float');
-          text-align: right;      
-        }  
-        @include breakpoint($desktop) {
-          @include grid-span(7, 6, $output-style:'float');
-          text-align: right;
-        } 
-        @include breakpoint($desktop-large) {
-          display:block;
-          clear:left;
-        }           
+          display:inline-block;
+          text-align: right;  
+          padding-left: $space;    
+        }         
       }
     }
   }  

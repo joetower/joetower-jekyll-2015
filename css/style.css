@@ -79,8 +79,6 @@ button:after,
 .button:after,
 input[type="submit"]:after,
 .site-footer:after,
-.site-footer p span.text:after,
-.site-footer p span.email:after,
 .footer-col-1:after,
 .footer-col-2:after,
 .site-footer ul:after,
@@ -548,44 +546,14 @@ input[type="submit"].active {
 }
 @media (min-width: 59.4375em) {
   .site-footer p span.text {
-    width: 48.93617%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 2.12766%;
-  }
-}
-@media (min-width: 80em) {
-  .site-footer p span.text {
-    width: 40.42553%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 2.12766%;
+    display: inline-block;
   }
 }
 @media (min-width: 59.4375em) {
   .site-footer p span.email {
-    width: 48.93617%;
-    clear: right;
-    float: right;
-    margin-right: 0;
+    display: inline-block;
     text-align: right;
-  }
-}
-@media (min-width: 80em) {
-  .site-footer p span.email {
-    width: 57.44681%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    text-align: right;
-  }
-}
-@media (min-width: 120em) {
-  .site-footer p span.email {
-    display: block;
-    clear: left;
+    padding-left: 20px;
   }
 }
 
@@ -956,11 +924,8 @@ img.dogs:hover {
 }
 @media (min-width: 59.4375em) {
   .posts .post-date {
-    width: 23.40426%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
+    display: inline-block;
+    padding: 10px 20px;
   }
 }
 @media (min-width: 120em) {
@@ -971,11 +936,8 @@ img.dogs:hover {
 }
 @media (min-width: 59.4375em) {
   .posts .post-link {
-    width: 82.97872%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
+    display: inline-block;
+    margin-left: 10px;
   }
 }
 
