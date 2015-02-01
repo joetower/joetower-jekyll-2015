@@ -2,6 +2,17 @@
   'use strict';
   $(document).ready(function () {
 
+    $('.navigation-toggle').on('click', function(event) {
+      event.preventDefault();
+      if ($('.site-nav').hasClass('menu-open')) {
+        $('.site-nav').removeClass('menu-open').addClass('menu-closed');
+        $('.navigation-toggle').removeClass('active').addClass('inactive');
+      } else {
+        $('.site-nav').removeClass('menu-closed').addClass('menu-open');
+        $('.navigation-toggle').removeClass('inactive').addClass('active');
+      }
+    });
+    
     $('.posts').children().hover(function() {
       $(this).siblings().stop().fadeTo(500,0.6);
     }, function() {
@@ -20,5 +31,6 @@
       };
       trigger.click({toggled : toggleItem}, toggler);
   });
+
 })(jQuery);
 

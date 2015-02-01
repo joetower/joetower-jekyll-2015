@@ -6,6 +6,7 @@ body {
   font-size: 20px;
   font-family: $proxima;
   font-weight: 400;
+  color: lighten($jt-gray,20%);
 }
 
 p {
@@ -66,33 +67,33 @@ blockquote p {
 
 // Headings 
 h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 600;
   margin-bottom: $space-one-half;
   color: $jt-gray;
 
   @include breakpoint($big-heading) {    
-    font-size: 52px;
+    font-size: 42px;
   }
 }
 h2 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,15%);
 
   @include breakpoint($big-heading) {    
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 h3 {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,25%);
 
   @include breakpoint($big-heading) {    
-    font-size: 36px;
+    font-size: 24px;
   }  
 }
 h4 {
@@ -116,9 +117,6 @@ h5 {
   li {
     .post-link {
       font-size: 24px;
-      @include breakpoint($big-heading) {    
-        font-size: 30px;
-      }
     }
   }
 }
@@ -133,7 +131,7 @@ h5 {
 
 // Navigation
 .site-nav {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }

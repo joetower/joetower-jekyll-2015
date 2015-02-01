@@ -3,10 +3,8 @@
   text-align:center;
   position: relative;
 
-  @include breakpoint($handheld) {    
-    position: fixed;
-    top: 0;
-    left: 0;
+  @include breakpoint($laptop-thirteen) {    
+    margin-bottom:-$space-octuple;
     z-index: -1;    
   }
 }

@@ -32,24 +32,7 @@
     padding: $space-double;
     background-color: rgba($white,.80);   
   }  
-
   &.header {
-    padding: $space;
-
-    @include breakpoint($tablet) {
-      padding: $space $space-double $space-quintuple;
-    }
-    @include breakpoint($laptop-thirteen) {
-      padding-bottom: $space-septuple;
-    } 
-    @include breakpoint($desktop) {
-      padding-bottom: $space-nonuple;
-    }
-     @include breakpoint($desktop-medium) {    
-      padding-bottom: $space-uncuple;
-    }      
-    @include breakpoint($desktop-large) {    
-      padding-bottom: $space-tredecuple;
-    }  
+    padding: $space $space-double;  
   }    
 }

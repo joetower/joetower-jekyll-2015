@@ -11,6 +11,8 @@ meta_description: Thoughts on James Blake's performance at First Avenue in Downt
 
 summary: Thoughts on Jame Blake's performance at First Avenue.
 
+page-class: blake
+
 categories: 
 - music
 

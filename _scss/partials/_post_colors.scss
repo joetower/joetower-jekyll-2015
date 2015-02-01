@@ -20,12 +20,23 @@ body {
         fill: rgba($jt-yellow, .8);
       }
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $jt-yellow;
+      &:hover {
+        background-color: rgba($jt-yellow, .8);
+      }
+    }         
     .site-nav {
       a {
         color: $jt-yellow; 
         &:hover {
           color: rgba($jt-yellow, .8);
         }
+      }
+      &.menu-open {
+        background-color: rgba($jt-yellow, .95);
       }
     }            
   }
@@ -68,6 +79,14 @@ body {
         fill: rgba($jt-yellow, .8);
       }
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $jt-yellow;
+      &:hover {
+        background-color: rgba($jt-yellow, .8);
+      }
+    }     
     .site-nav {
       a {
         color: $jt-yellow; 
@@ -75,6 +94,9 @@ body {
           color: rgba($jt-yellow, .8);
         }
       }
+      &.menu-open {
+        background-color: rgba($never-better, .95);
+      }      
     }    
   }     
   &.dapper-green {
@@ -89,6 +111,14 @@ body {
         fill: rgba($jt-orange, .8);
       }         
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $jt-orange;
+      &:hover {
+        background-color: rgba($jt-orange, .8);
+      }
+    }     
     .site-nav {
       a {
         color: $jt-orange;
@@ -96,6 +126,9 @@ body {
           color: rgba($jt-orange, .8);
         }
       }
+      &.menu-open {
+        background-color: rgba($white, .95);
+      }      
     }        
   }
   &.awake {
@@ -112,6 +145,14 @@ body {
         fill: rgba($jt-blue, .8);
       }         
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $jt-blue;
+      &:hover {
+        background-color: rgba($jt-blue, .8);
+      }
+    } 
     .site-nav {
       a {
         color: $jt-blue;
@@ -119,6 +160,9 @@ body {
           color: rgba($jt-blue, .8);
         }
       }
+      &.menu-open {
+        background-color: rgba($white, .95);
+      }        
     }     
   }  
   &.jamaica {
@@ -130,6 +174,25 @@ body {
         fill: rgba($jamaica-yellow, .8);
       }         
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $jamaica-yellow;
+      &:hover {
+        background-color: rgba($jamaica-yellow, .8);
+      }      
+    }    
+    .site-nav {
+      a {
+        color: $jamaica-yellow;
+        &:hover {
+          color: rgba($jamaica-yellow, .8);
+        }
+      }
+      &.menu-open {
+        background-color: rgba($jamaica, .95);
+      }         
+    }      
   }
   &.dessa {
     background-color: $dessa-blue;
@@ -140,6 +203,14 @@ body {
         fill: rgba($dessa-pink, .8);
       }         
     }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $dessa-pink;
+      &:hover {
+        background-color: rgba($dessa-pink, .8);
+      }    
+    }    
     .site-nav {
       a {
         color: $dessa-pink;
@@ -147,6 +218,38 @@ body {
           color: rgba($dessa-pink, .8);
         }
       }
+       &.menu-open {
+        background-color: rgba($dessa-blue, .95);
+      }      
     }     
   }  
+  &.best-2014 {
+    background-color: $black;
+    .logo {
+      fill: $aphex-yellow;
+      &:hover {
+        filter: url(#blur-more);
+        fill: rgba($aphex-yellow, .8);
+      }         
+    }
+    .bar:before, 
+    .bar:after, 
+    .bar {
+      background-color: $aphex-yellow;
+      &:hover {
+        background-color: rgba($aphex-yellow, .8);
+      }    
+    }
+    .site-nav {
+      a {
+        color: $aphex-yellow;
+        &:hover {
+          color: rgba($aphex-yellow, .8);
+        }
+      }
+      &.menu-open {
+        background-color: rgba($black, .95);
+      }       
+    }     
+  } 
 }

@@ -1,0 +1,72 @@
+// @_navigation_toggle.scss
+// Navigation toggle and bar styles
+// 
+
+.bar:before, 
+.bar:after, 
+.bar {
+  background-color: $white;
+  &:hover {
+    background-color: rgba($white, .8);
+  }   
+}
+
+.navigation-toggle {
+  width: $buttonSize;
+  height: $buttonSize;
+  position: absolute;
+  cursor: pointer;
+  font-size: 100%;
+  bottom: -$buttonSize;
+  right: -$buttonSize/12;
+
+  .bar:before, 
+  .bar:after, 
+  .bar {
+    position: relative;
+    width: $buttonSize*(7/12);
+    height: $buttonSize/12;
+    transition: 0.2s ease;
+    content:"";
+  }
+  .bar:before {
+    position: absolute;
+    top: -$buttonSize*(1/6);
+    left:0;
+  }
+  .bar {
+    top: 50%;
+    margin: -($barHeight/3)*2 0 0 $buttonSize/8;
+  }
+  .bar:after {
+    position: absolute;
+    top: $buttonSize*(1/6);
+    left:0;
+  }
+  &.active {
+    .bar:before, .bar:after, .bar {
+      margin: 0 auto;
+      transform: translateZ(0);
+      // Keeps page from flashing in Mac Webkit
+    }
+    .bar:before, .bar:after{
+      top: 50%;
+      margin-top: -$buttonSize/12;
+      margin-left: $buttonSize/8;
+      transform-origin: 50% 50%;
+    }
+    .bar:before {
+      transform: rotate(45deg);
+    }
+    .bar:after {
+      transform: rotate(-45deg);
+    }
+    .bar {
+      background: transparent;
+      margin-left: 0;
+      height: 0;
+      top: 55%;
+    }
+  }
+}
+

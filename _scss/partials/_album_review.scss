@@ -1,0 +1,22 @@
+// @_album_review.scss
+// Layout for best of albums
+// 
+
+body {
+  &.album-review {
+    @include breakpoint($handheld) {
+      p img {
+        @include grid-span(4, 1);
+      }
+      h2 {
+        @include grid-span(8, 5);
+        clear: right;      
+      }
+      h3 {
+        clear:both;
+        padding-top: $space;
+        padding-bottom: $space;
+      }
+    }
+  }
+}

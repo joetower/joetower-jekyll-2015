@@ -6,7 +6,7 @@
   @extend %clearfix;  
   
   @include breakpoint($laptop-thirteen) {    
-    max-width: 60em;
+    max-width: 52em;
     padding-top: 3em;
   }  
   @include breakpoint($desktop) {

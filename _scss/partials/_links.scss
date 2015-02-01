@@ -6,6 +6,20 @@ a:visited {
     color: $jt-green;
     text-decoration: none;
   }
+  .post-content &,
+  .page-content & {
+    color: darken($jt-green, 10%);
+    font-family: $adelle;
+    border-bottom: $space-one-eighth solid $jt-yellow;
+    &:visited {
+      color: darken($jt-green, 25%);
+    }
+    &:hover {
+      color: darken($jt-green, 15%);
+      background-color: $jt-yellow;      
+      text-decoration: underline;
+    }
+  }
 }
 
 button,
