@@ -14,9 +14,12 @@ body {
       }
       h3 {
         clear:both;
-        padding-top: $space;
+        padding-top: $space-double;
         padding-bottom: $space;
       }
+    }
+    iframe {
+      margin-bottom: $space;
     }
   }
 }

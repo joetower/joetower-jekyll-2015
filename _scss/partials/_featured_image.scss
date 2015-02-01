@@ -2,7 +2,8 @@
 .featured-image {
   text-align:center;
   position: relative;
-
+  line-height: 0;
+  
   @include breakpoint($laptop-thirteen) {    
     margin-bottom:-$space-octuple;
     z-index: -1;    

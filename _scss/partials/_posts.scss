@@ -125,15 +125,18 @@
   @include breakpoint($laptop-thirteen) {
     @include grid-span(4,1, $output-style:'float', $gutter:3);
   } 
-  
+  h3 {
+    margin-bottom: $space-one-third;
+  }
   a {
     display:block;
     padding: $space-one-half 0;
   }
 
   ul {
+    margin-left:0;
     li {
-      border-bottom: $space-one-tenth solid rgba($jt-gray, .55);
+      border-bottom: $space-one-tenth solid rgba($jt-gray, .25);
       list-style: none;
       font-size: 18px;
     }
@@ -165,7 +168,7 @@
   }
 
   li { 
-    margin-bottom: $space-double;
+    margin-bottom: $space;
     display:block;
 
     @extend %clearfix;  

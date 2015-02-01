@@ -67,7 +67,7 @@ blockquote p {
 
 // Headings 
 h1 {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: $space-one-half;
   color: $jt-gray;
@@ -77,7 +77,7 @@ h1 {
   }
 }
 h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,15%);
@@ -87,7 +87,7 @@ h2 {
   }
 }
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   margin-bottom: $space-one-fourth;    
   color: lighten($jt-gray,25%);

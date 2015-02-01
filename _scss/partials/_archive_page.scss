@@ -16,7 +16,7 @@
         @include breakpoint($tablet) {
           margin-left: $space-double; 
           display:inline-block;
-          vertical-align: bottom;
+          vertical-align: top;
         }    
       }
     }
