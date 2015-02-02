@@ -60,6 +60,10 @@
     &.menu-closed {
       top:-100%;
       transition: all 0.4s ease;
+      .menu {
+        transition: all 1.5s ease-in-out;
+        opacity:0;
+      }
     }
     &.menu-open {
       top:0;
@@ -70,7 +74,14 @@
       position: fixed;
       z-index: 5;
       background-color: rgba($black, .95);
-      padding:$space-triple $space $space;
+      padding:$space-quadruple $space $space;
+      .menu {
+        transition: all 1s ease-in-out;
+        opacity:1;
+      }
+      a {
+        font-size: 26px;
+      }
     }
     @include breakpoint($nav) {
       @include grid-span(8,5);
@@ -92,8 +103,10 @@
       margin: 0;
       padding: 0;
       text-align: center;
+
       @include breakpoint($nav) {
         text-align: right;
+        opacity:1;
       }       
       li {
         list-style-type: none;

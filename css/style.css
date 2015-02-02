@@ -432,6 +432,11 @@ input {
   -webkit-transition: all 0.4s ease;
           transition: all 0.4s ease;
 }
+.site-header .site-nav.menu-closed .menu {
+  -webkit-transition: all 1.5s ease-in-out;
+          transition: all 1.5s ease-in-out;
+  opacity: 0;
+}
 .site-header .site-nav.menu-open {
   top: 0;
   bottom: 0;
@@ -442,7 +447,15 @@ input {
   position: fixed;
   z-index: 5;
   background-color: rgba(0, 0, 0, 0.95);
-  padding: 60px 20px 20px;
+  padding: 80px 20px 20px;
+}
+.site-header .site-nav.menu-open .menu {
+  -webkit-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+  opacity: 1;
+}
+.site-header .site-nav.menu-open a {
+  font-size: 26px;
 }
 @media (min-width: 42.5em) {
   .site-header .site-nav {
@@ -473,6 +486,7 @@ input {
 @media (min-width: 42.5em) {
   .site-header .site-nav .menu {
     text-align: right;
+    opacity: 1;
   }
 }
 .site-header .site-nav .menu li {
@@ -1093,7 +1107,7 @@ body.about-color .site-nav a:hover {
   color: rgba(217, 211, 54, 0.8);
 }
 body.about-color .site-nav.menu-open {
-  background-color: rgba(217, 211, 54, 0.95);
+  background-color: rgba(58, 47, 29, 0.95);
 }
 body.ex-cop {
   background-color: #320e07;
