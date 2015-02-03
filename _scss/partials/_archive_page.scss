@@ -40,8 +40,12 @@
 
     li {
       list-style: none;
-      margin:.3em;
-      display:inline-block;
+      margin:.3em 0;
+      display:block;
+      @include breakpoint($handheld) {
+        display:inline-block;
+        margin:.1em .1em .2em;
+      }
     }
   }
   a {
@@ -49,6 +53,16 @@
     display:block;
     border:.1em solid $jt-green;
     transition:  all 0.3s ease 0s;
+    padding:.2em .4em;
+    text-align: center;
+
+    @include breakpoint($handheld) {
+      display:inline-block;
+      text-align: left;
+    }
+    @include breakpoint($laptop-thirteen) {
+      padding:.3em .6em;
+    }
     &:hover {
       color:$white;
       background: darken($jt-green, 20%);

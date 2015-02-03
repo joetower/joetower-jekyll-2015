@@ -11,6 +11,8 @@ meta_description: A tribute to Minneapolis Hip-Hop genre-bender known as eyedea.
 
 summary: This is tragic, not only because eyedea was a great talent but because he was so young.
 
+page-class: eyedea
+
 categories: 
 - design
 - music

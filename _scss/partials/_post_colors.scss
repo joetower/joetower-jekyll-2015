@@ -42,34 +42,92 @@ body {
   }
   &.ex-cop {
     background-color: $excop;   
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($excop, .95);
+      }
+    } 
   }  
   &.brown {
-    background-color: $jt-brown;   
+    background-color: $jt-brown;     
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($jt-brown, .95);
+      }
+    } 
   }
   &.british-blue {
     background-color: $british-blue;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($british-blue, .95);
+      }
+    } 
   }
   &.design-for-one {
     background-color: $design-for-one;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($design-for-one, .95);
+      }
+    } 
   }
   &.design-for-two {
     background-color: $design-for-two;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($design-for-two, .95);
+      }
+    } 
   }
   &.saul-purple {
     background-color: $saul-purple;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($saul-purple, .95);
+      }
+    } 
   }
   &.drupal-blue {
     background-color: $drupal-blue;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($drupal-blue, .95);
+      }
+    } 
   } 
   &.drupal-blue2 {
     background-color: $drupal-blue2;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($drupal-blue2, .95);
+      }
+    } 
   }  
   &.drupal-green {
     background-color: $drupal-green;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($drupal-green, .95);
+      }
+    } 
   }   
   &.drupal-green2 {
     background-color: $drupal-green2;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($drupal-green2, .95);
+      }
+    } 
   }  
+  &.eyedea {
+    background-color:$eyedea;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($eyedea, .95);
+      }
+    }
+  }
   &.never-better {
     background-color: $never-better;
     .logo {
@@ -101,6 +159,11 @@ body {
   }     
   &.dapper-green {
     background-color: $dapper-green;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($dapper-green, .95);
+      }
+    }
   }      
   &.gossip-purple {
     background-color: $gossip-purple;
@@ -133,9 +196,19 @@ body {
   }
   &.awake {
     background-color: $tycho;
+    .site-nav {
+      &.menu-open {
+        background-color: rgba($tycho, .95);
+      }
+    }     
   }
   &.lazerbeak {
     background-color: $lazerbeak;    
+     .site-nav {
+      &.menu-open {
+        background-color: rgba($lazerbeak, .95);
+      }
+    } 
   }
   &.blake {
     .logo {

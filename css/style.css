@@ -1119,32 +1119,68 @@ body.about-color .site-nav.menu-open {
 body.ex-cop {
   background-color: #320e07;
 }
+body.ex-cop .site-nav.menu-open {
+  background-color: rgba(50, 14, 7, 0.95);
+}
 body.brown {
   background-color: #3a2f1d;
+}
+body.brown .site-nav.menu-open {
+  background-color: rgba(58, 47, 29, 0.95);
 }
 body.british-blue {
   background-color: #00247d;
 }
+body.british-blue .site-nav.menu-open {
+  background-color: rgba(0, 36, 125, 0.95);
+}
 body.design-for-one {
   background-color: #371f0c;
+}
+body.design-for-one .site-nav.menu-open {
+  background-color: rgba(55, 31, 12, 0.95);
 }
 body.design-for-two {
   background-color: #371f0c;
 }
+body.design-for-two .site-nav.menu-open {
+  background-color: rgba(55, 31, 12, 0.95);
+}
 body.saul-purple {
   background-color: #442948;
+}
+body.saul-purple .site-nav.menu-open {
+  background-color: rgba(68, 41, 72, 0.95);
 }
 body.drupal-blue {
   background-color: #03486c;
 }
+body.drupal-blue .site-nav.menu-open {
+  background-color: rgba(3, 72, 108, 0.95);
+}
 body.drupal-blue2 {
   background-color: #0077b6;
+}
+body.drupal-blue2 .site-nav.menu-open {
+  background-color: rgba(0, 119, 182, 0.95);
 }
 body.drupal-green {
   background-color: #636900;
 }
+body.drupal-green .site-nav.menu-open {
+  background-color: rgba(99, 105, 0, 0.95);
+}
 body.drupal-green2 {
   background-color: #98a013;
+}
+body.drupal-green2 .site-nav.menu-open {
+  background-color: rgba(152, 160, 19, 0.95);
+}
+body.eyedea {
+  background-color: #9bbfbf;
+}
+body.eyedea .site-nav.menu-open {
+  background-color: rgba(155, 191, 191, 0.95);
 }
 body.never-better {
   background-color: #d71a62;
@@ -1179,6 +1215,9 @@ body.never-better .site-nav.menu-open {
 body.dapper-green {
   background-color: #676944;
 }
+body.dapper-green .site-nav.menu-open {
+  background-color: rgba(103, 105, 68, 0.95);
+}
 body.gossip-purple {
   background-color: #8d5595;
 }
@@ -1212,8 +1251,14 @@ body.gossip-purple .site-nav.menu-open {
 body.awake {
   background-color: #ab627d;
 }
+body.awake .site-nav.menu-open {
+  background-color: rgba(171, 98, 125, 0.95);
+}
 body.lazerbeak {
   background-color: #314b61;
+}
+body.lazerbeak .site-nav.menu-open {
+  background-color: rgba(49, 75, 97, 0.95);
 }
 body.blake .logo {
   fill: #4da195;
@@ -1608,8 +1653,14 @@ body.album-review iframe {
 }
 .browse-by-category ul li {
   list-style: none;
-  margin: .3em;
-  display: inline-block;
+  margin: .3em 0;
+  display: block;
+}
+@media (min-width: 30.625em) {
+  .browse-by-category ul li {
+    display: inline-block;
+    margin: .1em .1em .2em;
+  }
 }
 .browse-by-category a {
   padding: .3em .6em;
@@ -1617,6 +1668,19 @@ body.album-review iframe {
   border: 0.1em solid #92b82b;
   -webkit-transition: all 0.3s ease 0s;
           transition: all 0.3s ease 0s;
+  padding: .2em .4em;
+  text-align: center;
+}
+@media (min-width: 30.625em) {
+  .browse-by-category a {
+    display: inline-block;
+    text-align: left;
+  }
+}
+@media (min-width: 59.4375em) {
+  .browse-by-category a {
+    padding: .3em .6em;
+  }
 }
 .browse-by-category a:hover {
   color: white;
