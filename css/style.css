@@ -427,6 +427,11 @@ input {
   /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
 }
+@media (min-width: 42.5em) {
+  .site-header .site-nav {
+    overflow-y: auto;
+  }
+}
 .site-header .site-nav.menu-closed {
   top: -100%;
   -webkit-transition: all 0.4s ease;
