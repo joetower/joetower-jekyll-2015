@@ -292,7 +292,9 @@ h5 {
   text-transform: uppercase;
 }
 
-input {
+input,
+select,
+textarea {
   font-size: 20px;
 }
 
