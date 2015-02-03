@@ -13,6 +13,8 @@ summary: Polica were the focus, Supreme Cuts were the surprise.
 
 summary-class: reviews
 
+page-class: dark
+
 categories:
 - music
 
