@@ -5,8 +5,11 @@
 body {
   &.album-review {
     @include breakpoint($handheld) {
-      p img {
+      h2 + p {
         @include grid-span(4, 1);
+      }
+      p + p {
+        clear:both;
       }
       h2 {
         @include grid-span(8, 5);
@@ -14,7 +17,6 @@ body {
       }
       h3 {
         clear:both;
-        padding-top: $space-double;
         padding-bottom: $space;
       }
     }

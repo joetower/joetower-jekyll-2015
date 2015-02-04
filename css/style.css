@@ -1458,12 +1458,15 @@ body.best-2014 .site-nav.menu-open {
   }
 }
 @media (min-width: 30.625em) {
-  body.album-review p img {
+  body.album-review h2 + p {
     width: 31.91489%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+  }
+  body.album-review p + p {
+    clear: both;
   }
   body.album-review h2 {
     width: 65.95745%;
@@ -1475,7 +1478,6 @@ body.best-2014 .site-nav.menu-open {
   }
   body.album-review h3 {
     clear: both;
-    padding-top: 40px;
     padding-bottom: 20px;
   }
 }

@@ -45,7 +45,7 @@ Often insightful, dense, abstract lyrical passages soar over equally dense, ofte
 
 From the beginning of _**Let It Rattle**_, my face was firmly grinned. Incredible chorus, beautifully constructed beat, subtle background elements and strong lyrical content. Stef has always been able to emit sincerity in his music. The little intricities are what strike me most. From the back-and-forth banter between him and another emcee or engineer Joe Mabbot, it's always genuine. I relate to his music because of this if nothing more. This is the biggest flaw with most mainstream music period. It lacks conviction, sincerity, passion and emotion. Those are four things that P.O.S. has never lacked. 
 
-> They hide their eyes and can't describe what they've been missing / They're fire-blind and can't describe what they've been laying-down / But they laying down
+> They hide their eyes and can't describe what they've been missing / They fire blind and can't describe what they've been laying-down / But they laying down
 
 Off to the 2nd leaked track, _**Drumroll (We're All Thirsty)**_ starts off with a powerful force. The verbal assault flies off almost a capella expressing his frustration with everything. This is a common theme throughout P.O.S's music - the unease he feels with a heap of passion-less people.
 
@@ -57,11 +57,11 @@ _**Graves (We Wrote the Book)**_ starts out with a slight drone and moves into d
 
 The first single, _**Goodbye**_ might be **P.O.S's** most radio-friendly track to date, which shouldn't be viewed as a negative. It is a well-constructed and catchy track, offering more commentaries on society and inner-culture.
 
-_**Get Smokes**_ is a return to more intricate production, offering interesting sound fills as the backdrop to his sparse delivery. Abstract, funked-out bass frenzy right here. _"My name is Stef" _and more cracked-out funk goodness.
+_**Get Smokes**_ is a return to more intricate production, offering interesting sound fills as the backdrop to his sparse delivery. Abstract, funked-out bass frenzy right here. _"My name is Stef"_ and more cracked-out funk goodness.
 
-_**Been Afraid**_ follows a journey to dark places drenched in abusive love and torment, providing one of the strongest hooks on the album. His delivery is perfect. _"We ain't gotta go through nothing alone." _
+_**Been Afraid**_ follows a journey to dark places drenched in abusive love and torment, providing one of the strongest hooks on the album. His delivery is perfect. _"We ain't gotta go through nothing alone."_
 
-_**Low Light Low Life**_ has a more bouncy feel with 1980's synth samples (almost like an altered Law &amp; Order theme tweak).**Sims** starts off (great to hear him!), followed by a nice **Cecil Otter **chorus starter into **P.O.S's** main chorus, then **Dessa's** sick verse (really great) and lastly P.O.S's turn.
+_**Low Light Low Life**_ has a more bouncy feel with 1980's synth samples (almost like an altered Law &amp; Order theme tweak).**Sims** starts off (great to hear him!), followed by a nice **Cecil Otter** chorus starter into **P.O.S's** main chorus, then **Dessa's** sick verse (really great) and lastly P.O.S's turn.
 
 > It's the end of Law &amp; Order.
 
