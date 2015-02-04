@@ -179,15 +179,13 @@
 
     @include breakpoint($laptop-thirteen) {
       display:inline-block;
-      padding:$space-one-half $space;
+      padding:$space-one-half 0;
     }  
     
     @include breakpoint($desktop-large) {
       border:$space-one-fourth solid lighten($jt-gray, 75%);
       text-align: center;
-
     }  
-
   }
   .post-link {
 
