@@ -170,8 +170,11 @@
   li { 
     margin-bottom: $space;
     display:block;
-
     @extend %clearfix;  
+    
+    @include breakpoint($desktop-medium) {
+      @include grid-span(6, 1, $output-style:"float", $gutter:0);
+    }
   }
   .post-date {
     padding: $space-one-third 0;

@@ -1055,6 +1055,15 @@ img.dogs:hover {
   margin-bottom: 20px;
   display: block;
 }
+@media (min-width: 100em) {
+  .posts li {
+    width: 50%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 0%;
+  }
+}
 .posts .post-date {
   padding: 6.66667px 0;
   display: block;
