@@ -1069,6 +1069,7 @@ img.dogs:hover {
   .posts .post-date {
     border: 5px solid #dbdbdb;
     text-align: center;
+    padding: 10px;
   }
 }
 @media (min-width: 59.4375em) {

@@ -185,6 +185,7 @@
     @include breakpoint($desktop-large) {
       border:$space-one-fourth solid lighten($jt-gray, 75%);
       text-align: center;
+      padding:$space-one-half;
     }  
   }
   .post-link {
