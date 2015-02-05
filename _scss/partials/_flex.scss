@@ -1,3 +1,16 @@
 // @_flex.scss
 // using flex elements
-// 
+//
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.page-wrapper {
+  flex: 1 0 auto;
+}
+.site-header,
+.site-footer {
+  flex: none;
+}

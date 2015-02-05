@@ -1,12 +1,12 @@
 // @_container.scss
 // Container and structural styles
-// 
+//
 
 
 ::selection {
   color: $white;
   background: $jt-green;
-} 
+}
 
 section,
 .section {
@@ -20,5 +20,5 @@ hr {
   background-color: rgba($jt-gray, .2);
   position:relative;
 
-  @extend %clearfix;  
+  @extend %clearfix;
 }

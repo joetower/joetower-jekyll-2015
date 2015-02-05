@@ -282,7 +282,7 @@ h5 {
 .post-date {
   color: #5c5c5c;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -666,31 +666,60 @@ input[type="submit"].active {
   border-bottom-right-radius: 0;
 }
 
+body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-wrapper {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.site-header,
 .site-footer {
-  padding: 1.875em 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+}
+
+.site-footer {
+  padding: 0;
   background-color: rgba(0, 0, 0, 0.8);
   color: #f2f2f2;
 }
 .site-footer p {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 @media (min-width: 59.4375em) {
   .site-footer p span.text {
     display: inline-block;
+    float: left;
   }
+}
+.site-footer p span.email {
+  display: block;
 }
 @media (min-width: 59.4375em) {
   .site-footer p span.email {
     display: inline-block;
     text-align: right;
     padding-left: 20px;
+    float: right;
   }
 }
 
 .footer-col-1 {
-  padding-bottom: 6.66667px;
+  padding-bottom: 20px;
 }
 @media (min-width: 100em) {
   .footer-col-1 {
@@ -705,7 +734,7 @@ input[type="submit"].active {
 
 .footer-col-2 {
   border-top: 2px solid #4d6736;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 @media (min-width: 100em) {
   .footer-col-2 {
@@ -721,6 +750,11 @@ input[type="submit"].active {
 
 .site-footer ul {
   list-style: none;
+}
+@media (min-width: 37.5em) {
+  .site-footer ul {
+    text-align: center;
+  }
 }
 @media (min-width: 100em) {
   .site-footer ul {

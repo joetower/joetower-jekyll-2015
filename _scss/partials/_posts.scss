@@ -3,7 +3,7 @@
 //
 
 .meta {
-  @extend %clearfix;  
+  @extend %clearfix;
   margin: 0;
   text-align: center;
 
@@ -17,39 +17,39 @@
 }
 
 .full-width {
-  @extend %clearfix;  
+  @extend %clearfix;
 }
 
-.post-header { 
+.post-header {
   .meta {
     display:block;
     padding: $space-one-half 0;
     border-bottom:$space-one-fourth solid lighten($jt-gray, 75%);
     margin-bottom: $space;
 
-    @include breakpoint($laptop-thirteen) {    
+    @include breakpoint($laptop-thirteen) {
       display:inline-block;
       border-bottom: none;
       margin-bottom: 0;
       vertical-align: text-bottom;
-    } 
+    }
   }
   h1 {
-    @include breakpoint($laptop-thirteen) {    
+    @include breakpoint($laptop-thirteen) {
       display:inline-block;
       margin-left: $space;
-    }    
+    }
   }
 }
 
 /* Post Content Styles */
-.post-content { 
-  margin: 0 0 $space-double; 
+.post-content {
+  margin: 0 0 $space-double;
 
-  @include breakpoint($handheld) {    
+  @include breakpoint($handheld) {
     @include grid-span(10,1, $output-style:'float');
-  }  
-  @include breakpoint($laptop-thirteen) {    
+  }
+  @include breakpoint($laptop-thirteen) {
     @include grid-span(8,1, $output-style:'float');
   }
   @include breakpoint($desktop) {
@@ -60,16 +60,16 @@
   }
    @include breakpoint($desktop-large) {
     @include grid-span(8,1, $output-style:'float');
-  } 
+  }
   @include breakpoint($desktop-huge) {
     @include grid-span(9,1, $output-style:'float');
   }
-   
+
   ul,
-  ol { 
-    padding-left: $space; 
+  ol {
+    padding-left: $space;
     margin-bottom: $space-double;
-  }  
+  }
 }
 .post-content blockquote,
 .page-content blockquote {
@@ -83,7 +83,7 @@
 }
 
 .post {
-  @extend %clearfix;  
+  @extend %clearfix;
 
   pre,
   code {
@@ -92,39 +92,39 @@
     color:$jt-brown;
     overflow:scroll;
     padding: $space;
-    @extend %clearfix; 
+    @extend %clearfix;
     display:block;
   }
   pre code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
-  }  
+  }
   pre.terminal {
     border: $space-one-third solid #000;
     background-color: #333;
     color: #FFF;
     @include border-radius(3px);
-    code { 
+    code {
       background-color: #333;
-    } 
+    }
   }
   ul,
-  ol { 
-    margin-left: 1.35em; 
-  }  
+  ol {
+    margin-left: 1.35em;
+  }
 }
 
 // Post bottom - comemnts and meta
 .post-comment-wrap {
-  @extend %clearfix;  
+  @extend %clearfix;
 
 }
 .recent {
   display:block;
   @include breakpoint($laptop-thirteen) {
     @include grid-span(4,1, $output-style:'float', $gutter:3);
-  } 
+  }
   h3 {
     margin-bottom: $space-one-third;
   }
@@ -144,34 +144,34 @@
 }
 .comments {
   display:block;
-  padding-top: $space; 
+  padding-top: $space;
   @include breakpoint($laptop-thirteen) {
-    @include grid-span(8,5, $output-style:'float', $gutter:3);  
-    padding-top: 0; 
+    @include grid-span(8,5, $output-style:'float', $gutter:3);
+    padding-top: 0;
   }
 }
 
 /* Post ul styles */
 /* ----------------------------------------------------------*/
-.posts { 
+.posts {
   list-style-type: none;
-  padding-top: $space; 
-  
-  @extend %clearfix;  
+  padding-top: $space;
+
+  @extend %clearfix;
 
   &.archive {
-    padding-top: $space-double; 
+    padding-top: $space-double;
   }
 
   a {
     display:block;
   }
 
-  li { 
+  li {
     margin-bottom: $space;
     display:block;
-    @extend %clearfix;  
-    
+    @extend %clearfix;
+
     @include breakpoint($desktop-medium) {
       @include grid-span(6, 1, $output-style:"float", $gutter:0);
     }
@@ -183,20 +183,20 @@
     @include breakpoint($laptop-thirteen) {
       display:inline-block;
       padding:$space-one-half 0;
-    }  
-    
+    }
+
     @include breakpoint($desktop-large) {
       border:$space-one-fourth solid lighten($jt-gray, 75%);
       text-align: center;
       padding:$space-one-half;
-    }  
+    }
   }
   .post-link {
 
     @include breakpoint($laptop-thirteen) {
       display:inline-block;
       margin-left: $space-one-half;
-    }    
+    }
 
-  }  
+  }
 }
