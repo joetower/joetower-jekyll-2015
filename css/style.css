@@ -683,7 +683,10 @@ body {
 }
 
 .site-header,
-.site-footer {
+.site-footer,
+.featured-image,
+.post-header,
+.summary {
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
