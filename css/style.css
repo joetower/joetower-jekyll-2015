@@ -381,9 +381,15 @@ label {
   .wrap {
     max-width: 58em;
   }
+  body.page .page-wrapper .wrap {
+    max-width: 44em;
+  }
 }
 @media (min-width: 100em) {
   .wrap {
+    max-width: 70em;
+  }
+  body.page .page-wrapper .wrap {
     max-width: 70em;
   }
 }

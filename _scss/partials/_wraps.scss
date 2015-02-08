@@ -14,9 +14,15 @@
   }
   @include breakpoint($desktop) {
     max-width: 58em;
+    body.page .page-wrapper & { // shrink page content max-width
+      max-width:44em;
+    }
   }
   @include breakpoint($desktop-medium) {
     max-width: 70em;
+    body.page .page-wrapper & { // keep page content the same max-width
+      max-width: 70em;
+    }
   }
   @include breakpoint($desktop-large) {
     max-width: 80.500em;
