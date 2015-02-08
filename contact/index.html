@@ -15,23 +15,27 @@ meta_description: Want to send me an email? Look no further. Boom!
 
   <form action="http://formspree.io/joe@joetower.com" method="POST">
 
-    <fieldset> 
+    <fieldset>
       <label>Name</label>
       <input type="text" name="name">
     </fieldset>
- 
+
     <fieldset>
       <label>Your Email</label>
       <input type="email" name="_replyto">
     </fieldset>
- 
-    <fieldset>    
+
+    <fieldset>
       <label>Message</label>
       <textarea name="message" rows="10" cols="60"></textarea>
     </fieldset>
 
-    <fieldset>    
-      <input class="button" type="submit" value="Send">
+    <fieldset>
+      <input type="submit" id="submit" style="display:none;"/>
+      <a class="button" href="#" onclick="$('#submit').click();">
+        <i class="icon icon-send"></i>
+        <span>Send</span>
+      </a>
     </fieldset>
 
   </form>

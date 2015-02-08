@@ -3,7 +3,7 @@
 //
 
 form {
-  @extend %clearfix;  
+  @extend %clearfix;
 }
 fieldset {
   border: none;
@@ -16,17 +16,17 @@ label {
 input {
   width:100%;
 
-  @include breakpoint($tablet) {    
+  @include breakpoint($tablet) {
     width:60%;
-  }  
+  }
 }
 textarea {
   width:100%;
   height:auto;
 
-  @include breakpoint($tablet) {    
+  @include breakpoint($tablet) {
     width:80%;
-  }  
+  }
 }
 input,
 textarea {
@@ -38,6 +38,43 @@ textarea:focus {
   border:4px solid $jt-green;
   outline: $jt-green;
 }
-input[type="submit"] {
-  width:auto; 
+form {
+  input[type="submit"],
+  a.button {
+    font-family: $sans;
+    padding:$space-one-half $space-double;
+    background: lighten($jt-green, 5%);
+    color:darken($jt-green, 30%);
+    border: .1em solid darken($jt-green, 15%);
+    @include border-radius(4px);
+    font-weight: 600;
+    cursor:pointer;
+    @include transition(background, 0.2s, ease);
+    @extend %clearfix;
+    vertical-align:middle;
+    text-align:center;
+
+    @include breakpoint($tablet) {
+      display:inline-block;
+      text-align:left;
+    }
+    span {
+      padding-left:.2em;
+      vertical-align:middle;
+    }
+    .icon-send {
+      background: transparent image-url('icons/paper-plane-green.svg') center center no-repeat;
+      background-size: contain;
+    }
+    &:hover {
+      color: $jt-gray;
+      background: $white;
+      text-decoration:none;
+      border-color: darken($jt-green, 5%);
+      .icon-send {
+        background: transparent image-url('icons/paper-plane.svg') center center no-repeat;
+        background-size: contain;
+      }
+    }
+  }
 }

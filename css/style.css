@@ -154,7 +154,8 @@ input[type="submit"]:after,
 .top.archive:after,
 .browse-by-category:after,
 .browse-by-category ul:after,
-form:after {
+form:after,
+form a.button:after {
   content: "";
   display: table;
   clear: both;
@@ -359,6 +360,10 @@ input,
 select,
 textarea {
   font-size: 20px;
+}
+
+label {
+  text-transform: uppercase;
 }
 
 @media (min-width: 37.5em) {
@@ -1908,6 +1913,10 @@ body.album-review iframe {
   background: transparent url('/img/icons/chevron-circle-down.svg?1423363298') center center no-repeat;
   background-size: contain;
 }
+.icon.icon-send {
+  background: transparent url('/img/icons/paper-plane.svg?1423422181') center center no-repeat;
+  background-size: contain;
+}
 
 fieldset {
   border: none;
@@ -1949,6 +1958,47 @@ textarea:focus {
   outline: #92b82b;
 }
 
-input[type="submit"] {
-  width: auto;
+form input[type="submit"],
+form a.button {
+  font-family: "proxima-nova", sans-serif;
+  padding: 10px 40px;
+  background: #a2cd30;
+  color: #303c0e;
+  border: 0.1em solid #617a1d;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+  vertical-align: middle;
+  text-align: center;
+}
+@media (min-width: 37.5em) {
+  form input[type="submit"],
+  form a.button {
+    display: inline-block;
+    text-align: left;
+  }
+}
+form input[type="submit"] span,
+form a.button span {
+  padding-left: .2em;
+  vertical-align: middle;
+}
+form input[type="submit"] .icon-send,
+form a.button .icon-send {
+  background: transparent url('/img/icons/paper-plane-green.svg?1423423267') center center no-repeat;
+  background-size: contain;
+}
+form input[type="submit"]:hover,
+form a.button:hover {
+  color: #1c1c1c;
+  background: white;
+  text-decoration: none;
+  border-color: #82a326;
+}
+form input[type="submit"]:hover .icon-send,
+form a.button:hover .icon-send {
+  background: transparent url('/img/icons/paper-plane.svg?1423422181') center center no-repeat;
+  background-size: contain;
 }
