@@ -35,10 +35,13 @@ blockquote,
 blockquote p {
   font-family: $adelle;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3;
   font-style: italic;
   @include breakpoint($quotes) {
+    font-size: 20px;
+  }
+  @include breakpoint($quotes-large) {
     font-size: 26px;
   }
   cite {
@@ -72,7 +75,7 @@ h1 {
   margin-bottom: $space-one-half;
   color: $jt-gray;
 
-  @include breakpoint($big-heading) {
+  @include breakpoint($heading-large) {
     font-size: 42px;
   }
 }
@@ -82,7 +85,7 @@ h2 {
   margin-bottom: $space-one-fourth;
   color: lighten($jt-gray,15%);
 
-  @include breakpoint($big-heading) {
+  @include breakpoint($heading-large) {
     font-size: 32px;
   }
 }
@@ -92,7 +95,7 @@ h3 {
   margin-bottom: $space-one-fourth;
   color: lighten($jt-gray,25%);
 
-  @include breakpoint($big-heading) {
+  @include breakpoint($heading-large) {
     font-size: 24px;
   }
 }
@@ -102,7 +105,7 @@ h4 {
   margin-bottom: $space-one-fourth;
   color: lighten($jt-gray,30%);
 
-  @include breakpoint($big-heading) {
+  @include breakpoint($heading-large) {
     font-size: 24px;
   }
 }

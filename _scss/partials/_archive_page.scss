@@ -16,7 +16,11 @@
         @include breakpoint($tablet) {
           margin-left: $space-double;
           display:inline-block;
+          float:right;
           vertical-align: top;
+        }
+        @include breakpoint($desktop) {
+          float:none;
         }
       }
     }
@@ -27,44 +31,62 @@
 }
 .browse-by-category {
   @extend %clearfix;
-  float:right;
+  float:leftt;
   width:100%;
+  font-size:18px;
 
   ul {
-    padding:0;
+    padding:.5em;
     margin:0;
     display:block;
+    background:lighten($jt-gray, 20%);
     clear:both;
+    @extend %clearfix;
 
+    @include breakpoint($tablet) {
+      border-top:.8em solid lighten($jt-gray, 10%);
+      box-shadow:0 1px 2px rgba($jt-gray, .6);
+    }
     li {
       list-style: none;
       margin:0;
       display:block;
+      padding:.2em;
+
       @include breakpoint($handheld) {
         display:inline-block;
-        margin:.1em .1em .2em;
+      }
+      @include breakpoint($desktop) {
+        @include layout(6) {
+    	     @include grid-span(1,1, $output-style:"float", $gutter:0);
+  	    }
+      }
+      @include breakpoint($desktop-medium) {
+        @include layout(8) {
+           @include grid-span(1,1, $output-style:"float", $gutter:0);
+        }
       }
     }
   }
   a {
     padding:.5em;
     display:block;
-    background:darken($white, 5%);
+    color: lighten($jt-gray, 60%);
+    background: $jt-gray;
     transition:  all 0.3s ease 0s;
     text-align: center;
-
     @include breakpoint($handheld) {
-      border:.1em solid lighten($jt-gray, 60%);
       display:inline-block;
       text-align: left;
-    }
-    @include breakpoint($laptop-thirteen) {
       padding:.3em .6em;
+    }
+    @include breakpoint($desktop) {
+      width:100%;
+      text-align: center;
     }
     &:hover {
       color:$white;
-      background: lighten($jt-gray, 20%);
-      border-color: $jt-gray;
+      background: $jt-gray;
     }
   }
 }

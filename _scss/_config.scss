@@ -20,6 +20,7 @@
 @import 'toolkit';
 @import 'toolkit/kickstart';
 @import 'bower_components/sass-css3-mixins/css3-mixins.scss';
+
 //
 // Breakpoints
 //
@@ -41,8 +42,9 @@ $nav: 680px;
 $social-icons: 695px;
 $archive-page: 610px;
 $quotes: 580px;
+$quotes-large:740px;
 
-$big-heading:800px;
+$heading-large:800px;
 
 //
 // Space

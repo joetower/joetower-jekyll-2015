@@ -153,6 +153,7 @@ input[type="submit"]:after,
 .page-content:after,
 .top.archive:after,
 .browse-by-category:after,
+.browse-by-category ul:after,
 form:after {
   content: "";
   display: table;
@@ -236,11 +237,17 @@ blockquote,
 blockquote p {
   font-family: "adelle", serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3;
   font-style: italic;
 }
 @media (min-width: 36.25em) {
+  blockquote,
+  blockquote p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 46.25em) {
   blockquote,
   blockquote p {
     font-size: 26px;
@@ -354,30 +361,35 @@ textarea {
   font-size: 20px;
 }
 
+@media (min-width: 37.5em) {
+  .wrap {
+    max-width: 34em;
+  }
+}
 @media (min-width: 59.4375em) {
   .wrap {
-    max-width: 52em;
+    max-width: 44em;
     padding-top: 3em;
   }
 }
 @media (min-width: 80em) {
   .wrap {
-    max-width: 75em;
+    max-width: 58em;
   }
 }
 @media (min-width: 100em) {
   .wrap {
-    max-width: 81.250em;
+    max-width: 70em;
   }
 }
 @media (min-width: 120em) {
   .wrap {
-    max-width: 87.500em;
+    max-width: 80.500em;
   }
 }
 @media (min-width: 143.75em) {
   .wrap {
-    max-width: 100em;
+    max-width: 90em;
   }
 }
 
@@ -727,6 +739,14 @@ input[type="submit"].by-category.toggle {
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 0;
+}
+@media (min-width: 37.5em) {
+  button.by-category.toggle,
+  .button.by-category.toggle,
+  input[type="submit"].by-category.toggle {
+    border-radius: 4px;
+  }
 }
 button.by-category.toggle:hover,
 .button.by-category.toggle:hover,
@@ -738,35 +758,35 @@ input[type="submit"].by-category.toggle:hover {
 button.by-category.toggle:hover .icon-tags,
 .button.by-category.toggle:hover .icon-tags,
 input[type="submit"].by-category.toggle:hover .icon-tags {
-  background: transparent url('/img/icons/chevron-circle-down-white.svg?1423362389') center center no-repeat;
+  background: transparent url('/img/icons/chevron-circle-down-white.svg?1423363298') center center no-repeat;
   background-size: contain;
 }
 button.by-category.toggle.active,
 .button.by-category.toggle.active,
 input[type="submit"].by-category.toggle.active {
-  background: white;
+  background: #4f4f4f;
   box-shadow: inset 0 0 4px rgba(28, 28, 28, 0.9);
   color: #a8a8a8;
-  border-color: #a8a8a8;
+  border-color: #4f4f4f;
 }
 button.by-category.toggle.active:hover,
 .button.by-category.toggle.active:hover,
 input[type="submit"].by-category.toggle.active:hover {
-  background: white;
+  background: #4f4f4f;
   color: #a8a8a8;
-  border-color: #a8a8a8;
+  border-color: #4f4f4f;
 }
 button.by-category.toggle.active:hover .icon-tags,
 .button.by-category.toggle.active:hover .icon-tags,
 input[type="submit"].by-category.toggle.active:hover .icon-tags {
-  background: transparent url('/img/icons/chevron-circle-up.svg?1423362340') center center no-repeat;
+  background: transparent url('/img/icons/chevron-circle-up-white.svg?1423418647') center center no-repeat;
   background-size: contain;
 }
 button.by-category.toggle.active .icon-tags,
 .button.by-category.toggle.active .icon-tags,
 input[type="submit"].by-category.toggle.active .icon-tags {
   opacity: .6;
-  background: transparent url('/img/icons/chevron-circle-up.svg?1423362340') center center no-repeat;
+  background: transparent url('/img/icons/chevron-circle-up-white.svg?1423418647') center center no-repeat;
   background-size: contain;
 }
 button.by-category.toggle .icon,
@@ -1137,10 +1157,6 @@ img.dogs:hover {
 }
 .post pre.terminal code {
   background-color: #333;
-}
-.post ul,
-.post ol {
-  margin-left: 1.35em;
 }
 
 .recent {
@@ -1789,7 +1805,13 @@ body.album-review iframe {
   .top.archive .button.by-category {
     margin-left: 40px;
     display: inline-block;
+    float: right;
     vertical-align: top;
+  }
+}
+@media (min-width: 80em) {
+  .top.archive .button.by-category {
+    float: none;
   }
 }
 
@@ -1798,50 +1820,77 @@ body.album-review iframe {
 }
 
 .browse-by-category {
-  float: right;
+  float: leftt;
   width: 100%;
+  font-size: 18px;
 }
 .browse-by-category ul {
-  padding: 0;
+  padding: .5em;
   margin: 0;
   display: block;
+  background: #4f4f4f;
   clear: both;
+}
+@media (min-width: 37.5em) {
+  .browse-by-category ul {
+    border-top: 0.8em solid #363636;
+    box-shadow: 0 1px 2px rgba(28, 28, 28, 0.6);
+  }
 }
 .browse-by-category ul li {
   list-style: none;
   margin: 0;
   display: block;
+  padding: .2em;
 }
 @media (min-width: 30.625em) {
   .browse-by-category ul li {
     display: inline-block;
-    margin: .1em .1em .2em;
+  }
+}
+@media (min-width: 80em) {
+  .browse-by-category ul li {
+    width: 16.66667%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 0%;
+  }
+}
+@media (min-width: 100em) {
+  .browse-by-category ul li {
+    width: 12.5%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 0%;
   }
 }
 .browse-by-category a {
   padding: .5em;
   display: block;
-  background: #f2f2f2;
+  color: #b5b5b5;
+  background: #1c1c1c;
   -webkit-transition: all 0.3s ease 0s;
           transition: all 0.3s ease 0s;
   text-align: center;
 }
 @media (min-width: 30.625em) {
   .browse-by-category a {
-    border: 0.1em solid #b5b5b5;
     display: inline-block;
     text-align: left;
+    padding: .3em .6em;
   }
 }
-@media (min-width: 59.4375em) {
+@media (min-width: 80em) {
   .browse-by-category a {
-    padding: .3em .6em;
+    width: 100%;
+    text-align: center;
   }
 }
 .browse-by-category a:hover {
   color: white;
-  background: #4f4f4f;
-  border-color: #1c1c1c;
+  background: #1c1c1c;
 }
 
 .icon {
@@ -1856,7 +1905,7 @@ body.album-review iframe {
   vertical-align: middle;
 }
 .icon.icon-tags {
-  background: transparent url('/img/icons/chevron-circle-down.svg?1423362340') center center no-repeat;
+  background: transparent url('/img/icons/chevron-circle-down.svg?1423363298') center center no-repeat;
   background-size: contain;
 }
 

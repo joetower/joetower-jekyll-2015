@@ -1,25 +1,28 @@
 // @_wraps.scss
 // Wrap defaults - width and padding.
-// 
+//
 
 .wrap {
-  @extend %clearfix;  
-  
-  @include breakpoint($laptop-thirteen) {    
-    max-width: 52em;
+  @extend %clearfix;
+
+  @include breakpoint($tablet) {
+    max-width: 34em;
+  }
+  @include breakpoint($laptop-thirteen) {
+    max-width: 44em;
     padding-top: 3em;
-  }  
+  }
   @include breakpoint($desktop) {
-    max-width: 75em;
-  }  
+    max-width: 58em;
+  }
   @include breakpoint($desktop-medium) {
-    max-width: 81.250em;
-  } 
+    max-width: 70em;
+  }
   @include breakpoint($desktop-large) {
-    max-width: 87.500em;
+    max-width: 80.500em;
   }
   @include breakpoint($desktop-huge) {
-    max-width: 100em;
+    max-width: 90em;
   }
 
 }
