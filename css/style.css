@@ -1,4 +1,60 @@
 /* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -641,7 +697,7 @@ input[type="submit"] {
   padding: 6.66667px 20px;
   background: white;
   color: #617a1d;
-  border: 0.2em solid #617a1d;
+  border: 0.1em solid #617a1d;
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
@@ -662,8 +718,61 @@ input[type="submit"].active {
   background: dimgray;
   color: #e6e6e6;
   border-color: dimgray;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+}
+button.by-category.toggle,
+.button.by-category.toggle,
+input[type="submit"].by-category.toggle {
+  border-color: #828282;
+  color: #4f4f4f;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+button.by-category.toggle:hover,
+.button.by-category.toggle:hover,
+input[type="submit"].by-category.toggle:hover {
+  background: #4f4f4f;
+  color: white;
+  border-color: #1c1c1c;
+}
+button.by-category.toggle:hover .icon-tags,
+.button.by-category.toggle:hover .icon-tags,
+input[type="submit"].by-category.toggle:hover .icon-tags {
+  background: transparent url('/img/icons/chevron-circle-down-white.svg?1423362389') center center no-repeat;
+  background-size: contain;
+}
+button.by-category.toggle.active,
+.button.by-category.toggle.active,
+input[type="submit"].by-category.toggle.active {
+  background: white;
+  box-shadow: inset 0 0 4px rgba(28, 28, 28, 0.9);
+  color: #a8a8a8;
+  border-color: #a8a8a8;
+}
+button.by-category.toggle.active:hover,
+.button.by-category.toggle.active:hover,
+input[type="submit"].by-category.toggle.active:hover {
+  background: white;
+  color: #a8a8a8;
+  border-color: #a8a8a8;
+}
+button.by-category.toggle.active:hover .icon-tags,
+.button.by-category.toggle.active:hover .icon-tags,
+input[type="submit"].by-category.toggle.active:hover .icon-tags {
+  background: transparent url('/img/icons/chevron-circle-up.svg?1423362340') center center no-repeat;
+  background-size: contain;
+}
+button.by-category.toggle.active .icon-tags,
+.button.by-category.toggle.active .icon-tags,
+input[type="submit"].by-category.toggle.active .icon-tags {
+  opacity: .6;
+  background: transparent url('/img/icons/chevron-circle-up.svg?1423362340') center center no-repeat;
+  background-size: contain;
+}
+button.by-category.toggle .icon,
+.button.by-category.toggle .icon,
+input[type="submit"].by-category.toggle .icon {
+  padding-right: 40px;
 }
 
 body {
@@ -1693,15 +1802,14 @@ body.album-review iframe {
   width: 100%;
 }
 .browse-by-category ul {
-  padding: 10px;
+  padding: 0;
   margin: 0;
-  background: #fafafa;
   display: block;
   clear: both;
 }
 .browse-by-category ul li {
   list-style: none;
-  margin: .3em 0;
+  margin: 0;
   display: block;
 }
 @media (min-width: 30.625em) {
@@ -1711,16 +1819,16 @@ body.album-review iframe {
   }
 }
 .browse-by-category a {
-  padding: .3em .6em;
+  padding: .5em;
   display: block;
-  border: 0.1em solid #92b82b;
+  background: #f2f2f2;
   -webkit-transition: all 0.3s ease 0s;
           transition: all 0.3s ease 0s;
-  padding: .2em .4em;
   text-align: center;
 }
 @media (min-width: 30.625em) {
   .browse-by-category a {
+    border: 0.1em solid #b5b5b5;
     display: inline-block;
     text-align: left;
   }
@@ -1732,17 +1840,23 @@ body.album-review iframe {
 }
 .browse-by-category a:hover {
   color: white;
-  background: #506518;
-  border: 0.1em solid #617a1d;
+  background: #4f4f4f;
+  border-color: #1c1c1c;
 }
 
 .icon {
-  max-width: 30px;
+  width: 22px;
   overflow: hidden;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
   display: inline-block;
+  padding-bottom: 22px;
+  height: 0;
+  vertical-align: middle;
 }
 .icon.icon-tags {
-  background: transparent image-url("icons/tags.svg") center center no-repeat;
+  background: transparent url('/img/icons/chevron-circle-down.svg?1423362340') center center no-repeat;
   background-size: contain;
 }
 

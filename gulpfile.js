@@ -9,7 +9,6 @@ var browserSync = require('browser-sync');
 var cp = require('child_process');
 var runSequence = require('run-sequence');
 var changed = require('gulp-changed');
-var deploy = require("gulp-gh-pages");
 
 var paths = {
   imagesSrc: ['_img/**/*'],
@@ -25,6 +24,7 @@ gulp.task('sass', function() {
   return gulp.src(paths.sass)
     .pipe(sass({
       bundleExec: true,
+      compass: true,
       style: 'expanded',
       loadPath: [
         'bower_components/singularity/stylesheets',
@@ -111,20 +111,4 @@ gulp.task('build', function(cb) {
     'jekyll-build',
     cb
   );
-});
-
-
-gulp.task('deploy', function(cb) {
-  return runSequence(
-    'build',
-    'gh-pages',
-    cb
-  );
-});
-
-gulp.task('gh-pages', function () {
-  gulp.src("./_site/**/*")
-    .pipe(deploy({
-      cacheDir: '.tmp'
-    })).pipe(gulp.dest('/tmp/gh-pages'));
 });

@@ -5,12 +5,18 @@
 
 // icon-only, as background image
 .icon {
-  max-width: 30px;
+  width: 22px;
   overflow: hidden;
-  display:inline-block;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  padding-bottom:22px;
+  height: 0;
+  vertical-align:middle;
 
   &.icon-tags {
-    background: transparent image-url('icons/tags.svg') center center no-repeat;
+    background: transparent image-url('icons/chevron-circle-down.svg') center center no-repeat;
     background-size: contain;
   }
 }

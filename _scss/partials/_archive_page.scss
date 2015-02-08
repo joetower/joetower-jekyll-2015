@@ -31,15 +31,14 @@
   width:100%;
 
   ul {
-    padding:$space-one-half;
+    padding:0;
     margin:0;
-    background: darken($white, 2%);
     display:block;
     clear:both;
 
     li {
       list-style: none;
-      margin:.3em 0;
+      margin:0;
       display:block;
       @include breakpoint($handheld) {
         display:inline-block;
@@ -48,14 +47,14 @@
     }
   }
   a {
-    padding:.3em .6em;
+    padding:.5em;
     display:block;
-    border:.1em solid $jt-green;
+    background:darken($white, 5%);
     transition:  all 0.3s ease 0s;
-    padding:.2em .4em;
     text-align: center;
 
     @include breakpoint($handheld) {
+      border:.1em solid lighten($jt-gray, 60%);
       display:inline-block;
       text-align: left;
     }
@@ -64,8 +63,8 @@
     }
     &:hover {
       color:$white;
-      background: darken($jt-green, 20%);
-      border:.1em solid darken($jt-green, 15%);
+      background: lighten($jt-gray, 20%);
+      border-color: $jt-gray;
     }
   }
 }
