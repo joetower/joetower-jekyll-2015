@@ -14,14 +14,17 @@ page-class: archive-color
 ---
 <div class="top archive">
   <h1>Archive of Posts</h1>
-  <span class="button by-category toggle">By Category</span>
+  <div class="button by-category toggle">
+    <i class="icon icon-tags"></i>
+    <span>By Category</span>
+  </div>
   <div class="browse-by-category toggle-it fade">
     <ul>
     {% for categories in site.categories %}
       <li><a href="/categories/{{ categories[0] }}">{{ categories[0] }}</a></li>
     {% endfor %}
     </ul>
-  </div><!--/.browse-by-category-->  
+  </div><!--/.browse-by-category-->
 </div>
 <div class="page archive">
   <ul class="posts archive">

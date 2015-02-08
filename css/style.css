@@ -1696,7 +1696,6 @@ body.album-review iframe {
   padding: 10px;
   margin: 0;
   background: #fafafa;
-  border: 5px solid dimgray;
   display: block;
   clear: both;
 }
@@ -1735,6 +1734,16 @@ body.album-review iframe {
   color: white;
   background: #506518;
   border: 0.1em solid #617a1d;
+}
+
+.icon {
+  max-width: 30px;
+  overflow: hidden;
+  display: inline-block;
+}
+.icon.icon-tags {
+  background: transparent image-url("icons/tags.svg") center center no-repeat;
+  background-size: contain;
 }
 
 fieldset {

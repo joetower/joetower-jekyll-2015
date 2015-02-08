@@ -1,0 +1,16 @@
+// @_icons.scss
+// Icons and stuff
+//
+
+
+// icon-only, as background image
+.icon {
+  max-width: 30px;
+  overflow: hidden;
+  display:inline-block;
+
+  &.icon-tags {
+    background: transparent image-url('icons/tags.svg') center center no-repeat;
+    background-size: contain;
+  }
+}

@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-
 var sass = require('gulp-ruby-sass');
 var minifyCSS = require('gulp-minify-css');
 var prefix = require('gulp-autoprefixer');

@@ -1,10 +1,10 @@
 // @_archive_page.scss
 // Archive Page elements
-// 
+//
 
 .top {
   &.archive {
-    @extend %clearfix;  
+    @extend %clearfix;
 
     h1 {
       display:inline-block;
@@ -14,10 +14,10 @@
         text-align: center;
 
         @include breakpoint($tablet) {
-          margin-left: $space-double; 
+          margin-left: $space-double;
           display:inline-block;
           vertical-align: top;
-        }    
+        }
       }
     }
   }
@@ -26,15 +26,14 @@
   display:none;
 }
 .browse-by-category {
-  @extend %clearfix;  
+  @extend %clearfix;
   float:right;
   width:100%;
-  
+
   ul {
     padding:$space-one-half;
     margin:0;
     background: darken($white, 2%);
-    border:$space-one-fourth solid lighten($jt-gray, 30%);
     display:block;
     clear:both;
 
