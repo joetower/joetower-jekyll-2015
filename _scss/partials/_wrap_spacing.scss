@@ -1,6 +1,6 @@
 // @_wrap_spacing.scss
 // Wrap spacing for specific wraps
-// 
+//
 
 .wrap {
   padding: $space-double;
@@ -11,9 +11,9 @@
     padding: $space $space-double;
     background-color: rgba($white,.95);
 
-    @include breakpoint($laptop-thirteen) {    
+    @include breakpoint($laptop-thirteen) {
       padding: $space-triple $space-double;
-    }    
+    }
     h1 {
       margin-bottom: 0;
     }
@@ -23,16 +23,16 @@
     padding: $space-double;
     background-color: rgba($white,.90);
 
-    @include breakpoint($laptop-thirteen) {    
+    @include breakpoint($laptop-thirteen) {
       padding: $space $space-double;
-    }      
+    }
   }
 
   &.meta-comment {
     padding: $space-double;
-    background-color: rgba($white,.80);   
-  }  
+    background-color: rgba($white,.80);
+  }
   &.header {
-    padding: $space $space-double;  
-  }    
+    padding: $space-one-third $space-double;
+  }
 }
