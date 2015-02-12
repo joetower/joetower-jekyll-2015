@@ -3,9 +3,10 @@
 //
 
 .toggle-it {
-  margin-top:-100%;
+  margin-top:-9999em;
   transition: all 0.3s ease;
   opacity:0;
+  visibility:hidden;
 
   &.active {
     display:block;
@@ -13,5 +14,6 @@
     transition: all 0.3s ease;
     z-index:10;
     opacity:1;
+    visibility:visible;
   }
 }

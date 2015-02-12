@@ -1832,10 +1832,12 @@ body.album-review iframe {
   float: left;
   width: 100%;
   font-size: 18px;
+  visibility: hidden;
 }
 .browse-by-category.active {
   background: #4f4f4f;
   overflow: hidden;
+  visibility: visible;
 }
 @media (min-width: 37.5em) {
   .browse-by-category.active {
@@ -1844,18 +1846,20 @@ body.album-review iframe {
   }
 }
 .browse-by-category.active ul {
-  margin-top: 0;
   -webkit-transition: all 0.5s ease;
           transition: all 0.5s ease;
   opacity: 1;
+  visibility: visible;
+  height: auto;
 }
 .browse-by-category ul {
   padding: .5em;
-  margin: -100% 0 0;
+  margin: 0;
+  height: 0;
   display: block;
   clear: both;
-  -webkit-transition: all 0.8s ease;
-          transition: all 0.8s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   opacity: 0;
 }
 .browse-by-category ul li {
@@ -1920,10 +1924,11 @@ body.album-review iframe {
 }
 
 .toggle-it {
-  margin-top: -100%;
+  margin-top: -9999em;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
   opacity: 0;
+  visibility: hidden;
 }
 .toggle-it.active {
   display: block;
@@ -1932,6 +1937,7 @@ body.album-review iframe {
           transition: all 0.3s ease;
   z-index: 10;
   opacity: 1;
+  visibility: visible;
 }
 
 .icon {
