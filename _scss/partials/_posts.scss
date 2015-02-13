@@ -4,16 +4,34 @@
 
 .meta {
   @extend %clearfix;
-  margin: 0;
   text-align: center;
-
+  .meta-wrap {
+    padding-top: $space-double;
+    margin:0 auto;
+    @extend %clearfix;
+    border-top:$space-one-fourth solid rgba($jt-gray, .2);
+  }
   .category,
   .tag {
     display:block;
     color:lighten($jt-gray, 55%);
     padding-bottom: $space;
     text-align: left;
+    @include breakpoint($laptop-thirteen) {
+      width:48%;
+    }
   }
+  .category {
+    @include breakpoint($laptop-thirteen) {
+      float: left;
+    }
+  }
+  .tag {
+    @include breakpoint($laptop-thirteen) {
+      float:right;
+    }
+  }
+
 }
 
 .full-width {
@@ -44,27 +62,15 @@
 
 /* Post Content Styles */
 .post-content {
-  margin: 0 0 $space-double;
+  margin: 0 auto $space-double;
+  max-width:30em;
 
-  @include breakpoint($handheld) {
-    @include grid-span(10,1, $output-style:'float');
-  }
   @include breakpoint($laptop-thirteen) {
-    @include grid-span(8,1, $output-style:'float');
+    max-width:28em;
   }
   @include breakpoint($desktop) {
-    @include grid-span(9,1, $output-style:'float');
+    margin: 0 0 $space-double;
   }
-  @include breakpoint($desktop-medium) {
-    @include grid-span(7,1, $output-style:'float');
-  }
-   @include breakpoint($desktop-large) {
-    @include grid-span(8,1, $output-style:'float');
-  }
-  @include breakpoint($desktop-huge) {
-    @include grid-span(9,1, $output-style:'float');
-  }
-
   ul,
   ol {
     padding-left: $space;
@@ -168,9 +174,6 @@
     display:block;
     @extend %clearfix;
 
-    @include breakpoint($desktop-medium) {
-      @include grid-span(6, 1, $output-style:"float", $gutter:0);
-    }
   }
   .post-date {
     padding: $space-one-third 0;
@@ -179,12 +182,6 @@
     @include breakpoint($laptop-thirteen) {
       display:inline-block;
       padding:$space-one-half 0;
-    }
-
-    @include breakpoint($desktop-large) {
-      border:$space-one-fourth solid lighten($jt-gray, 75%);
-      text-align: center;
-      padding:$space-one-half;
     }
   }
   .post-link {

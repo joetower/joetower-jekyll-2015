@@ -22,10 +22,6 @@
   &.post {
     padding: $space-double;
     background-color: rgba($white,.90);
-
-    @include breakpoint($laptop-thirteen) {
-      padding: $space $space-double;
-    }
   }
 
   &.meta-comment {
@@ -33,6 +29,6 @@
     background-color: rgba($white,.80);
   }
   &.header {
-    padding: $space-one-third $space-double;
+    padding: $space-one-half $space-double;
   }
 }

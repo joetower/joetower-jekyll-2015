@@ -4,7 +4,9 @@
 
 .site-header {
   @extend %clearfix;
-
+  .top-wrap {
+    @extend %clearfix;
+  }
   &.page-color {
     background-color: rgba($jt-green, .8);
   }
@@ -16,7 +18,7 @@
   .logo-wrap {
     text-align: center;
     @include grid-span(3,1);
-
+    vertical-align:middle;
     @include breakpoint($handheld) {
       @include grid-span(4,1);
       text-align: left;
@@ -26,6 +28,8 @@
     fill: $white;
     display:inline-block;
     vertical-align: top;
+    line-height:0;
+
     &:hover {
       filter: url(#blur-more);
       fill: rgba($white, 0.7);
@@ -33,7 +37,7 @@
     svg {
       transition: all 200ms ease-in-out;
       max-width: 100%;
-      height: auto;
+      height: 60px;
     }
   }
   .toggle-wrap {

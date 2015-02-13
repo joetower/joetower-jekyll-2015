@@ -38,23 +38,11 @@
 .footer-col-1 {
   @extend %clearfix;
   padding-bottom: $space;
-
-  @include breakpoint($desktop-medium) {
-    @include grid-span(6, 1);
-     padding-bottom: none;
-  }
 }
 .footer-col-2 {
   @extend %clearfix;
   border-top: $space-one-tenth solid $jt-olive;
   padding-top: $space-double;
-
-  @include breakpoint($desktop-medium) {
-    @include grid-span(6, 7);
-     border-top: none;
-    padding-top: 0;
-  }
-
 }
 
 .site-footer ul {
@@ -65,9 +53,6 @@
     text-align:center;
   }
 
-  @include breakpoint($desktop-medium) {
-    float:right;
-  }
   li {
     display: inline-block;
     clear: none;

@@ -22,7 +22,7 @@ tags:
 ---
 ## Tommy Guerrero - No Man's Land
 
-This is another record very conducive to driving/coding/designing. I've just let it play all the way through once a day, for a week or so. I'm diggin it. I guess [Tommy Guerrero](http://en.wikipedia.org/wiki/Tommy_Guerrero) is one of those crazy rare talents - [skateboarder](https://www.rvca.com/t/anp-artist/tommy-guerrero) and [musician](http://www.asphaltduchess.com.mobilom.net/artists/tommy-guerrero/). What a combo.
+This is another record very conducive to driving / coding / designing. I've just let it play all the way through once a day, for a week or so. I'm diggin it. I guess [Tommy Guerrero](http://en.wikipedia.org/wiki/Tommy_Guerrero) is one of those crazy rare talents - [skateboarder](https://www.rvca.com/t/anp-artist/tommy-guerrero) and [musician](http://www.asphaltduchess.com.mobilom.net/artists/tommy-guerrero/). What a combo.
 
 [Listen to "Loco's Lament"](https://soundcloud.com/asphalt-duchess/tommy-guerrero-locos-lament)
 
@@ -51,11 +51,10 @@ Common seems more focused, lyrically, on this record. I attribute much of this t
 
 ## The Acid - Liminal
 
-I'm a sucker for a wicked falsetto, down-beat / haunting production, and ethereal vocals. It's no surprise that I have found myself listening to this British trio's record quite a bit. 
+I'm a sucker for a wicked falsetto, down-beat / haunting production, and ethereal vocals. It's no surprise that I have found myself listening to this British trio's record quite a bit.
 
 Vocalist, **Ry Cuming** has a **Thom Yorke**-esque vocal delivery. Adam Freeland and Steve Nalepa have a mixed production style. The production is an odd mix of scratchy, almost drawn-out glitch, hollow drumb claps, casio keyboards and dancehall beats. I'm not sure how long my interest in this record will last, but I'm enjoying it right now. With records like this, headphones can make the record. The sparse production feels deliberate, and somewhat **James Blake**-esque. At times you'll hear **XX**-like guitar swells.
 
 **I'm digging these tracks:** _Animal_, _Veda_, and _Ghost_
 
 [Listen to "Liminal"](https://soundcloud.com/the-acid-sounds)
-
