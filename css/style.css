@@ -1037,13 +1037,15 @@ img.dogs:hover {
     display: inline-block;
     border-bottom: none;
     margin-bottom: 0;
-    vertical-align: text-bottom;
+    vertical-align: top;
+    width: 18%;
   }
 }
 @media (min-width: 59.4375em) {
   .post-header h1 {
     display: inline-block;
     margin-left: 20px;
+    width: 78%;
   }
 }
 
@@ -1054,12 +1056,12 @@ img.dogs:hover {
 }
 @media (min-width: 59.4375em) {
   .post-content {
-    max-width: 28em;
+    max-width: 23em;
   }
 }
 @media (min-width: 80em) {
   .post-content {
-    margin: 0 0 40px;
+    max-width: 27em;
   }
 }
 .post-content ul,

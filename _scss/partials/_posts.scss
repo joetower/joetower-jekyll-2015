@@ -49,13 +49,15 @@
       display:inline-block;
       border-bottom: none;
       margin-bottom: 0;
-      vertical-align: text-bottom;
+      vertical-align: top;
+      width:18%;
     }
   }
   h1 {
     @include breakpoint($laptop-thirteen) {
       display:inline-block;
       margin-left: $space;
+      width:78%;
     }
   }
 }
@@ -66,11 +68,12 @@
   max-width:30em;
 
   @include breakpoint($laptop-thirteen) {
-    max-width:28em;
+    max-width:23em;
   }
   @include breakpoint($desktop) {
-    margin: 0 0 $space-double;
+    max-width:27em;    
   }
+
   ul,
   ol {
     padding-left: $space;
