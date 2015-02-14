@@ -294,20 +294,15 @@ h1 {
 }
 @media (min-width: 50em) {
   h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #424242;
-}
-@media (min-width: 50em) {
-  h2 {
-    font-size: 32px;
-  }
 }
 
 h3 {
@@ -315,11 +310,6 @@ h3 {
   font-weight: 400;
   margin-bottom: 5px;
   color: #5c5c5c;
-}
-@media (min-width: 50em) {
-  h3 {
-    font-size: 24px;
-  }
 }
 
 h4 {
@@ -1593,7 +1583,7 @@ body.best-2014 .site-nav.menu-open {
 }
 @media (min-width: 30.625em) {
   body.album-review h2 + p {
-    width: 31.91489%;
+    width: 40.42553%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -1603,11 +1593,12 @@ body.best-2014 .site-nav.menu-open {
     clear: both;
   }
   body.album-review h2 {
-    width: 65.95745%;
+    width: 57.44681%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    padding-left: 6.66667px;
     clear: right;
   }
   body.album-review h3 {
