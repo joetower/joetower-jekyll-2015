@@ -11,7 +11,9 @@ meta_description: Two free, minimal desktop wallpapers 1680 x 1050. Mostly an in
 
 summary: These wallpapers were inspired by minimalism and another man named Joe Tower.
 
-categories: 
+page-class: dark-texture
+
+categories:
 - music
 
 tags:
@@ -43,7 +45,7 @@ In an effort to meet Joe Tower (the actor), I thought it might be fun to freak h
 
 Wait, that isn't the real story. I'm sorry Joe. The real story is that Callin (co-worker, keep up) is an angry demon and possessed my body. He (as me as him) opened up Photoshop and made this my desktop background. He plans to use his power for evil. I must kill Callin before he destroys the world in an "accidental", self-inflicted, "spontaneous" combustion that destroys most of New York City. Wait, that was the first season of Heroes. Spoiler alert! (in that scenario, I would be Hiro)
 
-Damnit, the real story just isn't as interesting. My co-workers have really embraced the presence of another Joe Tower in the world, let alone in our city. They are mildly fascinated in the prospect of me meeting another Joe Tower (not a common name like Chris Hansen). I'm conflicted because I don't want another Joe Tower stealing my comedic thunder and unleashing it on the world. I also don't want him to murder me for my name. I should welcome my co-workers interest and respect, as flattery and a testament to my award-winning character. Whoa, simmer down now lil' guy. Sorry, that was out-of-line and totally too self-centered and downright self-indulgently self-serving. As Tim says, "if the shoe fits, I live in the 80's". That makes no sense, but it actually does. Seriously, I can be a humorous kind of dude (like Joe Tower (the actor)). 
+Damnit, the real story just isn't as interesting. My co-workers have really embraced the presence of another Joe Tower in the world, let alone in our city. They are mildly fascinated in the prospect of me meeting another Joe Tower (not a common name like Chris Hansen). I'm conflicted because I don't want another Joe Tower stealing my comedic thunder and unleashing it on the world. I also don't want him to murder me for my name. I should welcome my co-workers interest and respect, as flattery and a testament to my award-winning character. Whoa, simmer down now lil' guy. Sorry, that was out-of-line and totally too self-centered and downright self-indulgently self-serving. As Tim says, "if the shoe fits, I live in the 80's". That makes no sense, but it actually does. Seriously, I can be a humorous kind of dude (like Joe Tower (the actor)).
 
 Anyway, this was created (and displayed) to make my co-workers laugh and do a double-take when they pass by my monitor. That's it. It's not too creepy, right? Joe Tower stares at Joe Tower staring at Joe Tower, all day Joe Tower, Joe Tower. I'm glad that ended.
 

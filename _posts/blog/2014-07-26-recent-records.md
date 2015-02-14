@@ -12,6 +12,8 @@ meta_description: Recent Records is an ongoing monthly/weekly post series about 
 
 page-class: dark
 
+summary: Recent records happen all the time. I should make this a series. hm.
+
 categories:
 - music
 - reviews
