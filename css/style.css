@@ -1023,6 +1023,7 @@ img.dogs:hover {
 @media (min-width: 59.4375em) {
   .meta .tag {
     float: right;
+    text-align: right;
   }
 }
 
@@ -1188,6 +1189,36 @@ body.dark-texture {
   background-image: url(/img/tpl/dark-texture.png);
   background-repeat: repeat;
   background-color: black;
+}
+body.light {
+  background-color: rgba(28, 28, 28, 0.15);
+}
+body.light .logo {
+  fill: #1c1c1c;
+}
+body.light .logo:hover {
+  -webkit-filter: url(#blur-more);
+          filter: url(#blur-more);
+  fill: rgba(28, 28, 28, 0.8);
+}
+body.light .bar:before,
+body.light .bar:after,
+body.light .bar {
+  background-color: #1c1c1c;
+}
+body.light .bar:before:hover,
+body.light .bar:after:hover,
+body.light .bar:hover {
+  background-color: rgba(28, 28, 28, 0.8);
+}
+body.light .site-nav a {
+  color: #1c1c1c;
+}
+body.light .site-nav a:hover {
+  color: rgba(28, 28, 28, 0.75);
+}
+body.light .site-nav.menu-open {
+  background-color: rgba(255, 255, 255, 0.95);
 }
 body.about-color {
   background-color: #3a2f1d;

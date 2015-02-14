@@ -1,6 +1,6 @@
 // @_post_colors.scss
 // Body colors for special posts - custom designed posts.
-// 
+//
 
 body {
   &.dark {
@@ -11,26 +11,55 @@ body {
     background-repeat: repeat;
     background-color: $black;
   }
+  &.light {
+    background-color:rgba($jt-gray, .15);
+    .logo {
+      fill: $jt-gray;
+      &:hover {
+        filter: url(#blur-more);
+        fill: rgba($jt-gray, .8);
+      }
+    }
+    .bar:before,
+    .bar:after,
+    .bar {
+      background-color: $jt-gray;
+      &:hover {
+        background-color: rgba($jt-gray, .8);
+      }
+    }
+    .site-nav {
+      a {
+        color: $jt-gray;
+        &:hover {
+          color: rgba($jt-gray, .75);
+        }
+      }
+      &.menu-open {
+        background-color: rgba($white, .95);
+      }
+    }
+  }
   &.about-color {
     background-color: $jt-brown;
     .logo {
-      fill: $jt-yellow; 
+      fill: $jt-yellow;
       &:hover {
         filter: url(#blur-more);
         fill: rgba($jt-yellow, .8);
       }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $jt-yellow;
       &:hover {
         background-color: rgba($jt-yellow, .8);
       }
-    }         
+    }
     .site-nav {
       a {
-        color: $jt-yellow; 
+        color: $jt-yellow;
         &:hover {
           color: rgba($jt-yellow, .8);
         }
@@ -38,23 +67,23 @@ body {
       &.menu-open {
         background-color: rgba($jt-brown, .95);
       }
-    }            
+    }
   }
   &.ex-cop {
-    background-color: $excop;   
+    background-color: $excop;
     .site-nav {
       &.menu-open {
         background-color: rgba($excop, .95);
       }
-    } 
-  }  
+    }
+  }
   &.brown {
-    background-color: $jt-brown;     
+    background-color: $jt-brown;
     .site-nav {
       &.menu-open {
         background-color: rgba($jt-brown, .95);
       }
-    } 
+    }
   }
   &.british-blue {
     background-color: $british-blue;
@@ -62,7 +91,7 @@ body {
       &.menu-open {
         background-color: rgba($british-blue, .95);
       }
-    } 
+    }
   }
   &.design-for-one {
     background-color: $design-for-one;
@@ -70,7 +99,7 @@ body {
       &.menu-open {
         background-color: rgba($design-for-one, .95);
       }
-    } 
+    }
   }
   &.design-for-two {
     background-color: $design-for-two;
@@ -78,7 +107,7 @@ body {
       &.menu-open {
         background-color: rgba($design-for-two, .95);
       }
-    } 
+    }
   }
   &.saul-purple {
     background-color: $saul-purple;
@@ -86,7 +115,7 @@ body {
       &.menu-open {
         background-color: rgba($saul-purple, .95);
       }
-    } 
+    }
   }
   &.drupal-blue {
     background-color: $drupal-blue;
@@ -94,32 +123,32 @@ body {
       &.menu-open {
         background-color: rgba($drupal-blue, .95);
       }
-    } 
-  } 
+    }
+  }
   &.drupal-blue2 {
     background-color: $drupal-blue2;
     .site-nav {
       &.menu-open {
         background-color: rgba($drupal-blue2, .95);
       }
-    } 
-  }  
+    }
+  }
   &.drupal-green {
     background-color: $drupal-green;
     .site-nav {
       &.menu-open {
         background-color: rgba($drupal-green, .95);
       }
-    } 
-  }   
+    }
+  }
   &.drupal-green2 {
     background-color: $drupal-green2;
     .site-nav {
       &.menu-open {
         background-color: rgba($drupal-green2, .95);
       }
-    } 
-  }  
+    }
+  }
   &.eyedea {
     background-color:$eyedea;
     .site-nav {
@@ -131,32 +160,32 @@ body {
   &.never-better {
     background-color: $never-better;
     .logo {
-      fill: $jt-yellow; 
+      fill: $jt-yellow;
       &:hover {
         filter: url(#blur-more);
         fill: rgba($jt-yellow, .8);
       }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $jt-yellow;
       &:hover {
         background-color: rgba($jt-yellow, .8);
       }
-    }     
+    }
     .site-nav {
       a {
-        color: $jt-yellow; 
+        color: $jt-yellow;
         &:hover {
           color: rgba($jt-yellow, .8);
         }
       }
       &.menu-open {
         background-color: rgba($never-better, .95);
-      }      
-    }    
-  }     
+      }
+    }
+  }
   &.dapper-green {
     background-color: $dapper-green;
     .site-nav {
@@ -164,7 +193,7 @@ body {
         background-color: rgba($dapper-green, .95);
       }
     }
-  }      
+  }
   &.gossip-purple {
     background-color: $gossip-purple;
     .logo {
@@ -172,16 +201,16 @@ body {
       &:hover {
         filter: url(#blur-more);
         fill: rgba($jt-orange, .8);
-      }         
+      }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $jt-orange;
       &:hover {
         background-color: rgba($jt-orange, .8);
       }
-    }     
+    }
     .site-nav {
       a {
         color: $jt-orange;
@@ -191,8 +220,8 @@ body {
       }
       &.menu-open {
         background-color: rgba($white, .95);
-      }      
-    }        
+      }
+    }
   }
   &.awake {
     background-color: $tycho;
@@ -200,15 +229,15 @@ body {
       &.menu-open {
         background-color: rgba($tycho, .95);
       }
-    }     
+    }
   }
   &.lazerbeak {
-    background-color: $lazerbeak;    
+    background-color: $lazerbeak;
      .site-nav {
       &.menu-open {
         background-color: rgba($lazerbeak, .95);
       }
-    } 
+    }
   }
   &.blake {
     .logo {
@@ -216,16 +245,16 @@ body {
       &:hover {
         filter: url(#blur-more);
         fill: rgba($jt-blue, .8);
-      }         
+      }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $jt-blue;
       &:hover {
         background-color: rgba($jt-blue, .8);
       }
-    } 
+    }
     .site-nav {
       a {
         color: $jt-blue;
@@ -235,9 +264,9 @@ body {
       }
       &.menu-open {
         background-color: rgba($white, .95);
-      }        
-    }     
-  }  
+      }
+    }
+  }
   &.jamaica {
     background-color: $jamaica;
     .logo {
@@ -245,16 +274,16 @@ body {
       &:hover {
         filter: url(#blur-more);
         fill: rgba($jamaica-yellow, .8);
-      }         
+      }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $jamaica-yellow;
       &:hover {
         background-color: rgba($jamaica-yellow, .8);
-      }      
-    }    
+      }
+    }
     .site-nav {
       a {
         color: $jamaica-yellow;
@@ -264,8 +293,8 @@ body {
       }
       &.menu-open {
         background-color: rgba($jamaica, .95);
-      }         
-    }      
+      }
+    }
   }
   &.dessa {
     background-color: $dessa-blue;
@@ -274,16 +303,16 @@ body {
       &:hover {
         filter: url(#blur-more);
         fill: rgba($dessa-pink, .8);
-      }         
+      }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $dessa-pink;
       &:hover {
         background-color: rgba($dessa-pink, .8);
-      }    
-    }    
+      }
+    }
     .site-nav {
       a {
         color: $dessa-pink;
@@ -293,9 +322,9 @@ body {
       }
        &.menu-open {
         background-color: rgba($dessa-blue, .95);
-      }      
-    }     
-  }  
+      }
+    }
+  }
   &.best-2014 {
     background-color: $black;
     .logo {
@@ -303,15 +332,15 @@ body {
       &:hover {
         filter: url(#blur-more);
         fill: rgba($aphex-yellow, .8);
-      }         
+      }
     }
-    .bar:before, 
-    .bar:after, 
+    .bar:before,
+    .bar:after,
     .bar {
       background-color: $aphex-yellow;
       &:hover {
         background-color: rgba($aphex-yellow, .8);
-      }    
+      }
     }
     .site-nav {
       a {
@@ -322,7 +351,7 @@ body {
       }
       &.menu-open {
         background-color: rgba($black, .95);
-      }       
-    }     
-  } 
+      }
+    }
+  }
 }

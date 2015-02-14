@@ -29,6 +29,7 @@
   .tag {
     @include breakpoint($laptop-thirteen) {
       float:right;
+      text-align:right;
     }
   }
 
@@ -71,7 +72,7 @@
     max-width:23em;
   }
   @include breakpoint($desktop) {
-    max-width:27em;    
+    max-width:27em;
   }
 
   ul,

@@ -11,7 +11,9 @@ meta_description: A free minimal desktop wallpaper featuring the phrase "consume
 
 summary: What a novel phrase "Consume Less. Create More." Let's make a wallpaper.
 
-categories: 
+page-class: light
+
+categories:
 - design
 
 tags:
