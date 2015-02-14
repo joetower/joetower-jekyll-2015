@@ -50,11 +50,7 @@
       @include breakpoint($desktop) {
         @include layout(6) {
            @include grid-span(1,1, $output-style:"float", $gutter:0);
-        }
-      }
-      @include breakpoint($desktop-medium) {
-        @include layout(8) {
-           @include grid-span(1,1, $output-style:"float", $gutter:0);
+           padding:.2em;
         }
       }
     }

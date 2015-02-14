@@ -1834,15 +1834,7 @@ body.album-review iframe {
     float: left;
     margin-left: 0;
     margin-right: 0%;
-  }
-}
-@media (min-width: 100em) {
-  .browse-by-category ul li {
-    width: 12.5%;
-    clear: right;
-    float: left;
-    margin-left: 0;
-    margin-right: 0%;
+    padding: .2em;
   }
 }
 .browse-by-category a {
