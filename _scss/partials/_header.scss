@@ -19,6 +19,8 @@
     text-align: center;
     @include grid-span(3,1);
     vertical-align:middle;
+    position:relative;
+    z-index:10;
     @include breakpoint($handheld) {
       @include grid-span(4,1);
       text-align: left;
