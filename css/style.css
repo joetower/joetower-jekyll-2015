@@ -503,7 +503,7 @@ label {
           transition: all 0.3s ease;
   position: fixed;
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.85);
   padding: 80px 20px 20px;
 }
 .site-header .site-nav.menu-open .menu {
@@ -1172,6 +1172,14 @@ img.dogs:hover {
   }
 }
 
+body.overlay-active .post-header,
+body.overlay-active .featured-image,
+body.overlay-active .summary,
+body.overlay-active .page-wrapper,
+body.overlay-active .site-footer {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
 body.dark {
   background-color: black;
 }
@@ -1208,7 +1216,7 @@ body.light .site-nav a:hover {
   color: rgba(28, 28, 28, 0.75);
 }
 body.light .site-nav.menu-open {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 body.about-color {
   background-color: #3a2f1d;
@@ -1238,73 +1246,73 @@ body.about-color .site-nav a:hover {
   color: rgba(217, 211, 54, 0.8);
 }
 body.about-color .site-nav.menu-open {
-  background-color: rgba(58, 47, 29, 0.95);
+  background-color: rgba(58, 47, 29, 0.85);
 }
 body.ex-cop {
   background-color: #320e07;
 }
 body.ex-cop .site-nav.menu-open {
-  background-color: rgba(50, 14, 7, 0.95);
+  background-color: rgba(50, 14, 7, 0.85);
 }
 body.brown {
   background-color: #3a2f1d;
 }
 body.brown .site-nav.menu-open {
-  background-color: rgba(58, 47, 29, 0.95);
+  background-color: rgba(58, 47, 29, 0.85);
 }
 body.british-blue {
   background-color: #00247d;
 }
 body.british-blue .site-nav.menu-open {
-  background-color: rgba(0, 36, 125, 0.95);
+  background-color: rgba(0, 36, 125, 0.85);
 }
 body.design-for-one {
   background-color: #371f0c;
 }
 body.design-for-one .site-nav.menu-open {
-  background-color: rgba(55, 31, 12, 0.95);
+  background-color: rgba(55, 31, 12, 0.85);
 }
 body.design-for-two {
   background-color: #371f0c;
 }
 body.design-for-two .site-nav.menu-open {
-  background-color: rgba(55, 31, 12, 0.95);
+  background-color: rgba(55, 31, 12, 0.85);
 }
 body.saul-purple {
   background-color: #442948;
 }
 body.saul-purple .site-nav.menu-open {
-  background-color: rgba(68, 41, 72, 0.95);
+  background-color: rgba(68, 41, 72, 0.85);
 }
 body.drupal-blue {
   background-color: #03486c;
 }
 body.drupal-blue .site-nav.menu-open {
-  background-color: rgba(3, 72, 108, 0.95);
+  background-color: rgba(3, 72, 108, 0.85);
 }
 body.drupal-blue2 {
   background-color: #0077b6;
 }
 body.drupal-blue2 .site-nav.menu-open {
-  background-color: rgba(0, 119, 182, 0.95);
+  background-color: rgba(0, 119, 182, 0.85);
 }
 body.drupal-green {
   background-color: #636900;
 }
 body.drupal-green .site-nav.menu-open {
-  background-color: rgba(99, 105, 0, 0.95);
+  background-color: rgba(99, 105, 0, 0.85);
 }
 body.drupal-green2 {
   background-color: #98a013;
 }
 body.drupal-green2 .site-nav.menu-open {
-  background-color: rgba(152, 160, 19, 0.95);
+  background-color: rgba(152, 160, 19, 0.85);
 }
 body.eyedea {
   background-color: #9bbfbf;
 }
 body.eyedea .site-nav.menu-open {
-  background-color: rgba(155, 191, 191, 0.95);
+  background-color: rgba(155, 191, 191, 0.85);
 }
 body.never-better {
   background-color: #d71a62;
@@ -1334,13 +1342,13 @@ body.never-better .site-nav a:hover {
   color: rgba(217, 211, 54, 0.8);
 }
 body.never-better .site-nav.menu-open {
-  background-color: rgba(215, 26, 98, 0.95);
+  background-color: rgba(215, 26, 98, 0.85);
 }
 body.dapper-green {
   background-color: #676944;
 }
 body.dapper-green .site-nav.menu-open {
-  background-color: rgba(103, 105, 68, 0.95);
+  background-color: rgba(103, 105, 68, 0.85);
 }
 body.gossip-purple {
   background-color: #8d5595;
@@ -1370,19 +1378,19 @@ body.gossip-purple .site-nav a:hover {
   color: rgba(223, 146, 70, 0.8);
 }
 body.gossip-purple .site-nav.menu-open {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 body.awake {
   background-color: #ab627d;
 }
 body.awake .site-nav.menu-open {
-  background-color: rgba(171, 98, 125, 0.95);
+  background-color: rgba(171, 98, 125, 0.85);
 }
 body.lazerbeak {
   background-color: #314b61;
 }
 body.lazerbeak .site-nav.menu-open {
-  background-color: rgba(49, 75, 97, 0.95);
+  background-color: rgba(49, 75, 97, 0.85);
 }
 body.blake .logo {
   fill: #4da195;
@@ -1409,7 +1417,7 @@ body.blake .site-nav a:hover {
   color: rgba(77, 161, 149, 0.8);
 }
 body.blake .site-nav.menu-open {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 body.jamaica {
   background-color: #009b3a;
@@ -1439,7 +1447,7 @@ body.jamaica .site-nav a:hover {
   color: rgba(254, 209, 0, 0.8);
 }
 body.jamaica .site-nav.menu-open {
-  background-color: rgba(0, 155, 58, 0.95);
+  background-color: rgba(0, 155, 58, 0.85);
 }
 body.dessa {
   background-color: #125480;
@@ -1469,7 +1477,7 @@ body.dessa .site-nav a:hover {
   color: rgba(202, 49, 151, 0.8);
 }
 body.dessa .site-nav.menu-open {
-  background-color: rgba(18, 84, 128, 0.95);
+  background-color: rgba(18, 84, 128, 0.85);
 }
 body.best-2014 {
   background-color: black;
@@ -1499,7 +1507,7 @@ body.best-2014 .site-nav a:hover {
   color: rgba(198, 211, 0, 0.8);
 }
 body.best-2014 .site-nav.menu-open {
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .featured-image.blake {

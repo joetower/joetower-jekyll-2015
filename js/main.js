@@ -7,9 +7,11 @@
       if ($('.site-nav').hasClass('menu-open')) {
         $('.site-nav').removeClass('menu-open').addClass('menu-closed');
         $('.navigation-toggle').removeClass('active').addClass('inactive');
+        $('body').removeClass('overlay-active').addClass('overlay-inactive');
       } else {
         $('.site-nav').removeClass('menu-closed').addClass('menu-open');
         $('.navigation-toggle').removeClass('inactive').addClass('active');
+        $('body').removeClass('overlay-inactive').addClass('overlay-active');
       }
     });
 

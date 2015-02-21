@@ -3,6 +3,15 @@
 //
 
 body {
+  &.overlay-active {
+    .post-header,
+    .featured-image,
+    .summary,
+    .page-wrapper,
+    .site-footer {
+      filter: blur(10px);
+    }
+  }
   &.dark {
     background-color: $black;
   }
@@ -36,7 +45,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($white, .95);
+        background-color: rgba($white, .85);
       }
     }
   }
@@ -65,7 +74,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($jt-brown, .95);
+        background-color: rgba($jt-brown, .85);
       }
     }
   }
@@ -73,7 +82,7 @@ body {
     background-color: $excop;
     .site-nav {
       &.menu-open {
-        background-color: rgba($excop, .95);
+        background-color: rgba($excop, .85);
       }
     }
   }
@@ -81,7 +90,7 @@ body {
     background-color: $jt-brown;
     .site-nav {
       &.menu-open {
-        background-color: rgba($jt-brown, .95);
+        background-color: rgba($jt-brown, .85);
       }
     }
   }
@@ -89,7 +98,7 @@ body {
     background-color: $british-blue;
     .site-nav {
       &.menu-open {
-        background-color: rgba($british-blue, .95);
+        background-color: rgba($british-blue, .85);
       }
     }
   }
@@ -97,7 +106,7 @@ body {
     background-color: $design-for-one;
     .site-nav {
       &.menu-open {
-        background-color: rgba($design-for-one, .95);
+        background-color: rgba($design-for-one, .85);
       }
     }
   }
@@ -105,7 +114,7 @@ body {
     background-color: $design-for-two;
     .site-nav {
       &.menu-open {
-        background-color: rgba($design-for-two, .95);
+        background-color: rgba($design-for-two, .85);
       }
     }
   }
@@ -113,7 +122,7 @@ body {
     background-color: $saul-purple;
     .site-nav {
       &.menu-open {
-        background-color: rgba($saul-purple, .95);
+        background-color: rgba($saul-purple, .85);
       }
     }
   }
@@ -121,7 +130,7 @@ body {
     background-color: $drupal-blue;
     .site-nav {
       &.menu-open {
-        background-color: rgba($drupal-blue, .95);
+        background-color: rgba($drupal-blue, .85);
       }
     }
   }
@@ -129,7 +138,7 @@ body {
     background-color: $drupal-blue2;
     .site-nav {
       &.menu-open {
-        background-color: rgba($drupal-blue2, .95);
+        background-color: rgba($drupal-blue2, .85);
       }
     }
   }
@@ -137,7 +146,7 @@ body {
     background-color: $drupal-green;
     .site-nav {
       &.menu-open {
-        background-color: rgba($drupal-green, .95);
+        background-color: rgba($drupal-green, .85);
       }
     }
   }
@@ -145,7 +154,7 @@ body {
     background-color: $drupal-green2;
     .site-nav {
       &.menu-open {
-        background-color: rgba($drupal-green2, .95);
+        background-color: rgba($drupal-green2, .85);
       }
     }
   }
@@ -153,7 +162,7 @@ body {
     background-color:$eyedea;
     .site-nav {
       &.menu-open {
-        background-color: rgba($eyedea, .95);
+        background-color: rgba($eyedea, .85);
       }
     }
   }
@@ -182,7 +191,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($never-better, .95);
+        background-color: rgba($never-better, .85);
       }
     }
   }
@@ -190,7 +199,7 @@ body {
     background-color: $dapper-green;
     .site-nav {
       &.menu-open {
-        background-color: rgba($dapper-green, .95);
+        background-color: rgba($dapper-green, .85);
       }
     }
   }
@@ -219,7 +228,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($white, .95);
+        background-color: rgba($white, .85);
       }
     }
   }
@@ -227,7 +236,7 @@ body {
     background-color: $tycho;
     .site-nav {
       &.menu-open {
-        background-color: rgba($tycho, .95);
+        background-color: rgba($tycho, .85);
       }
     }
   }
@@ -235,7 +244,7 @@ body {
     background-color: $lazerbeak;
      .site-nav {
       &.menu-open {
-        background-color: rgba($lazerbeak, .95);
+        background-color: rgba($lazerbeak, .85);
       }
     }
   }
@@ -263,7 +272,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($white, .95);
+        background-color: rgba($white, .85);
       }
     }
   }
@@ -292,7 +301,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($jamaica, .95);
+        background-color: rgba($jamaica, .85);
       }
     }
   }
@@ -321,7 +330,7 @@ body {
         }
       }
        &.menu-open {
-        background-color: rgba($dessa-blue, .95);
+        background-color: rgba($dessa-blue, .85);
       }
     }
   }
@@ -350,7 +359,7 @@ body {
         }
       }
       &.menu-open {
-        background-color: rgba($black, .95);
+        background-color: rgba($black, .85);
       }
     }
   }
