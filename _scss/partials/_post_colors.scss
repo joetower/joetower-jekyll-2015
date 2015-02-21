@@ -3,15 +3,6 @@
 //
 
 body {
-  &.overlay-active {
-    .post-header,
-    .featured-image,
-    .summary,
-    .page-wrapper,
-    .site-footer {
-      filter: blur(10px);
-    }
-  }
   &.dark {
     background-color: $black;
   }

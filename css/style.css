@@ -1174,14 +1174,6 @@ img.dogs:hover {
   }
 }
 
-body.overlay-active .post-header,
-body.overlay-active .featured-image,
-body.overlay-active .summary,
-body.overlay-active .page-wrapper,
-body.overlay-active .site-footer {
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
-}
 body.dark {
   background-color: black;
 }
@@ -1591,6 +1583,15 @@ body.best-2014 .site-nav.menu-open {
     background-position: right bottom;
   }
 }
+body.overlay-active .post-header,
+body.overlay-active .featured-image,
+body.overlay-active .summary,
+body.overlay-active .page-wrapper,
+body.overlay-active .site-footer {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
 @media (min-width: 30.625em) {
   body.album-review h2 + p {
     width: 40.42553%;
