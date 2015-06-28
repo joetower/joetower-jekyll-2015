@@ -1,21 +1,21 @@
 // Links
 a,
 a:visited {
-  color: darken($jt-green, 15%);
+  color: darken($link-color, 15%);
   &:hover {
-    color: $jt-green;
+    color: $link-color;
     text-decoration: none;
   }
   .post-content &,
   .page-content & {
-    color: darken($jt-green, 10%);
+    color: darken($link-color, 10%);
     font-family: $serif;
     border-bottom: $space-one-eighth solid $jt-yellow;
     &:visited {
-      color: darken($jt-green, 25%);
+      color: darken($link-color, 25%);
     }
     &:hover {
-      color: darken($jt-green, 15%);
+      color: darken($link-color, 15%);
       background-color: $jt-yellow;
       text-decoration: underline;
     }
@@ -27,8 +27,8 @@ button,
 input[type="submit"] {
   padding:$space-one-third $space;
   background: $white;
-  color: darken($jt-green, 15%);
-  border: .1em solid darken($jt-green, 15%);
+  color: darken($link-color, 15%);
+  border: .1em solid darken($link-color, 15%);
   @include border-radius(4px);
   font-weight: 600;
   cursor:pointer;
@@ -37,9 +37,9 @@ input[type="submit"] {
   @extend %clearfix;
 
   &:hover {
-    background: $jt-green;
+    background: $link-color;
     color:$white;
-    border-color: darken($jt-green, 5%);
+    border-color: darken($link-color, 5%);
   }
   &.active {
     background: lighten($jt-gray, 30%);

@@ -41,25 +41,32 @@
 }
 .footer-col-2 {
   @extend %clearfix;
-  border-top: $space-one-tenth solid $jt-olive;
+  border-top: $space-one-tenth solid $link-color;
   padding-top: $space-double;
 }
 
 .site-footer ul {
   list-style: none;
   @extend %clearfix;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap:wrap;
+  -webkit-flex-wrap:wrap;
 
   @include breakpoint($tablet) {
     text-align:center;
   }
 
   li {
-    display: inline-block;
-    clear: none;
+    flex: 1 auto;
     text-align: center;
-    margin: 0 $space-one-third $space-one-fifth;
+    margin: 0;
+    padding:2px;
+
     a {
-      display: inline-block;
+      display:inline-block;
       background-color: rgba($white, .8);
       padding: $space-one-half;
       @include border-radius($space-double);

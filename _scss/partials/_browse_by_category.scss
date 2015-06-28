@@ -4,8 +4,6 @@
 
 .browse-by-category {
   @extend %clearfix;
-  float:left;
-  width:100%;
   font-size:18px;
   visibility:hidden;
 
@@ -29,30 +27,20 @@
     padding:.5em;
     margin:  0;
     height:0;
-    display:block;
-    clear:both;
-    @extend %clearfix;
     transition: all 0.5s ease;
     opacity:0;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
 
     li {
       list-style: none;
       margin:0;
-      display:block;
-      padding:.2em;
-
-      @include breakpoint($handheld) {
-        display:inline-block;
-      }
-      @include breakpoint($tablet) {
-        padding:0 0 .4em;
-      }
-      @include breakpoint($desktop) {
-        @include layout(6) {
-           @include grid-span(1,1, $output-style:"float", $gutter:0);
-           padding:.2em;
-        }
-      }
+      padding:2px;
+      flex:1 auto;
     }
   }
   a {
@@ -62,15 +50,7 @@
     background: $jt-gray;
     transition:  all 0.3s ease 0s;
     text-align: center;
-    @include breakpoint($handheld) {
-      display:inline-block;
-      text-align: left;
-      padding:.3em .6em;
-    }
-    @include breakpoint($desktop) {
-      width:100%;
-      text-align: center;
-    }
+
     &:hover {
       color:$white;
       background: $jt-gray;

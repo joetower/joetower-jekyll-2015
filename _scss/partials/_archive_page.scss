@@ -3,24 +3,32 @@
 //
 
 .top {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+
   &.archive {
     @extend %clearfix;
 
     h1 {
-      display:inline-block;
+      @include breakpoint($handheld) {
+        flex: 1 100%;
+      }
+      @include breakpoint($tablet) {
+        flex: 1 auto;
+      }
     }
     .button {
       &.by-category {
         text-align: center;
-
-        @include breakpoint($tablet) {
-          margin-left: $space-double;
-          display:inline-block;
-          float:right;
-          vertical-align: top;
+        @include breakpoint($handheld) {
+          flex: 1 100%;
         }
-        @include breakpoint($desktop) {
-          float:none;
+        @include breakpoint($tablet) {
+          flex: 0 0 180px;
         }
       }
     }

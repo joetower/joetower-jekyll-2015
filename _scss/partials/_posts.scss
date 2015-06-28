@@ -170,29 +170,32 @@
   }
 
   a {
-    display:block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    @include breakpoint($tablet) {
+      flex-wrap:nowrap;
+    }
   }
 
   li {
     margin-bottom: $space;
-    display:block;
-    @extend %clearfix;
-
   }
   .post-date {
-    padding: $space-one-third 0;
-    display: block;
+    flex: 1 100%;
 
-    @include breakpoint($laptop-thirteen) {
-      display:inline-block;
-      padding:$space-one-half 0;
+    @include breakpoint($tablet) {
+      flex: 0 0 140px;
     }
   }
   .post-link {
+    flex: 1 100%;
 
-    @include breakpoint($laptop-thirteen) {
-      display:inline-block;
-      margin-left: $space-one-half;
+    @include breakpoint($tablet) {
+      flex: 1 auto;
     }
 
   }

@@ -8,7 +8,7 @@
     @extend %clearfix;
   }
   &.page-color {
-    background-color: rgba($jt-green, .8);
+    background-color: rgba($link-color, .8);
   }
   &.about-color {
     @include breakpoint($tablet) {
