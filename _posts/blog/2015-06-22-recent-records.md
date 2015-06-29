@@ -2,7 +2,7 @@
 
 title: Recent Records
 
-image: recent-records.png
+image: recent-records-3.png
 
 layout: post
 
@@ -12,7 +12,8 @@ meta_description: Recent Records is an ongoing monthly/weekly post series about 
 
 page-class: dark
 
-summary: Marriages. Earl Sweatshirt. Kamasi.
+summary: Marriages. Earl Sweatshirt. Jamie xx.
+summary-class: reviews
 
 categories:
 - music
@@ -44,8 +45,8 @@ Several listens in and I'm not into this as much as his debut.
 
 * * *
 
-## Kamasi Washington The Epic
+## Jamie xx
 
-**I'm digging these tracks:** _Animal_, _Veda_, and _Ghost_
+Part of the xx.
 
-[Listen to "Liminal"](https://soundcloud.com/the-acid-sounds)
+[Listen to "Re Run Home"](https://soundcloud.com/brainfeeder/kamasi-washington-re-run-home)
