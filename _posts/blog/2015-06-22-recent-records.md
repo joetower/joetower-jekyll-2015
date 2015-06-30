@@ -25,20 +25,16 @@ tags:
 ---
 ## Marriages - Salome
 
+The liar. Santa Sangre. Salome.
 
-[Listen to "Loco's Lament"](https://soundcloud.com/asphalt-duchess/tommy-guerrero-locos-lament)
+[Listen to "Salome"](https://marriagesmusic.bandcamp.com/album/salome)
 
 
 * * *
 
 ## Earl Sweatshirt - I Don't Like Shit, I Don't Go Outside: An Album by Earl Sweatshirt
 
-
-Several listens in and I'm not into this as much as his debut.
-
-**I'm digging these tracks:** _No Fear_, _Blak Majik_, _Rewind That_, and *_Young Hearts Run Free_
-
-*Deluxe edition, only.
+Several listens in and I'm not into this as much as his debut. The production is scratchy and seems to distort itself. I'm hoping this is a grower.
 
 [Listen to "Nobody's Smiling"](https://soundcloud.com/commonns)
 
@@ -47,6 +43,6 @@ Several listens in and I'm not into this as much as his debut.
 
 ## Jamie xx
 
-Part of the xx.
+I've mildly enjoyed **The XX**'s two full length releases; which, in contrast are way more down-tempo and monotone. Beautiful, yes, but full of more lows than highs. Jamie xx's debut record takes the best parts of the xx's sound and mixes it in with some more up-tempo pieces. I'm a fan.
 
-[Listen to "Re Run Home"](https://soundcloud.com/brainfeeder/kamasi-washington-re-run-home)
+[Listen to "Loud Places"](https://soundcloud.com/0pepper/loud-places-ft-romy)

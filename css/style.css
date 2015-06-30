@@ -1610,6 +1610,36 @@ body.best-2014 .site-nav a:hover {
 body.best-2014 .site-nav.menu-open {
   background-color: rgba(0, 0, 0, 0.85);
 }
+body.flex {
+  background-color: #f07a16;
+}
+body.flex .logo {
+  fill: #be107f;
+}
+body.flex .logo:hover {
+  -webkit-filter: url(#blur-more);
+          filter: url(#blur-more);
+  fill: rgba(190, 16, 127, 0.8);
+}
+body.flex .bar:before,
+body.flex .bar:after,
+body.flex .bar {
+  background-color: #be107f;
+}
+body.flex .bar:before:hover,
+body.flex .bar:after:hover,
+body.flex .bar:hover {
+  background-color: rgba(190, 16, 127, 0.8);
+}
+body.flex .site-nav a {
+  color: #be107f;
+}
+body.flex .site-nav a:hover {
+  color: rgba(190, 16, 127, 0.8);
+}
+body.flex .site-nav.menu-open {
+  background-color: rgba(0, 0, 0, 0.85);
+}
 
 .featured-image.blake {
   background: url(/img/posts/james-blake/blake-body-repeat.jpg) no-repeat top center;

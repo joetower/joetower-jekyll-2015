@@ -354,4 +354,33 @@ body {
       }
     }
   }
+  &.flex {
+    background-color: $flex-orange;
+    .logo {
+      fill: $flex-pink;
+      &:hover {
+        filter: url(#blur-more);
+        fill: rgba( $flex-pink, .8);
+      }
+    }
+    .bar:before,
+    .bar:after,
+    .bar {
+      background-color: $flex-pink;
+      &:hover {
+        background-color: rgba($flex-pink, .8);
+      }
+    }
+    .site-nav {
+      a {
+        color: $flex-pink;
+        &:hover {
+          color: rgba($flex-pink, .8);
+        }
+      }
+      &.menu-open {
+        background-color: rgba($black, .85);
+      }
+    }
+  }
 }
