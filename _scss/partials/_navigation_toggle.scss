@@ -1,14 +1,14 @@
 // @_navigation_toggle.scss
 // Navigation toggle and bar styles
-// 
+//
 
-.bar:before, 
-.bar:after, 
+.bar:before,
+.bar:after,
 .bar {
   background-color: $white;
   &:hover {
     background-color: rgba($white, .8);
-  }   
+  }
 }
 
 .navigation-toggle {
@@ -17,11 +17,11 @@
   position: absolute;
   cursor: pointer;
   font-size: 100%;
-  bottom: -$buttonSize;
+  bottom: -$buttonSize/2;
   right: -$buttonSize/12;
 
-  .bar:before, 
-  .bar:after, 
+  .bar:before,
+  .bar:after,
   .bar {
     position: relative;
     width: $buttonSize*(7/12);
@@ -69,4 +69,3 @@
     }
   }
 }
-

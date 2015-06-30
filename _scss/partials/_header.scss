@@ -6,6 +6,12 @@
   @extend %clearfix;
   .top-wrap {
     @extend %clearfix;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
   }
   &.page-color {
     background-color: rgba($link-color, .8);
@@ -16,13 +22,14 @@
     }
   }
   .logo-wrap {
-    text-align: center;
-    @include grid-span(3,1);
-    vertical-align:middle;
     position:relative;
     z-index:10;
+    flex: 0 0 50%;
+    align-items:flex-start;
+    align-content:flex-start;
+    justify-content: flex-start;
+
     @include breakpoint($handheld) {
-      @include grid-span(4,1);
       text-align: left;
     }
   }
@@ -43,7 +50,7 @@
     }
   }
   .toggle-wrap {
-    @include grid-span(9,4);
+    flex: 1 auto;
     text-align: right;
     z-index: 10;
     position:relative;
@@ -64,14 +71,27 @@
     -webkit-overflow-scrolling: touch;
     @include breakpoint($nav) {
       overflow-y: visible;
+      position:relative;
+      display:flex;
+      flex: 0 0 50%;
+      align-items:flex-end;
+      align-content:flex-end;
+      justify-content: flex-end;
+
     }
 
     &.menu-closed {
       top:-100%;
       transition: all 0.4s ease;
+      @include breakpoint($nav) {
+        top:0;
+      }
       .menu {
         transition: all 1.5s ease-in-out;
         opacity:0;
+        @include breakpoint($nav) {
+          opacity:1;
+        }
       }
     }
     &.menu-open {
@@ -93,7 +113,6 @@
       }
     }
     @include breakpoint($nav) {
-      @include grid-span(8,5);
       padding:0;
       display:block;
       position:relative;
@@ -114,16 +133,25 @@
       text-align: center;
 
       @include breakpoint($nav) {
-        text-align: right;
+        display: flex;
+        flex-wrap:nowrap;
         opacity:1;
+        flex:1 auto;
+        align-items:flex-end;
+        align-content:flex-end;
+        justify-content: flex-end;
       }
       li {
         list-style-type: none;
         display:block;
+        margin:0;
+        flex:1 auto;
+        align-items:flex-end;
+        align-content:flex-end;
+        justify-content: flex-end;
 
         @include breakpoint($nav) {
-          margin: 0 0 0 $space;
-          display: inline-block;
+          display: flex;
         }
         &.first {
           margin-left: 0;

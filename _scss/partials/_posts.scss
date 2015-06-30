@@ -176,6 +176,7 @@
     align-content: center;
     align-items: center;
     flex-wrap:wrap;
+    
     @include breakpoint($tablet) {
       flex-wrap:nowrap;
     }
