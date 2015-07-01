@@ -7,11 +7,10 @@
   .top-wrap {
     @extend %clearfix;
     display: flex;
-    flex-direction: row;
+    flex-flow: row nowrap;
     justify-content: center;
     align-content: center;
     align-items: center;
-    flex-wrap:nowrap;
   }
   &.page-color {
     background-color: rgba($link-color, .8);
@@ -36,7 +35,6 @@
   .logo {
     fill: $white;
     display:inline-block;
-    vertical-align: top;
     line-height:0;
 
     &:hover {

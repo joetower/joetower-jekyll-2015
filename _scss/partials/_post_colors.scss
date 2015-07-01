@@ -357,25 +357,25 @@ body {
   &.flex {
     background-color: $flex-orange;
     .logo {
-      fill: $flex-pink;
+      fill: $flex-yellow;
       &:hover {
         filter: url(#blur-more);
-        fill: rgba( $flex-pink, .8);
+        fill: rgba( $flex-yellow, .8);
       }
     }
     .bar:before,
     .bar:after,
     .bar {
-      background-color: $flex-pink;
+      background-color: $flex-yellow;
       &:hover {
-        background-color: rgba($flex-pink, .8);
+        background-color: rgba($flex-yellow, .8);
       }
     }
     .site-nav {
       a {
-        color: $flex-pink;
+        color: $flex-yellow;
         &:hover {
-          color: rgba($flex-pink, .8);
+          color: rgba($flex-yellow, .8);
         }
       }
       &.menu-open {

@@ -30,8 +30,7 @@
     transition: all 0.5s ease;
     opacity:0;
     display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;

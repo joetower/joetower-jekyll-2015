@@ -1,8 +1,8 @@
 // @_summary.scss
 // Summary defaults. These are used in blog post summary only.
-// 
+//
 .summary {
-  @extend %clearfix;  
+  @extend %clearfix;
 
   blockquote,
   blockquote p {
@@ -10,9 +10,9 @@
   }
   .wrap {
     padding: $space-double $space;
-    border-left:$space solid darken($white, 65%);    
+    border-left:$space solid darken($white, 65%);
     background-color: rgba(darken($white, 15%), .90);
-    
+
     @include breakpoint($laptop-thirteen) {
       padding: $space-double;
     }
@@ -21,19 +21,25 @@
       color:$white;
       border-color: darken($jt-red, 15%);
       background-color: rgba($jt-red, .9);
-      @include text-shadow(rgba($black, 0.6) -1px -1px 0 ); 
+      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );
     }
     &.health {
       color: lighten($jt-yellow, 5%);
       border-color: darken($jt-green, 15%);
       background-color: rgba($jt-green, .85);
-      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );       
+      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );
     }
     &.design {
       color: lighten($jt-orange, 14%);
-      border-color: darken($jt-orange-muted, 15%);      
+      border-color: darken($jt-orange-muted, 15%);
       background-color: rgba($jt-orange-muted, .85);
-      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );         
+      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );
+    }
+    &.development {
+      color: lighten($jt-blue, 25%);
+      border-color: darken($jt-blue, 15%);
+      background-color: rgba($jt-blue, .90);
+      @include text-shadow(rgba($black, 0.6) -1px -1px 0 );
     }
   }
 }

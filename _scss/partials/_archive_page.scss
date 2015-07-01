@@ -14,9 +14,8 @@
     @extend %clearfix;
 
     h1 {
-      @include breakpoint($handheld) {
-        flex: 1 100%;
-      }
+      flex: 1 100%;
+
       @include breakpoint($tablet) {
         flex: 1 auto;
       }
@@ -24,9 +23,8 @@
     .button {
       &.by-category {
         text-align: center;
-        @include breakpoint($handheld) {
-          flex: 1 100%;
-        }
+        flex: 1 100%;
+
         @include breakpoint($tablet) {
           flex: 0 0 180px;
         }
