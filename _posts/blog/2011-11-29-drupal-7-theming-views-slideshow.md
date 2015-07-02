@@ -13,9 +13,10 @@ summary: This is a nifty way to go about styling Views Slideshow using Drupal Pr
 
 page-class: drupal-blue2
 
-categories: 
+categories:
 - drupal
 - design
+- web-development
 
 tags:
 - Drupal 7
@@ -27,7 +28,7 @@ tags:
 
 #### This posted is directed toward Drupal themers who aren't proficient in PHP.
 
-This is a nifty way to go about styling <a href="http://drupal.org/project/views_slideshow" title="Drupal Views Slideshow">Views Slideshow</a> using Drupal Preprocess Theme Functions. A wonderful Drupal programmer named Jake Bell taught me this specific function. Implementing it has given me a bit more insight into the flexibility and intricacies at your disposal in Drupal 7. 
+This is a nifty way to go about styling <a href="http://drupal.org/project/views_slideshow" title="Drupal Views Slideshow">Views Slideshow</a> using Drupal Preprocess Theme Functions. A wonderful Drupal programmer named Jake Bell taught me this specific function. Implementing it has given me a bit more insight into the flexibility and intricacies at your disposal in Drupal 7.
 
 In Drupal 6 to achieve this very functionality (though you could've used preprocess there too), I would take the "<a href="http://mustardseedmedia.com/podcast/episode30" title="MustardSeed Media Views Row Theming podcast">Views Row Theming</a>" approach by overriding the respective view template file. While overriding a views template works, as does hiding all your views fields and re-writing the output (as you need it to render - wrapping divs and all) in a Custom Text Field, neither are the best solution. Now, if you're a programmer and proficient in writing custom node templates, this method may or may not be the best solution.
 
@@ -78,4 +79,3 @@ This code places an opening DIV tag for the div class of "slideshow-content-wrap
 
 ## In closing
 I have found very few posts or documentation on how to implement Drupal's preprocess functions (specifically the function I needed to reference) **from a themer perspective** (contextual and written-out PHP, not just the function). Hopefully this post can help someone looking into implementing similar theming/template overrides to their View Slideshow. This is merely a small contextual example of how to utilize a preprocess function for views. I'm sure years from now I'll look back on this post and remark to myself "lol n00b".
-

@@ -13,6 +13,7 @@ page-class: drupal-green2
 
 categories:
 - drupal
+- web-development
 
 tags:
 - drupal 7

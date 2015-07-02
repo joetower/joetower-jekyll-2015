@@ -13,6 +13,7 @@ page-class: drupal-blue
 
 categories:
 - drupal
+- web-development
 
 tags:
 - drupal 7
@@ -63,14 +64,14 @@ core = 7.x
 ### Your actual .module file could look something like this:
 
 ```
-<?php 
+<?php
 	function my_menu_module_form_menu_name_node_form_alter(&$form, &$form_state, $form_id) {
-	$form['menu']['enabled']['#default_value'] = 1; 
+	$form['menu']['enabled']['#default_value'] = 1;
 }
 ?>
 ```
 
-You'll want to replace the **my_menu_module** portion of the function above with your module title. Also, the portion **menu_name** with your content type name. 
+You'll want to replace the **my_menu_module** portion of the function above with your module title. Also, the portion **menu_name** with your content type name.
 
 ## One last note
 Sometimes you might have to change this module's weight in your database to "1" instead of the default "0". I know there is a way to set a module weight within a module, but I haven't gotten that far yet. So, if you clear your website's cache and still don't see the "Provide a menu link" checkbox checked (on content creation), you'll want to find the table located in:

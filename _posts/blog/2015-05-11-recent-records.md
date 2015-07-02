@@ -38,7 +38,9 @@ This record finds Lady Lamb more mature, and I feel like she's coming into her o
 
 Kendrick is unquestionably one of the best lyricists and rappers ever. His new record is crazy dense. I've listened to it a few times through, and still feel like I'm barely scratching surface-level appreciation and comprehension. This thing is a beast.
 
-The biggest drawback for me is the constant overuse of the n-word. Given the awful racial tension in the past year, the fact that I, myself, am an overpriveledged white guy, and well, it doesn't make me feel great about having these lyrics kick around in my head. Worse yet, I can't recite these lyrics out loud; which I tend to do unconsciously at times. Hey, I love music.
+The biggest drawback for me is the constant overuse of the n-word. Given the awful racial tension in the past year (especially), the fact that I, myself, am an over-priveledged white guy, and well, it doesn't make me feel great about having these lyrics kick around in my head. Worse yet, I can't recite these lyrics out loud; which I tend to do unconsciously at times, as I love music/language/lyrics.
+
+Let's also call attention to the fact that, being white, I am abhorrently opposed to using/hearing this word. Unfortunately, this is something I've learned to mitigate as best I can; as this word/idiom is far too prevalent in the hip-hop/rap world. It's too bad. I'd like an artist like Lamar to be vehemently opposed to using it as well. He has the power to make this choice more widespread.
 
 [Listen to "I"](https://www.youtube.com/watch?v=8aShfolR6w8)
 
