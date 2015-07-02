@@ -25,7 +25,7 @@ tags:
 ---
 ## Marriages - Salome
 
-I'm a fan of *Red Sparrows*, so this debut record by two of their members comes with some high expectations. I'm pretty into this.
+I'm a fan of **Red Sparrows**, so this debut record by two of their members comes with some high expectations. I'm pretty into this.
 
 **I'm digging these tracks:** _The liar_, _Santa Sangre_, and _Salome_.
 
@@ -36,10 +36,9 @@ I'm a fan of *Red Sparrows*, so this debut record by two of their members comes 
 
 ## Earl Sweatshirt - I Don't Like Shit, I Don't Go Outside: An Album by Earl Sweatshirt
 
-Earl is still as impressive as ever - if not more so. The lazy flow with subperb delivery. The production is scratchy and distorts all over itself. I think this will be a grower.
+Earl is as impressive as ever, if not more so. The lazy flow, dense lyrics, wrapped up in superb delivery. The production is scratchy and distorts all over itself. I think this will be a grower. This is an incredible year for hip-hop already.
 
 **I'm digging these tracks:** _Huey_, _Mantra_, _Faucet_, and _Wool_.
-
 
 [Listen to "Grief"](https://www.youtube.com/watch?v=tZ5Mu2gs-M8)
 
