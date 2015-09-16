@@ -1292,8 +1292,6 @@ body.light .logo {
   fill: #1c1c1c;
 }
 body.light .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(28, 28, 28, 0.8);
 }
 body.light .bar:before,
@@ -1322,8 +1320,6 @@ body.about-color .logo {
   fill: #d9d336;
 }
 body.about-color .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 body.about-color .bar:before,
@@ -1418,8 +1414,6 @@ body.never-better .logo {
   fill: #d9d336;
 }
 body.never-better .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(217, 211, 54, 0.8);
 }
 body.never-better .bar:before,
@@ -1454,8 +1448,6 @@ body.gossip-purple .logo {
   fill: #df9246;
 }
 body.gossip-purple .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(223, 146, 70, 0.8);
 }
 body.gossip-purple .bar:before,
@@ -1493,8 +1485,6 @@ body.blake .logo {
   fill: #4da195;
 }
 body.blake .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(77, 161, 149, 0.8);
 }
 body.blake .bar:before,
@@ -1523,8 +1513,6 @@ body.jamaica .logo {
   fill: #fed100;
 }
 body.jamaica .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(254, 209, 0, 0.8);
 }
 body.jamaica .bar:before,
@@ -1553,8 +1541,6 @@ body.dessa .logo {
   fill: #ca3197;
 }
 body.dessa .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(202, 49, 151, 0.8);
 }
 body.dessa .bar:before,
@@ -1583,8 +1569,6 @@ body.best-2014 .logo {
   fill: #c6d300;
 }
 body.best-2014 .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(198, 211, 0, 0.8);
 }
 body.best-2014 .bar:before,
@@ -1613,8 +1597,6 @@ body.flex .logo {
   fill: #e9cf31;
 }
 body.flex .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(233, 207, 49, 0.8);
 }
 body.flex .bar:before,
