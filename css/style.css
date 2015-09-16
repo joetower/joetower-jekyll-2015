@@ -423,7 +423,7 @@ label {
           align-items: center;
 }
 .site-header.page-color {
-  background-color: rgba(225, 124, 24, 0.8);
+  background-color: rgba(146, 184, 43, 0.8);
 }
 @media (min-width: 37.5em) {
   .site-header.about-color {
@@ -457,8 +457,6 @@ label {
   line-height: 0;
 }
 .site-header .logo:hover {
-  -webkit-filter: url(#blur-more);
-          filter: url(#blur-more);
   fill: rgba(255, 255, 255, 0.7);
 }
 .site-header .logo svg {
@@ -724,29 +722,29 @@ hr {
 
 a,
 a:visited {
-  color: #9c5611;
+  color: #617a1d;
 }
 a:hover,
 a:visited:hover {
-  color: #e17c18;
+  color: #92b82b;
   text-decoration: none;
 }
 .post-content a, .page-content a, .post-content
 a:visited, .page-content
 a:visited {
-  color: #b36313;
+  color: #718f21;
   font-family: "adelle", serif;
   border-bottom: 2.5px solid #d9d336;
 }
 .post-content a:visited, .page-content a:visited, .post-content
 a:visited:visited, .page-content
 a:visited:visited {
-  color: #6e3d0c;
+  color: #405113;
 }
 .post-content a:hover, .page-content a:hover, .post-content
 a:visited:hover, .page-content
 a:visited:hover {
-  color: #9c5611;
+  color: #617a1d;
   background-color: #d9d336;
   text-decoration: underline;
 }
@@ -756,8 +754,8 @@ button,
 input[type="submit"] {
   padding: 6.66667px 20px;
   background: white;
-  color: #9c5611;
-  border: 0.1em solid #9c5611;
+  color: #617a1d;
+  border: 0.1em solid #617a1d;
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
@@ -768,9 +766,9 @@ input[type="submit"] {
 button:hover,
 .button:hover,
 input[type="submit"]:hover {
-  background: #e17c18;
+  background: #92b82b;
   color: white;
-  border-color: #ca6f16;
+  border-color: #82a326;
 }
 button.active,
 .button.active,
@@ -905,7 +903,7 @@ body {
 }
 
 .footer-col-2 {
-  border-top: 2px solid #e17c18;
+  border-top: 2px solid #92b82b;
   padding-top: 40px;
 }
 
@@ -946,10 +944,6 @@ body {
   margin: 0 auto;
   -webkit-transition: all 200ms ease-in-out;
           transition: all 200ms ease-in-out;
-}
-.site-footer ul li a svg:hover {
-  -webkit-filter: url(#blur-less);
-          filter: url(#blur-less);
 }
 
 .featured-image {

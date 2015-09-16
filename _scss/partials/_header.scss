@@ -38,7 +38,6 @@
     line-height:0;
 
     &:hover {
-      filter: url(#blur-more);
       fill: rgba($white, 0.7);
     }
     svg {

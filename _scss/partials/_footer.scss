@@ -78,9 +78,6 @@
         position: relative;
         margin: 0 auto;
         transition: all 200ms ease-in-out;
-        &:hover {
-          filter: url(#blur-less);
-        }
       }
     }
   }
