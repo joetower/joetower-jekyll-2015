@@ -17,17 +17,17 @@
     color:lighten($jt-gray, 55%);
     padding-bottom: $space;
     text-align: left;
-    @include breakpoint($laptop-thirteen) {
+    @include breakpoint($large) {
       width:48%;
     }
   }
   .category {
-    @include breakpoint($laptop-thirteen) {
+    @include breakpoint($large) {
       float: left;
     }
   }
   .tag {
-    @include breakpoint($laptop-thirteen) {
+    @include breakpoint($large) {
       float:right;
       text-align:right;
     }
@@ -37,99 +37,23 @@
 
 .full-width {
   @extend %clearfix;
-}
-
-.post-header {
-  .meta {
-    display:block;
-    padding: $space-one-half 0;
-    border-bottom:$space-one-fourth solid lighten($jt-gray, 75%);
-    margin-bottom: $space;
-
-    @include breakpoint($laptop-thirteen) {
-      display:inline-block;
-      border-bottom: none;
-      margin-bottom: 0;
-      vertical-align: top;
-      width:18%;
-    }
-  }
-  h1 {
-    @include breakpoint($laptop-thirteen) {
-      display:inline-block;
-      margin-left: $space;
-      width:78%;
-    }
-  }
-}
-
-/* Post Content Styles */
-.post-content {
-  margin: 0 auto $space-double;
-  max-width:30em;
-
-  @include breakpoint($laptop-thirteen) {
-    max-width:23em;
-  }
-  @include breakpoint($desktop) {
-    max-width:27em;
-  }
-
-  ul,
-  ol {
-    padding-left: $space;
-    margin-bottom: $space-double;
-  }
-}
-.post-content blockquote,
-.page-content blockquote {
-  color: $jt-gray;
-  margin: $space-double 0;
-  padding-left: $space;
-  border-left: $space solid $jt-blue;
-  cite {
-   color: lighten($jt-gray, 30%);
-  }
-}
-
-.post {
-  @extend %clearfix;
-
-  pre,
-  code {
-    border: $space-one-sixth solid $jt-brown;
-    background-color: $jt-yellow;
-    color:$jt-brown;
-    overflow:scroll;
-    padding: $space;
-    @extend %clearfix;
-    display:block;
-  }
-  pre code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  pre.terminal {
-    border: $space-one-third solid #000;
-    background-color: #333;
-    color: #FFF;
-    @include border-radius(3px);
-    code {
-      background-color: #333;
-    }
-  }
+  width: 100%;
 }
 
 // Post bottom - comemnts and meta
 .post-comment-wrap {
   @extend %clearfix;
-
+  width: 100%;
 }
 .recent {
   display:block;
-  @include breakpoint($laptop-thirteen) {
+  margin-bottom: $space-one-half;
+  border-bottom: $space-one-tenth solid rgba($jt-gray, .25);
+
+  @include breakpoint($large) {
     @include grid-span(4,1, $output-style:'float', $gutter:3);
+    margin-bottom: 0;
+    border: 0;
   }
   h3 {
     margin-bottom: $space-one-third;
@@ -142,62 +66,23 @@
   ul {
     margin-left:0;
     li {
-      border-bottom: $space-one-tenth solid rgba($jt-gray, .25);
+      display: inline-block;
+      margin-right: $space-one-half;
       list-style: none;
       font-size: 18px;
+      @include breakpoint($large) {
+        display:block;
+        border-bottom: $space-one-tenth solid rgba($jt-gray, .25);
+        margin-right: 0;
+      }
     }
   }
 }
 .comments {
   display:block;
   padding-top: $space;
-  @include breakpoint($laptop-thirteen) {
+  @include breakpoint($large) {
     @include grid-span(8,5, $output-style:'float', $gutter:3);
     padding-top: 0;
-  }
-}
-
-/* Post ul styles */
-/* ----------------------------------------------------------*/
-.posts {
-  list-style-type: none;
-  padding-top: $space;
-
-  @extend %clearfix;
-
-  &.archive {
-    padding-top: $space-double;
-  }
-
-  a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-    
-    @include breakpoint($tablet) {
-      flex-wrap:nowrap;
-    }
-  }
-
-  li {
-    margin-bottom: $space;
-  }
-  .post-date {
-    flex: 1 100%;
-
-    @include breakpoint($tablet) {
-      flex: 0 0 140px;
-    }
-  }
-  .post-link {
-    flex: 1 100%;
-
-    @include breakpoint($tablet) {
-      flex: 1 auto;
-    }
-
   }
 }

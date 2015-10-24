@@ -1,6 +1,6 @@
 ---
 
-title: Recent Records
+title: Recent Records 2
 
 image: recent-records-2.png
 

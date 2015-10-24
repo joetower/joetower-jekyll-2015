@@ -1,6 +1,6 @@
 // @_pages.scss
 // Page content elements
-// 
+//
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
@@ -8,9 +8,9 @@
 
 .page-wrapper {
   @extend %clearfix;
-  
+
   &.about-color {
-    background-color: rgba($white,.90);    
+    background-color: rgba($white,.90);
   }
 }
 
@@ -20,32 +20,28 @@
 }
 
 .page {
-  @extend %clearfix;  
+  @extend %clearfix;
 }
 /* Page Content Styles */
-.page-content { 
+.page-content {
   margin: 0 0 em(30);
   @extend %clearfix;
 
-  .page { 
-    @include breakpoint($desktop) {
+  .page {
+    @include breakpoint($medium) {
       @include grid-span(9,1);
     }
-    
-    @include breakpoint($laptop-thirteen) {    
+
+    @include breakpoint($large) {
       @include grid-span(8,1);
     }
 
-    @include breakpoint($desktop-medium) {
+    @include breakpoint($x-large) {
       @include grid-span(7,1);
     }
-    
-    @include breakpoint($desktop-large) {
-      @include grid-span(7,1);
-    }
-    
+
     &.about {
       clear:both;
-    }    
+    }
   }
 }

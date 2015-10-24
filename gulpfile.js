@@ -49,7 +49,6 @@ gulp.task('sass', function() {
         'bower_components/breakpoint-sass/stylesheets',
         'bower_components/compass-breakpoint/stylesheets',
         'bower_components/sass-toolkit/stylesheets',
-        'bower_components/sass-css3-mixins/css3-mixins.scss',
       ]
     }))
     .pipe(prefix("last 2 versions", "> 1%"))

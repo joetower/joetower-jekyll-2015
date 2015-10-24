@@ -1,0 +1,34 @@
+//////////////////////////////
+// post header
+// @_post-header.scss
+//////////////////////////////
+
+.post-header {
+  .wrap {
+    @include display-flex(flex);
+    @include flex-flow(row wrap);
+    @include justify-content(center);
+    @include align-items(center);
+    @include align-content(center);
+  }
+  .meta {
+    @include flex(1 0 100%);
+
+    padding: $space-one-half 0;
+    border-bottom:$space-one-fourth solid lighten($jt-gray, 75%);
+    margin-bottom: $space;
+    @include breakpoint($large) {
+      @include flex(0 0 25%);
+      border: none;
+      margin-bottom: 0;
+      padding: 0;
+    }
+  }
+  h1 {
+    @include display-flex(flex);
+
+    @include breakpoint($large) {
+      @include flex(0 0 75%);
+    }
+  }
+}

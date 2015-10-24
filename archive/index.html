@@ -30,10 +30,12 @@ page-class: archive-color
   <ul class="posts archive">
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">
           <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <span class="post-link">{{ post.title }}</span>
-        </a>
+          <span class="post-link">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </span>
       </li>
     {% endfor %}
   </ul>

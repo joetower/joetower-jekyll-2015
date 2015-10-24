@@ -1,0 +1,34 @@
+.site-header {
+  @extend %clearfix;
+
+  .top-wrap {
+    @extend %clearfix;
+    @include display-flex(flex);
+    @include flex(1 0 auto);
+  }
+  .wrap {
+    @include display-flex(flex);
+  }
+  .logo-wrap {
+    position:relative;
+    z-index:10;
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(flex);
+    @include flex(0 0 60px);
+
+    @include breakpoint($small) {
+      text-align: left;
+    }
+  }
+
+  .logo {
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(flex);
+    @include flex(1 0 auto);
+    svg {
+      display: inline-block; /* non-flexbox browsers */
+      @include display-flex(flex);
+      @include flex(1 0 auto);
+    }
+  }
+}

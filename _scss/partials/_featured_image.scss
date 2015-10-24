@@ -3,9 +3,9 @@
   text-align:center;
   position: relative;
   line-height: 0;
-  
-  @include breakpoint($laptop-thirteen) {    
-    margin-bottom:-$space-octuple;
-    z-index: -1;    
+
+  @include breakpoint($large) {
+    margin-bottom:-$space-sextuple;
+    z-index: -1;
   }
 }

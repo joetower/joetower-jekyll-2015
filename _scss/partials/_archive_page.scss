@@ -3,32 +3,27 @@
 //
 
 .top {
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
+  display: inline-block; /* non-flexbox browsers */
+  @include display-flex(flex);
+  @include flex-flow(row wrap);
+  @include justify-content(space-between);
+  @include align-items(center);
 
   &.archive {
     @extend %clearfix;
 
     h1 {
-      flex: 1 100%;
-
-      @include breakpoint($tablet) {
-        flex: 1 auto;
-      }
+      flex: 0 0 auto;
     }
     .button {
       &.by-category {
         text-align: center;
-        flex: 1 100%;
-
-        @include breakpoint($tablet) {
-          flex: 0 0 180px;
-        }
+        flex: 0 0 auto;
       }
     }
   }
+}
+.page-wrapper.archive-color {
+  max-width: 900px;
+
 }

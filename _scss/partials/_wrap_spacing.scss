@@ -5,15 +5,11 @@
 .wrap {
   padding: $space-double;
   margin: 0 auto;
-  zoom: 1;
 
   &.post-head {
     padding: $space $space-double;
     background-color: rgba($white,.95);
 
-    @include breakpoint($laptop-thirteen) {
-      padding: $space-triple $space-double;
-    }
     h1 {
       margin-bottom: 0;
     }

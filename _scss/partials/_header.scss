@@ -3,15 +3,6 @@
 //
 
 .site-header {
-  @extend %clearfix;
-  .top-wrap {
-    @extend %clearfix;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  }
   &.page-color {
     background-color: rgba($black, .8);
   }
@@ -20,101 +11,21 @@
       background-color: rgba($black,.40);
     }
   }
-  .logo-wrap {
-    position:relative;
-    z-index:10;
-    flex: 0 0 50%;
-    align-items:flex-start;
-    align-content:flex-start;
-    justify-content: flex-start;
 
-    @include breakpoint($handheld) {
-      text-align: left;
-    }
-  }
   .logo {
     fill: $white;
-    display:inline-block;
     line-height:0;
-
+    svg {
+      transition: all 200ms ease-in-out;
+    }
     &:hover {
       fill: rgba($white, 0.7);
     }
-    svg {
-      transition: all 200ms ease-in-out;
-      max-width: 100%;
-      height: 60px;
-    }
-  }
-  .toggle-wrap {
-    flex: 1 auto;
-    text-align: right;
-    z-index: 10;
-    position:relative;
-    a {
-      position:relative;
-    }
-    @include breakpoint($nav) {
-      display:none;
-    }
   }
   .site-nav {
-    position:fixed;
-    width:100%;
-    left:0;
-    right:0;
-    top:-100%;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
-    @include breakpoint($nav) {
-      overflow-y: visible;
-      position:relative;
-      display:flex;
-      flex: 0 0 50%;
-      align-items:flex-end;
-      align-content:flex-end;
-      justify-content: flex-end;
-
-    }
-
-    &.menu-closed {
-      top:-100%;
-      transition: all 0.4s ease;
-      @include breakpoint($nav) {
-        top:0;
-      }
-      .menu {
-        transition: all 1.5s ease-in-out;
-        opacity:0;
-        @include breakpoint($nav) {
-          opacity:1;
-        }
-      }
-    }
-    &.menu-open {
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-      transition: all 0.3s ease;
-      position: fixed;
-      z-index: 5;
-      background-color: rgba($black, .85);
-      padding:$space-quadruple $space $space;
-      .menu {
-        transition: all 1s ease-in-out;
-        opacity:1;
-      }
-      a {
-        font-size: 26px;
-      }
-    }
-    @include breakpoint($nav) {
-      padding:0;
-      display:block;
-      position:relative;
-    }
-
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(flex);
+    width: 100%;
     a {
       color: $white;
       display: block;
@@ -128,30 +39,31 @@
       margin: 0;
       padding: 0;
       text-align: center;
+      @include display-flex(flex);
+      @include flex-flow(row nowrap);
+      @include justify-content(flex-end);
+      @include align-items(stretch);
+      @include align-content(stretch);
+      width: 100%;
 
-      @include breakpoint($nav) {
-        display: flex;
-        flex-wrap:nowrap;
-        opacity:1;
-        flex:1 auto;
-        align-items:flex-end;
-        align-content:flex-end;
-        justify-content: flex-end;
+      @include breakpoint($x-large) {
+        @include justify-content(flex-end);
+        @include align-items(flex-end);
+        @include align-content(flex-end);
       }
       li {
         list-style-type: none;
-        display:block;
         margin:0;
-        flex:1 auto;
-        align-items:flex-end;
-        align-content:flex-end;
-        justify-content: flex-end;
-
-        @include breakpoint($nav) {
-          display: flex;
-        }
+        display: inline-block; /* non-flexbox browsers */
+        @include display-flex(flex);
+        @include flex(1 0 auto);
+        
         &.first {
           margin-left: 0;
+        }
+        a {
+          width: 100%;
+          text-align: right;
         }
         &.active {
           a,

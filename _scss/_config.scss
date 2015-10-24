@@ -6,20 +6,28 @@
 //
 
 
-////////////////////////
-// Compass Imports
-@import "compass";
-@import "compass/reset";
-////////////////////////
+////////////////////////////
+// Cross Browser Support
+$graceful-usage-threshold: 100;
+$critical-usage-threshold: 100;
 
-//
-// Gems
-//
+$browser-minimum-versions: (
+  "ie": "9",
+  "android": "4",
+  "chrome": "31",
+  "safari": "5",
+  "firefox": "25",
+  "ios-safari": "6.0-6.1",
+);
+
+////////////////////////
+// Compass Extensions
+////////////////////////
+@import 'compass';
 @import 'breakpoint';
 @import 'singularitygs';
 @import 'toolkit';
 @import 'toolkit/kickstart';
-@import 'bower_components/sass-css3-mixins/css3-mixins.scss';
 
 //
 // Breakpoints
@@ -27,14 +35,8 @@
 // For oldIE compatability, we enable the no-query fallbacks. Each breakpoint
 // will be followed by the same set of arguments since we have a single
 // conditional class to indicate that a browser can't cut the mustard.
-$breakpoint-no-query-fallbacks: true;
-$breakpoint-to-ems:             true;
 
-$desktop-huge:2300px;
-$desktop-large:1920px;
-$desktop-medium:1600px;
-$desktop:1280px;
-$laptop-thirteen:951px;
+
 $tablet:600px;
 $handheld: 490px;
 
@@ -45,6 +47,11 @@ $quotes: 580px;
 $quotes-large:740px;
 
 $heading-large:800px;
+
+$small: 380px;
+$medium: 768px;
+$large: 1024px;
+$x-large: 1280px;
 
 //
 // Space
@@ -74,6 +81,8 @@ $space-one-eighth: $space/8;
 $space-one-ninth: $space/9;
 $space-one-tenth: $space/10;
 
+// Other widths or base variables
+$max-width: 1200px;
 
 //
 // Singularity

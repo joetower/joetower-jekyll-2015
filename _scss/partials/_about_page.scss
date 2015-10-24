@@ -1,36 +1,36 @@
 // @_about_page.scss
 // About Page elements
-// 
+//
 
 
 /* About Page */
 .top {
   &.about {
-    @include breakpoint($tablet) {
-      @include grid-span(6,7);  
+    @include breakpoint($medium) {
+      @include grid-span(6,7);
       margin-top: $space-triple;
       margin-bottom: $space;
     }
-    @include breakpoint($laptop-thirteen) {    
-      @include grid-span(8,1);    
-    }      
-    @include breakpoint($desktop-medium) {    
-      @include grid-span(9,1);    
-    }  
+    @include breakpoint($large) {
+      @include grid-span(8,1);
+    }
+    @include breakpoint($x-large) {
+      @include grid-span(9,1);
+    }
   }
 }
 .photo {
   &.me {
-    @include breakpoint($tablet) {    
-      @include grid-span(6,1);  
+    @include breakpoint($medium) {
+      @include grid-span(6,1);
     }
-    @include breakpoint($laptop-thirteen) {    
-      @include grid-span(4,9); 
-      margin:0;   
-    }   
-     @include breakpoint($desktop-medium) {    
-      @include grid-span(3,10);    
-    }    
+    @include breakpoint($large) {
+      @include grid-span(4,9);
+      margin:0;
+    }
+    @include breakpoint($x-large) {
+      @include grid-span(3,10);
+    }
   }
 }
 .photo {
@@ -39,7 +39,7 @@
 }
 
 .dog {
-  @include breakpoint($tablet) {
+  @include breakpoint($medium) {
     @include grid-span(6,1, $output-style:'float', $gutter:0);
   }
   h4,

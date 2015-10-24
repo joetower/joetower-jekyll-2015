@@ -1,0 +1,10 @@
+//////////////////////////////
+// page wrapper
+// @_page-wrapper.scss
+//////////////////////////////
+
+.page-wrapper {
+  @include display-flex(flex);
+  @include flex-flow(row nowrap);
+  max-width: $max-width;
+}

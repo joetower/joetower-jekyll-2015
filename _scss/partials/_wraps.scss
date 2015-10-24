@@ -4,18 +4,6 @@
 
 .wrap {
   @extend %clearfix;
-
-  @include breakpoint($tablet) {
-    max-width: 34em;
-  }
-  @include breakpoint($laptop-thirteen) {
-    max-width: 44em;
-    padding-top: 3em;
-  }
-  @include breakpoint($desktop) {
-    max-width: 50em;
-    body.page .page-wrapper & { // shrink page content max-width
-      max-width:44em;
-    }
-  }
+  width: 100%;
+  max-width:$max-width;
 }

@@ -126,9 +126,17 @@ h5 {
 
 // Navigation
 .site-nav {
-  font-size: 20px;
-  font-weight: 700;
   text-transform: uppercase;
+  li {
+    font-size: 16px;
+    font-weight: 700;
+    @include breakpoint($medium) {
+      font-size: 18px;
+    }
+    @include breakpoint($large) {
+      font-size: 20px;
+    }
+  }
 }
 
 // Forms

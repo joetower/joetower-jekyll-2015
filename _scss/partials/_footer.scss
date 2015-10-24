@@ -5,7 +5,6 @@
   font-family:$serif;
   background-color: rgba($black, .8);
   color: darken($white, 5%);
-  @extend %clearfix;
 
   p {
     color: rgba($white, .6);
@@ -17,67 +16,19 @@
     span {
 
       &.text {
-        @include breakpoint($laptop-thirteen) {
+        @include breakpoint($large) {
           display:inline-block;
           float:left;
         }
       }
       &.email {
         display:block;
-        @include breakpoint($laptop-thirteen) {
+        @include breakpoint($large) {
           display:inline-block;
           text-align: right;
           padding-left: $space;
           float:right;
         }
-      }
-    }
-  }
-}
-
-.footer-col-1 {
-  @extend %clearfix;
-  padding-bottom: $space;
-}
-.footer-col-2 {
-  @extend %clearfix;
-  border-top: $space-one-tenth solid $link-color;
-  padding-top: $space-double;
-}
-
-.site-footer ul {
-  list-style: none;
-  @extend %clearfix;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap:wrap;
-  -webkit-flex-wrap:wrap;
-
-  @include breakpoint($tablet) {
-    text-align:center;
-  }
-
-  li {
-    flex: 1 auto;
-    text-align: center;
-    margin: 0;
-    padding:2px;
-
-    a {
-      display:inline-block;
-      background-color: rgba($white, .8);
-      padding: $space-one-half;
-      @include border-radius($space-double);
-      &:hover {
-        background-color: rgba($white, .95);
-      }
-      svg {
-        display: block;
-        position: relative;
-        margin: 0 auto;
-        transition: all 200ms ease-in-out;
       }
     }
   }
