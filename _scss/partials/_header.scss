@@ -13,7 +13,7 @@
     align-items: center;
   }
   &.page-color {
-    background-color: rgba($link-color, .8);
+    background-color: rgba($black, .8);
   }
   &.about-color {
     @include breakpoint($tablet) {
