@@ -1,13 +1,24 @@
 .site-header {
   @extend %clearfix;
-
+  .wrap {
+    @include display-flex(flex);
+    @include flex-flow(row wrap);
+  }
   .top-wrap {
     @extend %clearfix;
     @include display-flex(flex);
     @include flex(1 0 auto);
-  }
-  .wrap {
-    @include display-flex(flex);
+    @include flex-flow(row wrap);
+    @include justify-content(center);
+    @include align-items(center);
+    @include align-content(space-between);
+    width: 100%;
+
+    @include breakpoint($small) {
+      @include justify-content(flex-end);
+      @include align-items(center);
+      @include align-content(space-between);
+    }
   }
   .logo-wrap {
     position:relative;
@@ -30,5 +41,19 @@
       @include display-flex(flex);
       @include flex(1 0 auto);
     }
+  }
+  .site-nav {
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(flex);
+    @include flex(1 0 auto);
+    @include flex-flow(row wrap);
+  }
+  .menu {
+    display: inline-block; /* non-flexbox browsers */
+    @include display-flex(flex);
+    @include flex(1 0 auto);
+    @include justify-content(flex-end);
+    @include flex-flow(row wrap);
+
   }
 }

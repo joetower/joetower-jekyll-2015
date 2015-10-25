@@ -23,13 +23,10 @@
     }
   }
   .site-nav {
-    display: inline-block; /* non-flexbox browsers */
-    @include display-flex(flex);
-    width: 100%;
     a {
       color: $white;
       display: block;
-      line-height: 60px;
+      padding: $space-one-third $space-one-half;
       &:hover {
         color: rgba($white, .75);
         text-decoration: none;
@@ -39,30 +36,15 @@
       margin: 0;
       padding: 0;
       text-align: center;
-      @include display-flex(flex);
-      @include flex-flow(row nowrap);
-      @include justify-content(flex-end);
-      @include align-items(stretch);
-      @include align-content(stretch);
-      width: 100%;
 
-      @include breakpoint($x-large) {
-        @include justify-content(flex-end);
-        @include align-items(flex-end);
-        @include align-content(flex-end);
-      }
       li {
         list-style-type: none;
         margin:0;
-        display: inline-block; /* non-flexbox browsers */
-        @include display-flex(flex);
-        @include flex(1 0 auto);
-        
+
         &.first {
           margin-left: 0;
         }
         a {
-          width: 100%;
           text-align: right;
         }
         &.active {

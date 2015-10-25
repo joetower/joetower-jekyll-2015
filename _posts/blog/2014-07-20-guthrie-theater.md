@@ -12,6 +12,8 @@ meta_description: Appreciation for live action film; called a play.
 
 page-class: dark
 
+summary: Plays - performance as a medium to convey a story
+
 categories:
 - arts
 - performance
@@ -22,8 +24,6 @@ tags:
 - my fair lady
 
 ---
-
-## Plays; performance as a medium to convey a story
 
 We've been having a long email thread at work recently about [Christopher Nolan's comments regarding _content_](http://www.theverge.com/2014/7/9/5883669/christopher-nolan-says-theaters-can-survive-in-netflix-world) and more specifically, the medium by which content is packaged / conveyed to its audience.
 
@@ -56,7 +56,7 @@ I'm a fan of some of the songs in this musical adaptation of Shaw's story. My bi
 
 [View Wiki page](http://en.wikipedia.org/wiki/Vanya_and_Sonia_and_Masha_and_Spike)
 
-This was, hands down, our favorite and most enjoyable theater experience to date. Out of all three, this story kept us thoroughly entertained and laughing hysterically throughout the 2 hour run time. 
+This was, hands down, our favorite and most enjoyable theater experience to date. Out of all three, this story kept us thoroughly entertained and laughing hysterically throughout the 2 hour run time.
 
 I'm not familiar with **Chekhov**'s work, but that did not detract from my enjoyment of the story. I found the dark humor hilarious, and will absolutely checkout Anton Chekhov's work.
 
@@ -64,4 +64,3 @@ I'm not familiar with **Chekhov**'s work, but that did not detract from my enjoy
 
 ## Plays are pretty awesome
 I could go on and on about how plays are a lost art form; under-appreciated by my generation and those younger than me. I'll just say that I'm happy to have grown to appreciate the theater and look forward to years of new play experiences.
-

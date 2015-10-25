@@ -311,18 +311,10 @@ label {
 .site-header .logo:hover {
   fill: rgba(255, 255, 255, 0.7);
 }
-.site-header .site-nav {
-  display: inline-block;
-  /* non-flexbox browsers */
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
 .site-header .site-nav a {
   color: white;
   display: block;
-  line-height: 60px;
+  padding: 6.66667px 10px;
 }
 .site-header .site-nav a:hover {
   color: rgba(255, 255, 255, 0.75);
@@ -332,53 +324,15 @@ label {
   margin: 0;
   padding: 0;
   text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
-  -webkit-align-content: stretch;
-      -ms-flex-line-pack: stretch;
-          align-content: stretch;
-  width: 100%;
-}
-@media (min-width: 1280px) {
-  .site-header .site-nav .menu {
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-        align-items: flex-end;
-    -webkit-align-content: flex-end;
-        -ms-flex-line-pack: end;
-            align-content: flex-end;
-  }
 }
 .site-header .site-nav .menu li {
   list-style-type: none;
   margin: 0;
-  display: inline-block;
-  /* non-flexbox browsers */
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-      flex: 1 0 auto;
 }
 .site-header .site-nav .menu li.first {
   margin-left: 0;
 }
 .site-header .site-nav .menu li a {
-  width: 100%;
   text-align: right;
 }
 .site-header .site-nav .menu li.active a,
@@ -386,6 +340,14 @@ label {
   color: rgba(255, 255, 255, 0.65);
 }
 
+.site-header .wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
 .site-header .top-wrap {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -393,11 +355,32 @@ label {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
       flex: 1 0 auto;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  width: 100%;
 }
-.site-header .wrap {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+@media (min-width: 380px) {
+  .site-header .top-wrap {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-align-content: space-between;
+        -ms-flex-line-pack: justify;
+            align-content: space-between;
+  }
 }
 .site-header .logo-wrap {
   position: relative;
@@ -435,6 +418,35 @@ label {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
       flex: 1 0 auto;
+}
+.site-header .site-nav {
+  display: inline-block;
+  /* non-flexbox browsers */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+.site-header .menu {
+  display: inline-block;
+  /* non-flexbox browsers */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 ::-moz-selection {
@@ -707,7 +719,7 @@ body {
       flex: 1 0 auto;
 }
 .site-footer ul li a {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px;
   display: inline-block;
   /* non-flexbox browsers */
