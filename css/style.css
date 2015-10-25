@@ -595,6 +595,7 @@ body {
 .site-header,
 .site-footer,
 .post-header,
+.featured-image,
 .page-wrapper,
 .summary {
   display: -webkit-flex;
@@ -738,10 +739,12 @@ body {
   text-align: center;
   position: relative;
   line-height: 0;
+  width: 100%;
+  display: block;
 }
 @media (min-width: 1024px) {
   .featured-image {
-    margin-bottom: -120px;
+    margin-bottom: -160px;
     z-index: -1;
   }
 }

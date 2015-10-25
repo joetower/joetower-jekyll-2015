@@ -3,9 +3,11 @@
   text-align:center;
   position: relative;
   line-height: 0;
+  width: 100%;
+  display: block;
 
   @include breakpoint($large) {
-    margin-bottom:-$space-sextuple;
+    margin-bottom:-$space-octuple;
     z-index: -1;
   }
 }
