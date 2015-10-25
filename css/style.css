@@ -707,7 +707,7 @@ body {
       flex: 1 0 auto;
 }
 .site-footer ul li a {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   display: inline-block;
   /* non-flexbox browsers */
@@ -1022,11 +1022,15 @@ img.dogs:hover {
       flex: 1 0 100%;
 }
 
+.blog-posts {
+  margin-bottom: 20px;
+}
 @media (min-width: 1024px) {
   .blog-posts {
     -webkit-flex: 1 0 60%;
     -ms-flex: 1 0 60%;
         flex: 1 0 60%;
+    margin-bottom: 0;
   }
 }
 

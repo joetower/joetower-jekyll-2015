@@ -48,7 +48,7 @@
     @include flex(1 0 auto);
 
     a {
-      background-color: rgba($white, .8);
+      background-color: rgba($black, .2);
       padding: $space-one-half;
       display: inline-block; /* non-flexbox browsers */
       @include display-flex(flex);

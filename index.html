@@ -14,7 +14,7 @@ meta_description: "Thoughts, work, and nonsense by Minneapolis Designer Joe Towe
 
   <div class="blog-posts">
 
-    <h1>Latest Posts</h1>
+    <h2>Latest Posts</h2>
 
     <ul class="posts">
       {% assign relevant = site.posts | except:"categories","work" %}
@@ -34,7 +34,7 @@ meta_description: "Thoughts, work, and nonsense by Minneapolis Designer Joe Towe
 
   <div class="work-posts">
 
-    <h1>Latest Work</h1>
+    <h2>Latest Work</h2>
 
     <ul class="posts">
       {% for post in site.categories.work limit:6  %}
