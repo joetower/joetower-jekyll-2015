@@ -48,21 +48,52 @@
     @include flex(1 0 auto);
 
     a {
-      background-color: rgba($white, .3);
+      background-color: rgba($black, .75);
       padding: $space-one-half;
       display: inline-block; /* non-flexbox browsers */
       @include display-flex(flex);
       @include flex(1 0 auto);
-
-      &:hover {
-        background-color: rgba($white, .95);
-      }
       svg {
         position: relative;
         transition: all 200ms ease-in-out;
         display: inline-block; /* non-flexbox browsers */
         @include display-flex(flex);
         @include flex(1 0 auto);
+        fill: $white;
+      }
+
+      &:hover {
+        background-color: rgba($black, .95);
+
+        svg {
+          &.github-icon-svg {
+            fill: $github;
+          }
+          &.twitter-icon-svg {
+            fill: $twitter;
+          }
+          &.dribbble-icon-svg {
+            fill: $dribbble;
+          }
+          &.instagram-icon-svg {
+            fill: $instagram;
+          }
+          &.drupal-icon-svg {
+            fill: $drupal;
+          }
+          &.google-icon-svg {
+            fill:$google;
+          }
+          &.lastfm-icon-svg {
+            fill:$lastfm;
+          }
+          &.linkedin-icon-svg {
+            fill: $linkedin;
+          }
+          &.feed-icon-svg {
+            fill: $feed;
+          }
+        }
       }
     }
   }
