@@ -10,50 +10,8 @@ img {
     display: block;
     border-style: solid;
     border-color: transparent;
-    @include box-shadow(rgba($black, .4) 0 0 6px);
     @include border-radius(400px);
     padding:$space;
     border-width:$space-one-half;
-
-    @include breakpoint($medium) {
-      padding:$space;
-      border-width:$space-one-fifth;
-    }
-    @include breakpoint($large) {
-      border-width:$space-one-fourth;
-    }
-    @include breakpoint($x-large) {
-      padding:$space-triple;
-      border-width:$space;
-    }
-
-    &:hover {
-      padding: 0;
-      @include transition (all, .2s, linear);
-      @include box-shadow(rgba($black, .8) 0 2px 4px);
-      border-width:$space-one-fourth;
-    }
-  }
-  &.profile {
-    &:hover {
-      border-color: darken($jt-green, 10%);
-    }
-    @include breakpoint($large) {
-      padding:0;
-    }
-    @include breakpoint($x-large) {
-      padding:$space-one-third;
-    }
-  }
-  &.dogs {
-    &:hover {
-      border-color: darken($jt-blue, 10%);
-    }
-    @include breakpoint($large) {
-      padding:0;
-    }
-    @include breakpoint($x-large) {
-      padding:$space-one-third;
-    }
   }
 }

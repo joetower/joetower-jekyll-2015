@@ -794,60 +794,9 @@ img.profile, img.dogs {
   display: block;
   border-style: solid;
   border-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
   border-radius: 400px;
   padding: 20px;
   border-width: 10px;
-}
-@media (min-width: 768px) {
-  img.profile, img.dogs {
-    padding: 20px;
-    border-width: 4px;
-  }
-}
-@media (min-width: 1024px) {
-  img.profile, img.dogs {
-    border-width: 5px;
-  }
-}
-@media (min-width: 1280px) {
-  img.profile, img.dogs {
-    padding: 60px;
-    border-width: 20px;
-  }
-}
-img.profile:hover, img.dogs:hover {
-  padding: 0;
-  -webkit-transition: all, 0.2s, linear;
-  transition: all, 0.2s, linear;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 2px 4px;
-  border-width: 5px;
-}
-img.profile:hover {
-  border-color: #718f21;
-}
-@media (min-width: 1024px) {
-  img.profile {
-    padding: 0;
-  }
-}
-@media (min-width: 1280px) {
-  img.profile {
-    padding: 6.66667px;
-  }
-}
-img.dogs:hover {
-  border-color: #3c7f75;
-}
-@media (min-width: 1024px) {
-  img.dogs {
-    padding: 0;
-  }
-}
-@media (min-width: 1280px) {
-  img.dogs {
-    padding: 6.66667px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1698,66 +1647,21 @@ body.album-review iframe {
 /* About Page */
 @media (min-width: 768px) {
   .top.about {
-    width: 48.93617%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .top.about {
-    width: 65.95745%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-  }
-}
-@media (min-width: 1280px) {
-  .top.about {
-    width: 74.46809%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
+    padding-top: 80px;
   }
 }
 
+.photo.me {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
 @media (min-width: 768px) {
   .photo.me {
-    width: 48.93617%;
     float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
+    display: inline-block;
+    max-width: 300px;
   }
-}
-@media (min-width: 1024px) {
-  .photo.me {
-    width: 31.91489%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    margin: 0;
-  }
-}
-@media (min-width: 1280px) {
-  .photo.me {
-    width: 23.40426%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
-
-.photo {
-  margin: 2em 0;
-  padding: 0 1em;
 }
 
 @media (min-width: 768px) {
