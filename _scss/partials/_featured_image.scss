@@ -7,7 +7,7 @@
   display: block;
 
   @include breakpoint($large) {
-    margin-bottom:-$space-octuple;
+    margin-bottom:-$space-triple;
     z-index: -1;
   }
 }

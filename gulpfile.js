@@ -112,9 +112,9 @@ gulp.task('lint', function() {
 gulp.task('watch', function() {
   gulp.watch(paths.sassFiles, ['sass']);
   gulp.watch(paths.imagesSrc, function() {
-    sequence(['images'], ['jekyll-rebuild']);
+    sequence(['images'], ['jekyll-build']);
   });
-  gulp.watch(paths.jekyll, ['jekyll-rebuild']);
+  gulp.watch(paths.jekyll, ['jekyll-build']);
 });
 
 

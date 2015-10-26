@@ -4,7 +4,7 @@
       <div class="logo-wrap">
       <a class="site-title logo" href="{{ site.baseurl }}/">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px"
-         height="60px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+         height="60px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve" alt="Joe Tower Logo" title="Joe Tower Logo">
           <g id="Layer_1" class="logo">
             <path d="M299.004,26.764c-151.095,0-272.758,122.971-272.758,272.758c0,151.09,121.664,272.761,272.758,272.761
               c149.79,0,272.763-121.671,272.763-272.761C571.767,149.735,448.794,26.764,299.004,26.764L299.004,26.764z M478.879,245.886
@@ -58,9 +58,6 @@
               c3.275,0,6.543-0.654,9.81-0.654c7.199,0,15.051-1.308,20.934,0.654c4.584,0,11.775,2.613,11.775,7.846
               C482.804,240.653,480.838,243.27,478.879,245.886z"/>
           </g>
-          <filter id="blur-more">
-            <feGaussianBlur stdDeviation="6" />
-          </filter>
         </svg>
       </a>
     </div>
@@ -72,7 +69,7 @@
               {% assign current = ' active ' %}
           {% endif %}
           <li class="item{% if forloop.first %} first{% endif %}{{ current }}{% if forloop.last %}last{% endif %}">
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url }}" title="{{ link.title }} page">{{ link.title }}</a>
           </li>
       {% endfor %}
       </ul>

@@ -16,12 +16,10 @@
 @import 'partials/wrap_spacing';
 @import 'partials/page_wrapper';
 @import 'partials/header';
-@import 'partials/layout/header-layout';
 @import 'partials/container';
 @import 'partials/links';
 @import 'partials/page_layout';
 @import 'partials/footer';
-@import 'partials/footer_layout';
 @import 'partials/featured_image';
 @import 'partials/images';
 @import 'partials/summary';
@@ -39,3 +37,6 @@
 @import 'partials/toggle_it';
 @import 'partials/icons';
 @import 'partials/forms';
+
+// Layouts
+@import 'partials/layout/layout';
