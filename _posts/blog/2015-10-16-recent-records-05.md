@@ -25,7 +25,7 @@ tags:
 ---
 ## Son Little - S/T
 
-I've been waiting for Son Little's full-length for over a year; since first hearing the incredible _Your Love Will Blow Me Away When My Heart Aches_. After countless listens to that song a a handfull of others he's released since, we now have a full-length. It's fantastic!
+I've been waiting for Son Little's full-length for over a year; since first hearing the incredible _Your Love Will Blow Me Away When My Heart Aches_. After countless listens to that song a a handful of others he's released since, we now have a full-length. It's fantastic!
 
 **I'm digging these tracks:** _I'm Gone_, _Your Love Will Blow Me Away When My Heart Aches_, _Lay Down_ and _Go Blue Blood Red_.
 
@@ -47,6 +47,6 @@ What a fun beat record this is. Rather, the deluxe version includes instrumental
 
 ## Deerhunter - Fading Frontier
 
-For some reason I never bothered to checkout Deerhunter and their 6 previus, critically-acclaimed albums. What a dumb mistake. If you're in the same boat I was, I advise you to jump overboard immediately. Really great record.
+For some reason I never bothered to checkout Deerhunter and their 6 previous, critically-acclaimed albums. What a dumb mistake. If you're in the same boat I was, I advise you to jump overboard immediately. Really great record.
 
 [Listen to "Living My Life"](https://www.youtube.com/watch?v=1x8_3kHM18s)

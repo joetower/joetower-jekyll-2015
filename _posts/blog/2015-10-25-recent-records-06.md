@@ -37,7 +37,7 @@ This is a builder. It's slow, deliberate, diverse, and tells an [epic story](htt
 
 ## Drudkh - A Furrow Cut Short
 
-I've been a big fan of Drudkh for years; loving some albums, feeling neutral about others. This one is pretty great so far. It's on=par with their last few recrods, and that's not a bad place to be.
+I've been a big fan of Drudkh for years; loving some albums, feeling neutral about others. This one is pretty great so far. It's _on par_ with their last few records, and that's not a bad place to be.
 
 **I'm digging these tracks:** _Cursed Sons 1_, _Cursed Sons 2_, and _Embers_.
 
@@ -48,7 +48,7 @@ I've been a big fan of Drudkh for years; loving some albums, feeling neutral abo
 
 ## Uncle Acid & the Deadbeats – The Night Creeper
 
-Drugs? Maybe. Creepy and psychedelic? yes, delicious.
+Drug-infused? Drug-produced? Maybe. Creepy and psychedelic? Yes, delicious. Let's get creepy.
 
 **I'm digging these tracks:** _Downtown_, _Melody Lane_, and _The Night Creeper_.
 
