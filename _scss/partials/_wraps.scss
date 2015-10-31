@@ -1,9 +1,0 @@
-// @_wraps.scss
-// Wrap defaults - width and padding.
-//
-
-.wrap {
-  @extend %clearfix;
-  width: 100%;
-  max-width:$max-width;
-}

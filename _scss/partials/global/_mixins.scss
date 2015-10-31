@@ -1,0 +1,16 @@
+//////////////////////////////
+// mixins
+// @_mixins.scss
+//////////////////////////////
+
+
+//////////////////////////////
+// Rem font-size Mixins
+//////////////////////////////
+// Adds px value for fallback - then rem value
+// use example =   @include font-size(1.6); = 1.6rem / 16px
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}

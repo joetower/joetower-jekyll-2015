@@ -1,0 +1,28 @@
+//////////////////////////////
+// page layout
+// @_page-layout.scss
+//////////////////////////////
+
+body {
+  @include flexbox();
+  @include flex-flow(column wrap);
+  @include align-items(center);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+.site-header,
+.site-footer,
+.post-header,
+.featured-image,
+.page-wrapper,
+.summary,
+.wrap,
+.post-comment-wrap,
+.home {
+  @include flexbox();
+  @include flex-flow(row wrap);
+  @include flex(1 0 auto);
+  width: 100%;
+}

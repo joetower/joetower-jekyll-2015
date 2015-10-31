@@ -1,0 +1,31 @@
+//////////////////////////////
+// archive layout
+// @_archive-layout.scss
+//////////////////////////////
+
+.top {
+  display: inline-block; /* non-flexbox browsers */
+  @include flexbox();
+  @include flex-flow(row wrap);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+  &.archive {
+    @extend %clearfix;
+
+    h1 {
+      flex: 0 0 auto;
+    }
+    .button {
+      &.by-category {
+        text-align: center;
+        flex: 0 0 auto;
+      }
+    }
+  }
+}
+.page-wrapper.archive-page,
+.page-wrapper.category-page {
+  max-width: 900px;
+
+}

@@ -1,12 +1,17 @@
+//////////////////////////////
+// Header layout
+// @_header-layout.scss
+//////////////////////////////
+
 .site-header {
   @extend %clearfix;
   .wrap {
-    @include display-flex(flex);
+    @include flexbox();
     @include flex-flow(row wrap);
   }
   .top-wrap {
     @extend %clearfix;
-    @include display-flex(flex);
+    @include flexbox();
     @include flex(1 0 auto);
     @include flex-flow(row wrap);
     @include justify-content(center);
@@ -24,7 +29,7 @@
     position:relative;
     z-index:10;
     display: inline-block; /* non-flexbox browsers */
-    @include display-flex(flex);
+    @include flexbox();
     @include flex(0 0 60px);
 
     @include breakpoint($small) {
@@ -34,23 +39,23 @@
 
   .logo {
     display: inline-block; /* non-flexbox browsers */
-    @include display-flex(flex);
+    @include flexbox();
     @include flex(1 0 auto);
     svg {
       display: inline-block; /* non-flexbox browsers */
-      @include display-flex(flex);
+      @include flexbox();
       @include flex(1 0 auto);
     }
   }
   .site-nav {
     display: inline-block; /* non-flexbox browsers */
-    @include display-flex(flex);
+    @include flexbox();
     @include flex(1 0 auto);
     @include flex-flow(row wrap);
   }
   .menu {
     display: inline-block; /* non-flexbox browsers */
-    @include display-flex(flex);
+    @include flexbox();
     @include flex(1 0 auto);
     @include justify-content(flex-end);
     @include flex-flow(row wrap);

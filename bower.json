@@ -5,7 +5,8 @@
     "singularity": "1.2.1",
     "compass-breakpoint": "2.4.2",
     "sass-toolkit": "2.3.0",
-    "sass-css3-mixins": "master",
-    "jquery": "2.1.0"
+    "jquery": "2.1.0",
+    "picturefill": "2.3.1",
+    "sass-flex-mixin": "1.0.1"
   }
 }

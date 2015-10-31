@@ -1,0 +1,67 @@
+//////////////////////////////
+// post content
+// @_post-content.scss
+//////////////////////////////
+
+/* Post Content Styles */
+.wrap.post {
+  @include flexbox();
+  @include flex-flow(row wrap);
+  @include justify-content(center);
+  @include align-items(center);
+  @include align-content(center);
+
+  .post {
+    width: 100%;
+  }
+}
+.post-content {
+  @include flex(1 0 auto);
+  @include breakpoint($large) {
+    padding-left: 25%;
+  }
+  ul,
+  ol {
+    padding-left: $space;
+    margin-bottom: $space-double;
+  }
+}
+.post-content blockquote,
+.page-content blockquote {
+  color: $jt-gray;
+  margin: $space-double 0;
+  padding-left: $space;
+  border-left: $space solid $jt-blue;
+  cite {
+   color: lighten($jt-gray, 30%);
+  }
+}
+
+.post {
+  @extend %clearfix;
+
+  pre,
+  code {
+    border: $space-one-sixth solid $jt-brown;
+    background-color: $jt-yellow;
+    color:$jt-brown;
+    overflow:scroll;
+    padding: $space;
+    @extend %clearfix;
+    display:block;
+  }
+  pre code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  pre.terminal {
+    border: $space-one-third solid #000;
+    background-color: #333;
+    color: #FFF;
+    @include border-radius(3px);
+    code {
+      background-color: #333;
+    }
+  }
+}

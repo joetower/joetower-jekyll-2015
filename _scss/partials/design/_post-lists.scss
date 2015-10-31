@@ -1,0 +1,68 @@
+//////////////////////////////
+// post list
+// @_post-list.scss
+//////////////////////////////
+
+/* Post ul styles */
+/* ----------------------------------------------------------*/
+.posts {
+  list-style-type: none;
+  padding-top: $space;
+
+  @extend %clearfix;
+
+  &.archive {
+    padding-top: $space-double;
+  }
+
+  a {
+    display: inline-block; /* non-flexbox browsers */
+  }
+
+  li {
+    margin-bottom: $space;
+    @include flexbox();
+    @include flex-flow(row wrap);
+    @include align-items(center);
+  }
+  .post-date {
+    @include flex(1 0 100%);
+
+    @include breakpoint($medium) {
+      @include flex(0 0 140px);
+    }
+  }
+  .post-link {
+    @include flex(1 0 100%);
+
+    @include breakpoint($medium) {
+      @include flex(1 0 auto);
+    }
+
+  }
+}
+.home {
+  @include flexbox();
+  @include flex-flow(row wrap);
+  @include align-items(flex-start);
+}
+
+.blog-posts,
+.work-posts {
+  @include flexbox();
+  @include flex-flow(column nowrap);
+  @include flex(1 0 100%);
+}
+.blog-posts {
+  margin-bottom: $space;
+
+  @include breakpoint($large) {
+    @include flex(1 0 60%);
+    margin-bottom: 0;
+  }
+}
+.work-posts {
+  @include breakpoint($large) {
+    @include flex(1 0 40%);
+  }
+}

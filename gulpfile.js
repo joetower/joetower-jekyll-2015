@@ -1,24 +1,32 @@
+var gulp = require('gulp');
+
+
 var jshint = require('gulp-jshint'),
-    gulp = require('gulp'),
-    sass = require('gulp-ruby-sass'),
-    minifyCss = require('gulp-minify-css'),
+    sass = require('gulp-sass'),
+    minifyCSS = require('gulp-minify-css'),
     prefix = require('gulp-autoprefixer'),
-    imagemin = require('gulp-imagemin'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    stripDebug = require('gulp-strip-debug'),
+    rename = require('gulp-rename'),
+    imagemin = require('gulp-imagemin'),
+    changed = require('gulp-changed'),
+    gzip = require('gulp-gzip'),
     bs = require('browser-sync'),
     reload = bs.reload,
     spawn = require('child_process').spawn,
-    sequence = require('run-sequence'),
-    changed = require('gulp-changed'),
     scsslint = require('gulp-scss-lint'),
+    sequence = require('run-sequence'),
+    deploy = require('gulp-gh-pages'),
+    gutil = require('gulp-util'),
+    c = gutil.colors,
     htmlmin = require('gulp-htmlmin');
 
 var paths = {
   site: './_site/',
   imagesSrc: ['_img/**/*'],
   imagesDest: 'img',
-  scripts: ['js/*.js', '!_src/js/vendor**/*.js'],
+  scripts: ['js/*.js', '!js/jquery-1.11.1.js'],
   sass: '_scss/style.scss',
   sassFiles: '_scss/**/*.scss',
   css: '_site/css/',
@@ -35,26 +43,24 @@ gulp.task('minify-html', function() {
 });
 
 //////////////////////////////
-// Compile Sass
+// Compile Our Sass
 //////////////////////////////
 gulp.task('sass', function() {
-  bs.notify('<span style="color: grey">Running:</span> Sass compiling');
+  bs.notify('<span style="color: grey">Running:</span> Sass task');
   return gulp.src(paths.sass)
     .pipe(sass({
-      bundleExec: true,
-      compass: true,
-      style: 'expanded',
-      loadPath: [
-        'bower_components/singularity/stylesheets',
-        'bower_components/breakpoint-sass/stylesheets',
-        'bower_components/compass-breakpoint/stylesheets',
-        'bower_components/sass-toolkit/stylesheets',
-      ]
-    }))
-    .pipe(prefix("last 2 versions", "> 1%"))
+        outputStyle: 'nested',
+      })
+      .on('error', function(err, res) {
+        gutil.log(c.red('sass'), 'failed to compile');
+        gutil.log(c.red('> ') + err.message);
+        bs.notify('<span style="color: red">Sass failed to compile</span>');
+      })
+    )
+    .pipe(prefix('last 2 versions', '> 1%'))
     .pipe(gulp.dest('css'))
     .pipe(gulp.dest(paths.css))
-    .pipe(bs.reload({stream:true}));
+    .pipe(reload({stream:true}));
 });
 
 //////////////////////////////
@@ -94,7 +100,9 @@ gulp.task('images', function() {
     // Optimize all the images.
     .pipe(imagemin({optimizationLevel: 5}))
     // Put them in the images directory.
-    .pipe(gulp.dest(paths.imagesDest));
+    .pipe(gulp.dest(paths.imagesDest))
+    .pipe(gulp.dest(paths.site + paths.imagesDest))
+    .pipe(reload({stream:true}));
 });
 
 //////////////////////////////
@@ -110,32 +118,35 @@ gulp.task('lint', function() {
 // Watch Files
 //////////////////////////////
 gulp.task('watch', function() {
+  gulp.watch(paths.scripts, ['lint', 'jekyll-dev']);
   gulp.watch(paths.sassFiles, ['sass']);
-  gulp.watch(paths.imagesSrc, function() {
-    sequence(['images'], ['jekyll-build']);
-  });
-  gulp.watch(paths.jekyll, ['jekyll-build']);
+  gulp.watch(paths.jekyll, ['jekyll-dev']);
+  gulp.watch(paths.imagesSrc, ['images']);
 });
 
 
 //////////////////////////////
 // BrowserSync Task
 //////////////////////////////
-gulp.task('browserSync', function () {
-  bs.init([
-    '_site/' + paths +  '/*.css',
-    '_site/' + paths + '/*.js',
-    '_site/**/*.html',
-  ], {
-    server: {
-      baseDir: '_site'
-    },
-    host: "localhost"
+gulp.task('browser-sync', function () {
+  bs({
+    server: './_site/'
   });
 });
 
 //////////////////////////////
-// 'build' tasks for jekyll server.
+// Build Jekyll
+//////////////////////////////
+gulp.task('build', function(cb) {
+  return sequence(['lint', 'sass', 'fonts', 'images'],
+    'jekyll-build',
+    // 'minify-html',
+    cb
+  );
+});
+
+//////////////////////////////
+// Our 'build' tasks for jekyll server.
 //////////////////////////////
 gulp.task('jekyll-build', function (done) {
   return spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
@@ -144,7 +155,6 @@ gulp.task('jekyll-build', function (done) {
       reload();
     });
 });
-
 
 //////////////////////////////
 // Our 'dev' tasks for jekyll server, note: it builds the files, but uses extra configuration.
@@ -156,25 +166,15 @@ gulp.task('jekyll-dev', function () {
     .on('close', reload);
 });
 
+//////////////////////////////
+// Development server
+//////////////////////////////
+gulp.task('bs', ['lint', 'images', 'sass', 'jekyll-dev', 'browser-sync', 'watch']);
 
-gulp.task('server', function(cb) {
-  return sequence(['sass', 'minify-css', 'minify-js', 'images'],
-    'jekyll-dev',
-    ['browserSync', 'watch'],
-    cb
-  );
-});
-
-gulp.task('serve', ['server']);
-
+// legacy command for BS
+gulp.task('server', ['bs']);
 
 //////////////////////////////
-// Build Jekyll
+// Default: build site
 //////////////////////////////
-gulp.task('build', function(cb) {
-  return sequence(['lint', 'sass', 'minify-css', 'minify-js', 'images'],
-    'jekyll-build',
-    // 'minify-html',
-    cb
-  );
-});
+gulp.task('default', ['build']);

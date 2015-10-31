@@ -1,0 +1,39 @@
+////////////////////////
+// Base Partials
+//
+// These files will be shared across all three of your output CSS files. Generally included here are only Compass Extension imports and imports for variables, functions, mixins, and extendables.
+//
+// Toolkit imports all of Compass, so there is no need to import it separately.
+////////////////////////
+
+////////////////////////////
+// Cross Browser Support
+$graceful-usage-threshold: 100;
+$critical-usage-threshold: 100;
+
+$browser-minimum-versions: (
+  "ie": "9",
+  "android": "4",
+  "chrome": "31",
+  "safari": "5",
+  "firefox": "25",
+  "ios-safari": "6.0-6.1",
+);
+
+////////////////////////
+// Compass Extensions
+////////////////////////
+@import '../bower_components/breakpoint-sass/stylesheets/breakpoint';
+@import '../bower_components/singularity/stylesheets/singularitygs';
+@import '../bower_components/sass-toolkit/stylesheets/toolkit';
+@import '../bower_components/sass-css3-mixins/css3-mixins.scss';
+
+////////////////////////
+// Private Imports
+////////////////////////
+@import 'variables';
+@import 'functions';
+@import 'flexbox';
+@import 'mixins';
+@import 'extends';
+@import 'normalize';
