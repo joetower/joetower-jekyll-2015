@@ -8,9 +8,11 @@ layout: post
 
 meta_title: Earth Series Reimagined | Paintings By Joe Tower
 
-meta_description: Old abstract paintings revisited, painted over and reimagined. 
+meta_description: Old abstract paintings revisited, painted over and reimagined.
 
 page-class: dark
+
+post-type: work
 
 categories:
 - painting

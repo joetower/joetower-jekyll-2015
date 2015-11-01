@@ -13,9 +13,12 @@ summary: Designing for yourself is an important exercise. This is part one of a 
 
 page-class: design-for-one
 
-categories: 
+post-type: work
+
+categories:
 - design
 - music
+- work
 
 tags:
 - 30-minute design
@@ -43,4 +46,3 @@ This is for (an old friend of mine) Colin Swenson's musical persona Omnii (one o
 
 ### Aesop Rock - Appleseed EP
 Ah the elusive and rare Aesop Rock EP (1999) that will never again be officially re-released. Man I still kick myself for not purchasing a copy when I had a chance. I recently re-downloaded this, FLAC-style and needed high resolution artwork to print out for my shelves, along with it's digital companion. The photo used is from this amazing photo archive website called <a href="http://www.shorpy.com" title="Shorpy Historic Photo Archive" class="external">Shorpy</a>. I felt it was a perfect fit and I adore the photograph. So really, this is minimal on the design, heavy on imagery - I did do a tray card too. Some day I'll do one for "Music For Earthworms" as well. If you haven't checked out Shorpy and like nostalgia for the sake of living vicariously through dead people, go there - or if you simply like neat photographs.
-

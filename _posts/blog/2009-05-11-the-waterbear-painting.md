@@ -13,9 +13,12 @@ summary: A painting inspired by my best friend's band, Waterbear. Typography mee
 
 page-class: brown
 
+post-type: work
+
 categories:
 - music
 - design
+- work
 
 tags:
 - anti-civ
@@ -44,5 +47,3 @@ Nicholas and I have talked about me painting a number of these in different colo
 Thanks for reading and happy interneting.
 
 ![Waterbear logo - acryllic painting detail]({{ site.url }}/img/posts/waterbear/waterbear-detail.jpg)
-
-

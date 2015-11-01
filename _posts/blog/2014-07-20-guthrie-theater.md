@@ -14,6 +14,8 @@ page-class: dark
 
 summary: Plays - performance as a medium to convey a story
 
+post-type: article
+
 categories:
 - arts
 - performance

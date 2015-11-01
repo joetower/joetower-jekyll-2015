@@ -24,7 +24,7 @@
     @include flexbox();
     @include flex-flow(row wrap);
     @include align-items(center);
-    
+
     @include breakpoint($medium) {
       @include flex-flow(row nowrap);
     }
@@ -40,7 +40,7 @@
     @include flex(1 0 100%);
 
     @include breakpoint($medium) {
-      @include flex(1 0 auto);
+      @include flex(0 0 auto);
     }
 
   }
@@ -61,12 +61,12 @@
   margin-bottom: $space;
 
   @include breakpoint($large) {
-    @include flex(1 0 60%);
+    @include flex(1 0 50%);
     margin-bottom: 0;
   }
 }
 .work-posts {
   @include breakpoint($large) {
-    @include flex(1 0 40%);
+    @include flex(1 0 50%);
   }
 }

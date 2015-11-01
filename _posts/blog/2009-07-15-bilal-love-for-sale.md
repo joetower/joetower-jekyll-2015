@@ -15,9 +15,12 @@ summary-class: design
 
 page-class: brown
 
+post-type: work
+
 categories:
 - music
 - design
+- work
 
 tags:
 - bilal
@@ -28,7 +31,7 @@ tags:
 
 This mock artwork textural and retro-ish in its overall theme.
 
-For any of you other die-hard Bilal fans out there who'd like artwork but don't have the means to produce some, I figured I'd share it once again. I'd really love a shot at designing a cover with actual high resolution studio images, instead of scraping the internet. 
+For any of you other die-hard Bilal fans out there who'd like artwork but don't have the means to produce some, I figured I'd share it once again. I'd really love a shot at designing a cover with actual high resolution studio images, instead of scraping the internet.
 
 ![Bilal - Love For Sale (mock artwork)]({{ site.url }}/img/posts/bilal/bilal_love-for-sale.jpg)
 

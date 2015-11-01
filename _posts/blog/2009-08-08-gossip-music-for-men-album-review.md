@@ -15,6 +15,8 @@ summary-class: reviews
 
 page-class: gossip-purple
 
+post-type: article
+
 categories:
 - music
 - reviews

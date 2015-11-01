@@ -14,6 +14,8 @@ page-class: dark
 
 summary: Recent records happen all the time. I should make this a series. hm.
 
+post-type: article
+
 categories:
 - music
 - reviews

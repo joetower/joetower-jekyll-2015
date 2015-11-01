@@ -15,8 +15,11 @@ summary-class: design
 
 page-class: dark-texture
 
+post-type: work
+
 categories:
 - design
+- work
 
 tags:
 - joni mitchell

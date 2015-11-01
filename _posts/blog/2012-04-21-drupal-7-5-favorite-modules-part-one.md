@@ -11,6 +11,8 @@ meta_description: A list of 5 randomly chosen favorite Drupal 7 modules.
 
 page-class: drupal-green
 
+post-type: article
+
 categories:
 - drupal
 - web-development

@@ -15,8 +15,11 @@ summary-class: design
 
 page-class: dark-texture
 
+post-type: work
+
 categories:
 - design
+- work
 
 tags:
 - typography in music
@@ -45,21 +48,21 @@ People dismiss hip-hop as ignorant and an abomination to music. Like anything, y
 The funny thing is that hip-hop holds, by far, the most intelligent and creative expression of language in music today. I can not think of one single other genre of music that comes close. Don't get me wrong, there are excellent, brilliantly-crafted lyrics to be found in any genre of music. If we measured them all up though, I think we'd find that hip-hop buries it's competition. The sad thing, is that the commercial and marketable shit is all the <em>sheep</em> hear and in turn, dismiss the entire genre.  Fortunately, I've never been close-minded when it comes to anything in life. Life is too short for restrictions, especially when it comes to something as humanly expressive as art.
 
 ### Anyway, I'm getting a bit sidetracked...so..on to the song.
-This song came to me when I needed it most. It offers a sincere, honest look at ones internal reaction to failed love. This song is the epitome of excellent storytelling and structure. Starting out with an intense barrage of lyrics, layers of aggression, passion and well-structured lyrical passages. Like thoughts, just festering in the brain, cycling through over and over, the could of and should of, the accusations of blame, the back-and-forth struggles of relationships. The confusion, the stress, the out-of-your mind pure fucking sadness. The desire to relieve yourself of the situation, find something, hold on for a bit longer. The olive branch. The memories, the little things, the times you shared and everything you miss. The realization that someone actually found it within themselves to  love you, with all their heart and it was mutual. The pain that it may never happen again. 
+This song came to me when I needed it most. It offers a sincere, honest look at ones internal reaction to failed love. This song is the epitome of excellent storytelling and structure. Starting out with an intense barrage of lyrics, layers of aggression, passion and well-structured lyrical passages. Like thoughts, just festering in the brain, cycling through over and over, the could of and should of, the accusations of blame, the back-and-forth struggles of relationships. The confusion, the stress, the out-of-your mind pure fucking sadness. The desire to relieve yourself of the situation, find something, hold on for a bit longer. The olive branch. The memories, the little things, the times you shared and everything you miss. The realization that someone actually found it within themselves to  love you, with all their heart and it was mutual. The pain that it may never happen again.
 
 I structured this type experiment out in the same fashion the song builds.
 The barrage of thoughts, all mixed-up and primal, followed by the climax, the main point, the final output of frustration and that glimpse of closure.
 
 >"My best, you can have it if you want it"
-This almost offers comfort in the whole mess. The justification through being rational approach. 
+This almost offers comfort in the whole mess. The justification through being rational approach.
 
 >"Drowning, I'm not waving, I'm drowning"
-The unease of it all, being human, being vulnerable, having your world collapse around you. The desire to give-in and fester in your sadness, to be alone. 
+The unease of it all, being human, being vulnerable, having your world collapse around you. The desire to give-in and fester in your sadness, to be alone.
 
 This is one of my favorite songs ever and probably always will be.
 Stef has refined his approach over the years and still continues to impress me, or rather, floor me with his expression, his craft. Nothing he puts out will ever touch the vulnerable beauty that is **Ipecac Neat**. Rather, nothing he puts out will affect me in the same way - pretty much like everything in life.
 
-I also created a "waving" hand graphic that has a portion missing from the "ring" finger. Emphasizing a shattered relationship. I'm trying to break myself of the desire to make everything clean in these type explorations. I always gravitate toward clean, structured type and it's tough to break the habit. I may start only using hand-drawn type for a while, free from the structure of typefaces and the computer. 
+I also created a "waving" hand graphic that has a portion missing from the "ring" finger. Emphasizing a shattered relationship. I'm trying to break myself of the desire to make everything clean in these type explorations. I always gravitate toward clean, structured type and it's tough to break the habit. I may start only using hand-drawn type for a while, free from the structure of typefaces and the computer.
 
 I really enjoying doing these because it allows me to explore my favorite songs in a whole new light.
 

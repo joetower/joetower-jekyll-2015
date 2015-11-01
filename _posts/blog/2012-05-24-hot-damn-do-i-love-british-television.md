@@ -11,6 +11,8 @@ meta_description: My thoughts on some favorite British television shows - both t
 
 page-class: british-blue
 
+post-type: article
+
 categories:
 - television
 

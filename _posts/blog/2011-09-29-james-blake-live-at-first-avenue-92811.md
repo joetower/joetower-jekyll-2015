@@ -13,7 +13,9 @@ summary: Thoughts on Jame Blake's performance at First Avenue.
 
 page-class: blake
 
-categories: 
+post-type: article
+
+categories:
 - music
 
 tags:

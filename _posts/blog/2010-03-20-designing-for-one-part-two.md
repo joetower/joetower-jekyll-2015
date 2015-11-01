@@ -13,9 +13,12 @@ summary: Designing for yourself is an important exercise. This is part two of a 
 
 page-class: design-for-two
 
-categories: 
+post-type: work
+
+categories:
 - design
 - music
+- work
 
 tags:
 - 30-minute design
@@ -46,4 +49,3 @@ So I said I'd do this someday and now is that some day. It is very similar in st
 
 ### Waterbear - Untitled But Moustached Lady
 This is seriously just for fun and is absolutely ridiculous. Nicholas and Tom need to put out an album and maybe this in some small way will help them along their way - motivation. If you're reading this stop and go make some music. Put down the fish and beans. Stop shitting your pants, wearing wild life sweaters and make some music. Imagery utilized from <a href="http://www.shorpy.com" title="Shorpy High Resolution Old World Photos" class="external">Shorpy</a>.
-

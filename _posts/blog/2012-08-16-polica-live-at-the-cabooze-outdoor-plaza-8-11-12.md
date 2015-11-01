@@ -15,6 +15,8 @@ summary-class: reviews
 
 page-class: dark
 
+post-type: article
+
 categories:
 - music
 

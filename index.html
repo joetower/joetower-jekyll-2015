@@ -16,18 +16,18 @@ meta_description: "Thoughts, work, and nonsense by Minneapolis Designer Joe Towe
 
     <h2>Latest Posts</h2>
 
-    <ul class="posts">
-      {% assign relevant = site.posts | except:"categories","work" %}
-      {% for post in relevant limit:6 %}
-        <li>
-          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <span class="post-link">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title }}
-            </a>
-          </span>
-        </li>
+    {% assign posts = site.posts | where: "post-type", "article" %}
 
+    <ul class="posts">
+      {% for post in posts limit:6  %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-link">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </span>
+          </li>
       {% endfor %}
     </ul>
   </div>

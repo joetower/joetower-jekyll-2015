@@ -17,7 +17,9 @@ summary: This debut is absolutely haunting. For a 22 year old guy, it’s nothin
 
 summary-class: reviews
 
-categories: 
+post-type: article
+
+categories:
 - music
 
 tags:

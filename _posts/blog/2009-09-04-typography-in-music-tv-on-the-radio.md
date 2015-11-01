@@ -7,7 +7,7 @@ layout: post
 
 meta_title: TV On The Radio - Typography In Music
 
-meta_description: Typographic exploration of TV on the Radio's lyrics for the song "Ambulance". 
+meta_description: Typographic exploration of TV on the Radio's lyrics for the song "Ambulance".
 
 summary: Desktop wallpaper inspired by TV on the Radio and a love of type. This is Ambulance.
 
@@ -15,8 +15,11 @@ summary-class: design
 
 page-class: dark
 
+post-type: work
+
 categories:
 - design
+- work
 
 tags:
 - typography in music
@@ -46,7 +49,7 @@ Since 2004 TVotR have continued releasing incredible albums and I always look fo
 
 Also, just to point-out, not even the genius of David Sitek could save **Scarlett Johansson's** butchering of **Tom Waits** songs (_Anywhere I Lay My Head_). I don't have the words for how bad that was, the production was excellent though! You can expect some Waits appearances in these typography experiments, that's for damn sure.
 
-Anyway, hopefully those of you reading dig these weekly installments so far. 
+Anyway, hopefully those of you reading dig these weekly installments so far.
 
 <ul class="downloads">
   <li><a href="/assets/downloads/blog/images/ambulance-wallpaper.jpg">Download - Ambulance Wallpaper</a></li>

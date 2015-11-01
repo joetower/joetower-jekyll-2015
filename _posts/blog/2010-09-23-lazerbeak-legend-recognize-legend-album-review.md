@@ -15,6 +15,8 @@ summary-class: reviews
 
 page-class: lazerbeak
 
+post-type: article
+
 categories:
 - music
 - reviews

@@ -15,6 +15,8 @@ page-class: dark
 summary: Lady Lamb. Kendrick. Kamasi.
 summary-class: reviews
 
+post-type: article
+
 categories:
 - music
 - reviews

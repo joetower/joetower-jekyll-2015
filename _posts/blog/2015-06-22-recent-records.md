@@ -15,6 +15,8 @@ page-class: dark
 summary: Marriages. Earl Sweatshirt. Jamie xx.
 summary-class: reviews
 
+post-type: article
+
 categories:
 - music
 - reviews

@@ -13,6 +13,8 @@ image-class: state-of-tv
 
 page-class: dark-texture
 
+post-type: article
+
 categories:
 - television
 

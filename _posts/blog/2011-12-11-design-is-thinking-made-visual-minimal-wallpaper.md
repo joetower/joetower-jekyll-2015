@@ -15,9 +15,12 @@ summary-class: design
 
 page-class: saul-purple
 
-categories: 
+post-type: work
+
+categories:
 - design
 - wallpaper
+- work
 
 tags:
 - minimal desktop wallpaper

@@ -13,12 +13,14 @@ summary: Over the past 6 months or so I've been reading some collected & booked 
 
 page-class: dark
 
-categories: 
+post-type: article
+
+categories:
 - thoughts
 
 tags:
 - jiddu krishnamurti
-- religion 
+- religion
 - conditioning
 - eyedea
 - fear
@@ -48,4 +50,3 @@ If I could have a conversation with Jiddu Krishnamurti today, I would have many 
 >None of the agonies of suppression, nor the brutal discipline of conforming to a pattern has led to truth. To come upon truth the mind must be completely free, without a spot of distortion.
 
 Krishnamurti thrived around people, both speaking with and observing human interaction. I like to think of him as a wise observer. One whose ideas will echo throughout eternity. I feel fortunate to have found his work and will continue reading, immersed in thought, forever. Thank you eyedea.
-

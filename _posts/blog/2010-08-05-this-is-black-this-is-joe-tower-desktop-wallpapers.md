@@ -13,8 +13,11 @@ summary: These wallpapers were inspired by minimalism and another man named Joe 
 
 page-class: dark-texture
 
+post-type: work
+
 categories:
 - music
+- work
 
 tags:
 - 1680 x 1050

@@ -16,6 +16,8 @@ summary-class: reviews
 
 page-class: dessa
 
+post-type: article
+
 categories:
 - music
 - reviews
@@ -83,4 +85,3 @@ This is, by far, my least favorite Dessa song. The hook is catchy, sure, but it'
 Dessa is a brilliant writer, and even better at singing and rapping her own words. Her lyrics are second to few artists. Now I'll have to go back and revist Parts of Speech with a fresh perspective.
 
 <a href="http://dessa.bandcamp.com/album/parts-of-speech-re-edited" title="Buy Dessa's Parts of Speech Re-Edited">Buy Dessa's re-edited album - $4.99</a>
-

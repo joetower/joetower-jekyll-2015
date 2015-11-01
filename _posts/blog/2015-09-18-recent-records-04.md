@@ -15,6 +15,8 @@ page-class: dark
 summary: Chelsea Wolfe. Ghost. Tribulation.
 summary-class: reviews
 
+post-type: article
+
 categories:
 - music
 - reviews

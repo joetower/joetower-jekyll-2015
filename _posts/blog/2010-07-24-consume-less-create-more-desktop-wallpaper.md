@@ -13,8 +13,11 @@ summary: What a novel phrase "Consume Less. Create More." Let's make a wallpaper
 
 page-class: light
 
+post-type: work
+
 categories:
 - design
+- work
 
 tags:
 - consume less create more

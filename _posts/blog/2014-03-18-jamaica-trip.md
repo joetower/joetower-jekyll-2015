@@ -12,6 +12,8 @@ meta_description: My impression of Jamaica, and travel tips for visiting.
 
 page-class: jamaica
 
+post-type: article
+
 categories:
 - travel
 
@@ -27,7 +29,7 @@ Travel has been at the forefront of life goals over the past few years. **Jamaic
 
 For two travellers, **Negril, Jamaica** can be as low as $1,400 for 6 days (5 nights) roundtrip airfare, and resort/b&b accommodations.
 
-The majority of our stay was spent wondering the West End, on foot, seeking out delicious food and memorable conversation. Thankfully, both were plentiful. 
+The majority of our stay was spent wondering the West End, on foot, seeking out delicious food and memorable conversation. Thankfully, both were plentiful.
 
 ## Resort experience
 

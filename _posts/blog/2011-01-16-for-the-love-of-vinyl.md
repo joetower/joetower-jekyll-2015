@@ -15,7 +15,9 @@ summary-class: reviews
 
 page-class: brown
 
-categories: 
+post-type: article
+
+categories:
 - music
 
 tags:
@@ -39,7 +41,6 @@ When I was a teenager there was nothing better than getting lost for hours, whol
 
 Today I don't get lost in record stores as often. I still listen to and discover new artists on an almost daily basis, but largely, by different means. I probably listen to music more than ever before, and definitely have far more diverse taste than I did 15 years ago. The means by which one attains music has changed. Some intimacy has been lost. Some of these sentiments of loss have changed drastically for me over the past few years. I have reignited my passion for vinyl and now am happy to say I get lost again. The thrill of the hunt is on once again.  As the rise of internet downloads has increased and CD sales have dwindled, vinyl has an audience.
 
-Recently I've been frequenting a record shop by my house called <a href="http://hymiesrecords.com/" class="external" title="Hymie's Vintage Records">Hymie's Vintage Records</a>. The owner, Dave, couldn't be a nicer guy. He's happy to bullshit about hard-to-find jazz records, recommend music or talk about his Boston Terrier named Irene. It's always been mom-and-pop shops like Hymie's that I find solace in. He has aided me in ordering the **Tom Waits**, **John Coltrane** & **Nina Simone** albums I've always wanted to own on vinyl. I once again get lost in record shops, and find myself rushing home to drop the needle on the newest eargasmic bliss. 
+Recently I've been frequenting a record shop by my house called <a href="http://hymiesrecords.com/" class="external" title="Hymie's Vintage Records">Hymie's Vintage Records</a>. The owner, Dave, couldn't be a nicer guy. He's happy to bullshit about hard-to-find jazz records, recommend music or talk about his Boston Terrier named Irene. It's always been mom-and-pop shops like Hymie's that I find solace in. He has aided me in ordering the **Tom Waits**, **John Coltrane** & **Nina Simone** albums I've always wanted to own on vinyl. I once again get lost in record shops, and find myself rushing home to drop the needle on the newest eargasmic bliss.
 
-In our ever-growing, fast-changing, instantly-consumable, fast-food world, it's nice to take the long road once in a while. It's peaceful, even therapeutic. It's intimate. I wouldn't have it any other way. Here's to vinyl. 
-
+In our ever-growing, fast-changing, instantly-consumable, fast-food world, it's nice to take the long road once in a while. It's peaceful, even therapeutic. It's intimate. I wouldn't have it any other way. Here's to vinyl.

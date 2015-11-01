@@ -11,6 +11,8 @@ meta_description: Part two in a series on my favorite Drupal 7 modules, featurin
 
 page-class: drupal-green2
 
+post-type: article
+
 categories:
 - drupal
 - web-development

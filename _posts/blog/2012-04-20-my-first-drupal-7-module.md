@@ -11,6 +11,8 @@ meta_description: A simple Drupal 7 Module example to set a content type default
 
 page-class: drupal-blue
 
+post-type: article
+
 categories:
 - drupal
 - web-development

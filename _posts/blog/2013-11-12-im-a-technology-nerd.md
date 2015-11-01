@@ -11,6 +11,8 @@ meta_description: My thoughts about technology.
 
 page-class: dark-texture
 
+post-type: article
+
 categories:
 - technology
 
@@ -23,7 +25,7 @@ tags:
 I'm not sure when it happened, but I've been a nerd about technology for the majority of my adult life. Some of it goes hand-in-hand with being in the internet field, some in being a designer, and everything with being passionate about new stuff. But, to me, "nerd" isn't derogatory. It's the opposite; it's a term that aims to succinctly capture passion, intelligence, and a unique kind of cultural qualifier in one little word.
 
 I've hesitated to write about tech-related things because <a href="http://verge.com" title="The Verge">The Verge</a> does a better job than I ever could. I also admire their design team, for the most part. But, even though I listen to (and/or watch) the <a href="http://twit.tv/" title="This Week in Tech">TWiT network</a> (especially <a href="http://twit.tv/show/all-about-android/" title="All About Android on TWiT">All About Android</a>), and consume all tech everything on YouTube and Google Plus, I still have something unique to say. I am nothing without opinions.
- 
+
 ## Apple
 I exclusively use Apple's still unmatched Mac Book Pros, and still love OS X. I'm adamantly opposed to using any laptop that isn't a Mac. Most of that has to do with my profession, but also because OS X's file management has always made way more sense to me than any alternative. So awesome, I love Apple-made computers. Ugh, except that new MacPro garbage can. WTF?!?
 

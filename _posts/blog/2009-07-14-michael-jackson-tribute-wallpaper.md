@@ -15,9 +15,12 @@ summary: design
 
 page-class: dark-texture
 
+post-type: work
+
 categories:
 - music
 - design
+- work
 
 tags:
 - billie jean

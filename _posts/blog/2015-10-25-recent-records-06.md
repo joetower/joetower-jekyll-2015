@@ -15,6 +15,8 @@ page-class: dark
 summary: Kauan. Drudkh. Uncle Acid.
 summary-class: reviews
 
+post-type: article
+
 categories:
 - music
 - reviews

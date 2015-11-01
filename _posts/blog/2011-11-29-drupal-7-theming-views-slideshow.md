@@ -13,6 +13,8 @@ summary: This is a nifty way to go about styling Views Slideshow using Drupal Pr
 
 page-class: drupal-blue2
 
+post-type: article
+
 categories:
 - drupal
 - design

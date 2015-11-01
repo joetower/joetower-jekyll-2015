@@ -15,6 +15,8 @@ summary-class: reviews
 
 page-class: never-better
 
+post-type: article
+
 categories:
 - music
 - reviews
@@ -43,7 +45,7 @@ To just flat-out say that this record is one of the most forward-thinking releas
 
 Often insightful, dense, abstract lyrical passages soar over equally dense, often beautifully epic, drum-heavy beat passages. These 16 new offerings are something special.
 
-From the beginning of _**Let It Rattle**_, my face was firmly grinned. Incredible chorus, beautifully constructed beat, subtle background elements and strong lyrical content. Stef has always been able to emit sincerity in his music. The little intricities are what strike me most. From the back-and-forth banter between him and another emcee or engineer Joe Mabbot, it's always genuine. I relate to his music because of this if nothing more. This is the biggest flaw with most mainstream music period. It lacks conviction, sincerity, passion and emotion. Those are four things that P.O.S. has never lacked. 
+From the beginning of _**Let It Rattle**_, my face was firmly grinned. Incredible chorus, beautifully constructed beat, subtle background elements and strong lyrical content. Stef has always been able to emit sincerity in his music. The little intricities are what strike me most. From the back-and-forth banter between him and another emcee or engineer Joe Mabbot, it's always genuine. I relate to his music because of this if nothing more. This is the biggest flaw with most mainstream music period. It lacks conviction, sincerity, passion and emotion. Those are four things that P.O.S. has never lacked.
 
 > They hide their eyes and can't describe what they've been missing / They fire blind and can't describe what they've been laying-down / But they laying down
 

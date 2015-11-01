@@ -11,7 +11,9 @@ meta_description: Logo and poster design for the Minneapolis Band Called Waterbe
 
 page-class: brown
 
-categories: 
+post-type: work
+
+categories:
 - painting
 - work
 

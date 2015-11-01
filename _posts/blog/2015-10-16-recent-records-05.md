@@ -15,6 +15,8 @@ page-class: dark
 summary: Son Little. Odesza. Deerhunter.
 summary-class: reviews
 
+post-type: article
+
 categories:
 - music
 - reviews
