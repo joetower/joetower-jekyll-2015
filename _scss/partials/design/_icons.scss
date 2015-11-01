@@ -16,11 +16,11 @@
   vertical-align:middle;
 
   &.icon-tags {
-    background: transparent image-url('../icons/chevron-circle-down.svg') center center no-repeat;
+    background: transparent url('/img/icons/chevron-circle-down.svg') center center no-repeat;
     background-size: contain;
   }
   &.icon-send {
-    background: transparent image-url('../icons/paper-plane.svg') center center no-repeat;
+    background: transparent url('/img/icons/paper-plane.svg') center center no-repeat;
     background-size: contain;
   }
 }

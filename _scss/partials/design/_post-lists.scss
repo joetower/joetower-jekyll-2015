@@ -24,6 +24,10 @@
     @include flexbox();
     @include flex-flow(row wrap);
     @include align-items(center);
+    
+    @include breakpoint($medium) {
+      @include flex-flow(row nowrap);
+    }
   }
   .post-date {
     @include flex(1 0 100%);

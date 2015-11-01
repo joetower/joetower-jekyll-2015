@@ -69,7 +69,7 @@ input[type="submit"] {
       color:$white;
       border-color: $jt-gray;
       .icon-tags {
-        background: transparent image-url('icons/chevron-circle-down-white.svg') center center no-repeat;
+        background: transparent url('/img/icons/chevron-circle-down-white.svg') center center no-repeat;
         background-size: contain;
       }
     }
@@ -83,13 +83,13 @@ input[type="submit"] {
         color: lighten($jt-gray, 55%);
         border-color: lighten($jt-gray, 20%);
         .icon-tags {
-          background: transparent image-url('icons/chevron-circle-up-white.svg') center center no-repeat;
+          background: transparent url('/img/icons/chevron-circle-up-white.svg') center center no-repeat;
           background-size: contain;
         }
       }
       .icon-tags {
         opacity:.6;
-        background: transparent image-url('icons/chevron-circle-up-white.svg') center center no-repeat;
+        background: transparent url('/img/icons/chevron-circle-up-white.svg') center center no-repeat;
         background-size: contain;
       }
     }

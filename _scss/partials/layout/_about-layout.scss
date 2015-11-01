@@ -4,27 +4,23 @@
 
 
 /* About Page */
-.top.about {
-
-  @include breakpoint($medium) {
-    padding-top: $space-quadruple;
-  }
-}
 .photo {
-  &.me {
-    margin-right: $space-one-half;
-    margin-bottom: $space-one-half;
-    display: inline-block;
+  max-width: 400px;
+  margin: 0 auto $space-one-half;
 
+  &.me {
     @include breakpoint($medium) {
       float: left;
       display: inline-block;
       max-width: 300px;
+      margin-right: $space-one-half;
     }
   }
 }
 .dogs {
-  max-width: 80%;
+  @include breakpoint($large) {
+    max-width: 80%;
+  }
 }
 .dog {
   @include breakpoint($medium) {
