@@ -138,7 +138,7 @@ gulp.task('browser-sync', function () {
 // Build Jekyll
 //////////////////////////////
 gulp.task('build', function(cb) {
-  return sequence(['lint', 'sass', 'fonts', 'images'],
+  return sequence(['lint', 'sass', 'images'],
     'jekyll-build',
     // 'minify-html',
     cb
