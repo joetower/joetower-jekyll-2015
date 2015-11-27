@@ -18,17 +18,15 @@
     }
     ul {
       transition: all 0.5s ease;
-      opacity:1;
       visibility:visible;
       height:auto;
+      padding:.5em;
     }
   }
   ul {
-    padding:.5em;
     margin:  0;
     height:0;
     transition: all 0.5s ease;
-    opacity:0;
     @include flexbox();
     @include flex-flow(row wrap);
     @include justify-content(flex-start);

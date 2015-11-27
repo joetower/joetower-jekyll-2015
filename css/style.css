@@ -1038,6 +1038,94 @@ label {
     .site-header .site-nav .menu li.active a:hover {
       color: rgba(255, 255, 255, 0.65); }
 
+/**
+ * @file _fade-in.scss
+ * CSS animation for elegant mobile menu fadeIn effects
+ */
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.active .fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .1s;
+  animation-duration: .1s; }
+  .active .fade-in li, .active .fade-in.one {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s; }
+  .active .fade-in.two {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+  .active .fade-in.three {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+  .active .fade-in.four {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s; }
+  .active .fade-in.five {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+
+/**
+ * @file _fade-out.scss
+ * CSS animation for elegant mobile menu fadeOut effects
+ */
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.active .fade-out {
+  opacity: 1;
+  /* make things invisible upon start */
+  -webkit-animation: fadeOut ease-in-out 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation: fadeOut ease-in-out 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s; }
+  .active .fade-out.one {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s; }
+  .active .fade-out.two {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+  .active .fade-out.three {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+  .active .fade-out.four {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s; }
+  .active .fade-out.five {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+
 ::-moz-selection {
   color: #fff;
   background: #92b82b; }
@@ -1923,16 +2011,14 @@ body.album-review iframe {
     .browse-by-category.active ul {
       -webkit-transition: all 0.5s ease;
               transition: all 0.5s ease;
-      opacity: 1;
       visibility: visible;
-      height: auto; }
+      height: auto;
+      padding: .5em; }
   .browse-by-category ul {
-    padding: .5em;
     margin: 0;
     height: 0;
     -webkit-transition: all 0.5s ease;
             transition: all 0.5s ease;
-    opacity: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
@@ -1975,7 +2061,6 @@ body.album-review iframe {
       background: #1c1c1c; }
 
 .toggle-it {
-  margin-top: -9999em;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
   opacity: 0;
