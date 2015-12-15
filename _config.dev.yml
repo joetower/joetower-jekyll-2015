@@ -1,8 +1,7 @@
+# Our special override file for local development.
 development: true
-minify_html: false
 
 assets:
   js_compressor:
   css_compressor:
-  cache: true
   cachebust: none

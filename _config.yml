@@ -12,6 +12,9 @@ google_username: joetower
 lastfm_username: georgehower
 linkedin_username: joetower
 
+debug: false
+development: false
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title

@@ -1307,7 +1307,7 @@ img.profile, img.dogs {
     padding-left: 21%; } }
 
 .summary .wrap {
-  padding: 40px 20px;
+  padding: 20px;
   border-left: 20px solid #595959;
   background-color: rgba(217, 217, 217, 0.9); }
   .summary .wrap.reviews {

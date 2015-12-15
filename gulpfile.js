@@ -30,7 +30,7 @@ var paths = {
   sass: '_scss/style.scss',
   sassFiles: '_scss/**/*.scss',
   css: '_site/css/',
-  jekyll: ['**/*.html', '**/*.md', '!_site/**/*.html', '!node_modules/**/*'],
+  jekyll: ['**/*.html', '**/*.md', '!_site/**/*.html', '!./bower_components', '!node_modules/**/*'],
 };
 
 //////////////////////////////
@@ -115,7 +115,29 @@ gulp.task('lint', function() {
 });
 
 //////////////////////////////
-// Watch Files
+// Our 'build' tasks for jekyll server.
+//////////////////////////////
+gulp.task('jekyll-build', function (done) {
+  return spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
+    .on('close', function() {
+      done();
+      reload();
+    });
+});
+
+//////////////////////////////
+// Our 'dev' tasks for jekyll server, note: it builds the files, but uses extra configuration.
+//////////////////////////////
+gulp.task('jekyll-dev', function () {
+  bs.notify('<span style="color: grey">Running:</span> jekyll-dev');
+
+  return spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config.dev.yml'], {stdio: 'inherit'})
+    .on('close', reload);
+});
+
+
+//////////////////////////////
+// Watch for changes during development
 //////////////////////////////
 gulp.task('watch', function() {
   gulp.watch(paths.scripts, ['lint', 'jekyll-dev']);
@@ -123,7 +145,6 @@ gulp.task('watch', function() {
   gulp.watch(paths.jekyll, ['jekyll-dev']);
   gulp.watch(paths.imagesSrc, ['images']);
 });
-
 
 //////////////////////////////
 // BrowserSync Task
@@ -143,27 +164,6 @@ gulp.task('build', function(cb) {
     // 'minify-html',
     cb
   );
-});
-
-//////////////////////////////
-// Our 'build' tasks for jekyll server.
-//////////////////////////////
-gulp.task('jekyll-build', function (done) {
-  return spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
-    .on('close', function() {
-      done();
-      reload();
-    });
-});
-
-//////////////////////////////
-// Our 'dev' tasks for jekyll server, note: it builds the files, but uses extra configuration.
-//////////////////////////////
-gulp.task('jekyll-dev', function () {
-  bs.notify('<span style="color: grey">Running:</span> jekyll-dev');
-
-  return spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config.dev.yml'], {stdio: 'inherit'})
-    .on('close', reload);
 });
 
 //////////////////////////////

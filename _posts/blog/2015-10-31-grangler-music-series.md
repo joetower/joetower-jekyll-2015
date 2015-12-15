@@ -29,9 +29,9 @@ tags:
 ---
 
 ## Origin, passion, reasoning
-For the last 8 years I've been poring over my favorite albums, artists, songs of the year and compiling a pair of CDRs to gift to family and friends for the holiday season. This was a bit of a _passing of the torch_ so-to-speak, in that my uncle Steve used to compile CDRs as his annual gift. Steve passed away 8 years ago, so I've been assembling my own compliations; both as a tribute to him and because I really _really_ love music. And even more than loving music, I love sharing music and maybe introducing others to their new favorite artist. Steve's compilations, hmm, how to put it, were more Adult Contemporary than my interpretation. Truly, mine tend to be all over the place: eclectic.
+For the last 8 years I've been poring over my favorite albums, artists, songs of the year and compiling a pair of CDRs to gift to family and friends for the holiday season. This was a bit of a _passing of the torch_ so-to-speak, in that my uncle Steve used to compile CDRs as his annual gift. Steve passed away 8 years ago, so I've been assembling my own compliations; both as a tribute to him and because I really _really_ love music. And even more than loving music, I love sharing music and maybe introducing others to their new favorite artist. Steve's compilations were more Adult Contemporary than my interpretation. Truly, mine tend to be all over the place: eclectic.
 
-This process also fulfills me, as a designer. I get to design for my favorite thing: music. For the most part each cover remains rather simple. For the past few years I've removed color; as I've chosen to use a back-and-white toner-based printer instead of a color ink jet. I can be fairly pragmatic, at times, I suppose. Also clearly at the forefront has been typography decisions. Clear and bold seems to have dominated several years. As you can see, themes/templating tended to stick around for more than one year.
+This process also fulfills me, as a designer. I get to design for my favorite thing: music. For the most part each cover's design is rather simple. For the past few years I've removed color; as I've chosen to use a back-and-white toner-based printer instead of a color ink jet. I can be fairly pragmatic, at times, I suppose. Also clearly at the forefront has been typography decisions. Clear and bold seems to have dominated several years. As you can see, themes/templating tended to stick around for more than one year.
 
 
 ![Volume 1]({{ site.url }}/img/posts/grangler-music/grangler-music-cover-1.png)
@@ -138,7 +138,7 @@ The second year definitely featured the most graphic heavy artwork. More so than
 
 ## 2010 : Volumes 5 &amp; 6
 
-Year three contained all 2010-specific music. This collection of songs is predominantly r&b/soul based. The year saw great releases from local hip-hop collective extraordinaire, **Doomtree**; with songs/albums from **Dessa**, **P.O.S**, **Paper Tiger**, **Lazerbeak**, and the Doomtree-contributing supergroup **Gayngs**, which is made up of all kinds of Minneapolis awesomeness. Sprinkled throughout the Doomtree madness is a mix of pop, classical, rock, and hip-hop tracks.
+Year three contained all 2010-specific music, despite retaining the "new and old" disclaimer adorning the artwork. This collection of songs is predominantly r&b/soul based. The year saw great releases from local hip-hop collective extraordinaire, **Doomtree**; with songs/albums from **Dessa**, **P.O.S**, **Paper Tiger**, **Lazerbeak**, and the Doomtree-contributing supergroup **Gayngs**, which is made up of all kinds of Minneapolis awesomeness. Sprinkled throughout the Doomtree madness is a mix of pop, classical, rock, and hip-hop tracks.
 
 ### Volume 5 Tracklisting
 
@@ -184,11 +184,11 @@ Year three contained all 2010-specific music. This collection of songs is predom
 
 ## 2011 : Volumes 7 &amp; 8
 
-**Active Child** ushers us into this series. Like an all-too-familiar voice/style brings you back to the early 90s. Everything about Active Child, from his voice to production style reminds me of the early 90s/ late 80s for some reason.
+**Active Child** ushers us into this series. Like an all-too-familiar voice/style bringing you back to the early 90s. Everything about Active Child, from his voice to production style reminds me of the early 90s/ late 80s for some reason.
 
 Who knew **Frank Ocean** would go on to release what could be his only masterpiece in 2012's _Channel Orange_. I say that half-serious, as [the internet has been going nuts](http://www.huffingtonpost.com/entry/11-artists-who-need-to-drop-a-new-album-like-now_563bcc8be4b0411d3070467f) about his sophomore album's announced release date of July 2015 coming and going with no further word from Frank. At any rate, man this was a great year for music.
 
-Before the **Weeknd** went pop and slayed the mainstream with pairs of earworm-inducing songs: _I Can't Feel My Face_ and _The Hills_. **Abel Tesfaye** finally figured out how to mix his misogynistic psycho sexual brand of r&b with the right amount of socially acceptable, umm hmm, eccentricity? Great, now mix in a winning pop formula, his always-great vocals and you have the next pop sensation. All an early 20-something needs to self destruct, eh? Glad the world is giving him all kinds of ammo. I'm conflicted: I want to like him, but he's so unlikeable it's laughable to even consider liking him. One can not deny his talent. I am forever stuck in a sadistic paradox. One thing is certain, Tesfaye's more rough corners; his darkest lyrics, and creepiest production have been reduced to almost unrecognizable versions of themselves. Like something pretty, only hinting at being dark and creepy - instead of being overtly dark and upfront about his intentions. I'm not sure which is worse.
+Before the **Weeknd** went pop and slayed the mainstream with pairs of earworm-inducing songs: _I Can't Feel My Face_ and _The Hills_. **Abel Tesfaye** finally figured out how to mix his misogynistic psycho sexual brand of r&b with the right amount of socially acceptable, umm hmm, eccentricity? Great! Now mix in a winning pop formula, his always-great vocals and you have the next pop sensation. All an early 20-something needs to self destruct, eh? Glad the world is giving him all kinds of ammo. I'm conflicted: I want to like him, but he's so unlikeable it's laughable to even consider liking him. One can not deny his talent. I am forever stuck in a sadistic paradox. One thing is certain, Tesfaye's more rough corners; his darkest lyrics, and creepiest production have been reduced to almost unrecognizable versions of themselves. Like something pretty, only hinting at being dark and creepy - instead of being overtly dark and upfront about his intentions. I'm not sure which is worse.
 
 These volumes decidedly closed with two of my favorite **James Blake** songs of the year. First with a swirrling jarrer of hypnotic _I Never Learnt To Share_. Then, volume 8 closes with the unreal **Joni Mitchell** cover _A Case of You_. His version [still destroys me]({{ site.url }}/2012/06/typography-in-music-joni-mitchell/ "James Blake and Joni Mitchell - Typography in Music").
 
@@ -242,11 +242,11 @@ These volumes decidedly closed with two of my favorite **James Blake** songs of 
 
 **Katatonia** released another incredible album, in **Dead End Kings**.
 
-I've been a fan of **Macklemore** since 2009's _Unplanned Mixtape EP_. But I really started paying close attention when he and Ryan Lewis put out 2010's _The VS_ and _The VS Redux_. _Vipassana_ was my jam. It's been several years, but I could sware he put out a _The VS_ EP and some months later repackaged it with remixed in _The VS Redux_ but I can't find a real instance of _The VS_ by itself (need to keep google).
+I've been a fan of **Macklemore** since 2009's _Unplanned Mixtape EP_. But I really started paying close attention when he and Ryan Lewis put out 2010's _The VS_ and _The VS Redux_. _Vipassana_ was my jam. It's been several years, but I swear he put out a _The VS_ EP and some months later repackaged it with remixed in _The VS Redux_ but I can't find a real instance of _The VS_ by itself (need to keep googling).
 
 So now, in 2012, they come along and release an album that would catapult them beyond their own ambitions. Of course, the record didn't truly hit its stride until 2013 - because not everyone keeps a close watch on underground-to-mainstream artist transitions.
 
-**P.O.S** released his most polarizing record - an odd mix of I don't know how to describe, tracks, in _We Don't Even Live Here_. From some solid, truly great songs (the couple I included here) to vulgar craziness - _Fuck Your Stuff_, this album still leaves me scratching my head a bit. It's now 2014 and I should probably re-visit this record.
+**P.O.S** released his most polarizing record - an odd mix of I don't know how to describe, tracks, in _We Don't Even Live Here_. From some solid, truly great songs (the couple I included here) to vulgar craziness - _Fuck Your Stuff_, this album still leaves me scratching my head a bit. It's now 2015 and I should probably re-visit this record.
 
 ### Volume 9 Tracklisting
 
@@ -293,7 +293,7 @@ So now, in 2012, they come along and release an album that would catapult them b
 
 ## 2013 : Volumes 11 &amp; 12
 
-**Earl Sweatshirt** emerged from seclusion to unprecedented internet pressure and hype. His debut full-length is exactly what it was meant to be; a young brilliant artist throwing something out there and seeing how it's received. While not all of the record hit me like _Chum_ did, it's still a great record. Though, I have to empathize a bit and try to put myself in his world view to appreciate the record. Even then, I fall short - being a white guy who largely grew up in the suburbs and had very little economic/societal struggle. I can only empathize so much. What I do know is that Earl will only get better. I look forward to hearing what he's talking about years from now.
+**Earl Sweatshirt** emerged from seclusion to unprecedented internet pressure and hype. His debut full-length is exactly what it was meant to be; a brilliant young artist throwing something out there and seeing how it's received. While not all of the record hit me like _Chum_ did, it's still a great record. Though, I have to empathize a bit and try to put myself in his world view to appreciate the record. Even then, I fall short - being a white guy who largely grew up in the suburbs and experienced very little economic/societal struggle. I can only empathize so much. What I do know is that Earl will only get better. I look forward to hearing what he's talking about years from now.
 
 **Chvrches** debut record was refreshing, great even. Very in-ine with 2013's fresh take on older genres - the cycle of influence, if you will. Its inclusion here was a no-brainer - both in terms of quality and sequencing. Unfortunately, I can't say the same will be true for songs on 2015's release _Every Open Eye_. Too much of the same for me. They have such a niche sound. One whose longevity was uncertain from the beginning. I'm reminded, not in style, but by a shared niche sound longevity sentiment in **Alt-J**'s material. Both, to me, are almost unlistenable now. I'm not sure why that is. Maybe I didn't really ever like them that much in the first place. Ha, ramble ramble.
 
