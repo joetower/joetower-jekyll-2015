@@ -2,7 +2,7 @@
 
 title: Grangler Music Series
 
-image: grangler-music.png
+image: grangler-music.jpg
 
 layout: post
 
@@ -29,9 +29,9 @@ tags:
 ---
 
 ## Origin, passion, reasoning
-For the last 8 years I've been poring over my favorite albums, artists, songs of the year and compiling a pair of CDRs to gift to family and friends for the holiday season. This was a bit of a _passing of the torch_ so-to-speak, in that my uncle Steve used to compile CDRs as his annual gift. Steve passed away 8 years ago, so I've been assembling my own compliations; both as a tribute to him and because I really _really_ love music. And even more than loving music, I love sharing music and maybe introducing others to their new favorite artist. Steve's compilations were more Adult Contemporary than my interpretation. Truly, mine tend to be all over the place: eclectic.
+For the last 8 years I've been poring over my favorite albums, artists, songs of the year and compiling a pair of CDRs to gift to family and friends for the holiday season. This was a bit of a _passing of the torch_ so-to-speak, in that my uncle Steve used to compile CDRs as his annual gift. Steve passed away 8 years ago, so I've been assembling my own compliations; both as a tribute to him and because I really _really_ love music. And even more than loving music, I love sharing music and maybe introducing others to their new favorite artist. If I recall, correctly, Steve's compilations were more Adult Contemporary in scope. If I were to describe my interpretation it would be kind of all over the place: eclectic.
 
-This process also fulfills me, as a designer. I get to design for my favorite thing: music. For the most part each cover's design is rather simple. For the past few years I've removed color; as I've chosen to use a back-and-white toner-based printer instead of a color ink jet. I can be fairly pragmatic, at times, I suppose. Also clearly at the forefront has been typography decisions. Clear and bold seems to have dominated several years. As you can see, themes/templating tended to stick around for more than one year.
+In addition to fulfilling the music nerd in me, this process also fulfills me, as a designer. I get to design for my favorite thing: music. For the most part each cover's design is rather simple. For the past few years I've removed color; as I've chosen to use a back-and-white toner-based printer instead of a color ink jet. I can be fairly pragmatic, at times, I suppose. Also clearly at the forefront has been typography decisions. Clear and bold seems to have dominated several years. As you can see, themes/templating tended to stick around for more than one year.
 
 
 ![Volume 1]({{ site.url }}/img/posts/grangler-music/grangler-music-cover-1.png)
@@ -188,9 +188,9 @@ Year three contained all 2010-specific music, despite retaining the "new and old
 
 Who knew **Frank Ocean** would go on to release what could be his only masterpiece in 2012's _Channel Orange_. I say that half-serious, as [the internet has been going nuts](http://www.huffingtonpost.com/entry/11-artists-who-need-to-drop-a-new-album-like-now_563bcc8be4b0411d3070467f) about his sophomore album's announced release date of July 2015 coming and going with no further word from Frank. At any rate, man this was a great year for music.
 
-Before the **Weeknd** went pop and slayed the mainstream with pairs of earworm-inducing songs: _I Can't Feel My Face_ and _The Hills_. **Abel Tesfaye** finally figured out how to mix his misogynistic psycho sexual brand of r&b with the right amount of socially acceptable, umm hmm, eccentricity? Great! Now mix in a winning pop formula, his always-great vocals and you have the next pop sensation. All an early 20-something needs to self destruct, eh? Glad the world is giving him all kinds of ammo. I'm conflicted: I want to like him, but he's so unlikeable it's laughable to even consider liking him. One can not deny his talent. I am forever stuck in a sadistic paradox. One thing is certain, Tesfaye's more rough corners; his darkest lyrics, and creepiest production have been reduced to almost unrecognizable versions of themselves. Like something pretty, only hinting at being dark and creepy - instead of being overtly dark and upfront about his intentions. I'm not sure which is worse.
+Before the **Weeknd** went pop and slayed the mainstream with pairs of earworm-inducing songs: _I Can't Feel My Face_ and _The Hills_, he wore his troubles more prominently for all to see. **Abel Tesfaye** finally figured out how to mix his misogynistic psycho sexual brand of r&b with the right amount of socially acceptable, eccentricity? Great! Now mix in a winning pop formula, his always-great vocals and you have the next pop sensation. All an early 20-something needs to self destruct, eh? Glad the world is giving him all kinds of ammo. I'm conflicted: I want to like him, but he's so unlikeable it's laughable to even consider liking him. One can not deny his talent. I am forever stuck in a sadistic paradox. One thing is certain, Tesfaye's more rough corners; his darkest lyrics, and creepiest production have been reduced to almost unrecognizable versions of themselves. Like something pretty, only hinting at being dark and creepy - instead of being overtly dark and upfront about his intentions. I'm not sure which is worse.
 
-These volumes decidedly closed with two of my favorite **James Blake** songs of the year. First with a swirrling jarrer of hypnotic _I Never Learnt To Share_. Then, volume 8 closes with the unreal **Joni Mitchell** cover _A Case of You_. His version [still destroys me]({{ site.url }}/2012/06/typography-in-music-joni-mitchell/ "James Blake and Joni Mitchell - Typography in Music").
+These volumes decidedly closed with two of my favorite **James Blake** songs of the year. First with a swirrling jarrer of hypnotism _I Never Learnt To Share_. Then, volume 8 closes with the unreal **Joni Mitchell** cover _A Case of You_. His version [still destroys me]({{ site.url }}/2012/06/typography-in-music-joni-mitchell/ "James Blake and Joni Mitchell - Typography in Music").
 
 ### Volume 7 Tracklisting
 
@@ -203,7 +203,7 @@ These volumes decidedly closed with two of my favorite **James Blake** songs of 
 7. Bjork - Crystalline
 8. Austra - The Future
 9. Saul Williams - Explain My Heart
-10. Grieves - Light Speedv
+10. Grieves - Light Speed
 11. Little Dragon - Ritual Union
 12. Lykke Li - Get Some
 13. Tom Waits - Chicago
@@ -401,4 +401,66 @@ I'm big on opening and closing with strong, memorable, songs. I'd like every tra
 
 ## 2015 : Volumes 15 &amp; 16
 
-This year I'm especially excited for the sequencing of both discs. It will also be the first year that features little-to-no duplicate artists. Once I get these volumes finalized, I'll post the tracklistings.
+This year I made it a goal to have fewer repeat artists than previous years. Just my luck, the year produced some truly incredible records.
+
+**Nils Frahm** released a wonderful, free, **Solo** piano album. Volume 15 opens with one of my favorite piano pieces _ode_ and Volume 16 closes with another favorite _Some_. Both pieces feel like great bookends to the series this year. If you would like to have the whole album, [download it here](http://www.nilsfrahm.com/works/sol/ "Download Nils Frahm's Solo album").
+
+**Son Little** released his debut solo album this year. I really can't say enough great things about this guy and his band. They are crazy talented and exude soul. Maggie and I had the privilege of seeing them perform at 7th Street this year. We were not disappointed. I wrote about Son Little [earlier this year](http://joetower.com/2015/10/recent-records-05/ "Son Little Recent Records 5").
+
+**Courtney Barnett** is sure to be at the top of many "best of" lists. It's easy to see why; as this record is superb.
+
+**Kamasi Washington**'s _The Epic_ is also a sure-to-top "best of" lists. This is one of the most subgenre-spanning jazz records I've ever heard. It's also one of the best modern jazz records I've heard, period. I wrote about Kamasi [earlier this year](http://joetower.com/2015/05/recent-records/ "Kamasi Washington Recent Records 2").
+
+**Sufjan Stevens** writes beautiful music. This record might be his most crushingly depressing records to date. It's also his best album to date.
+
+**Chelsea Wolfe** also released her best album to date, in the excellent _The Abyss_ release. Her sound is so much fuller sounding than previous records. I wrote about Chelsea [earlier this year](http://joetower.com/2015/09/recent-records-04/ "Chelsea Wolfe Recent Records 4").
+
+I had to include **Drake**'s thoroughly ridiculous but amazingly catchy campy smash hit that everyone parodied or covered. I can't even call this a guilty pleasure. It's just a wonderful awful great song.
+
+**Floating Points** came out of nowhere to put out one of the years most interesting electronic albums - brilliantly fusing jazz/glitch/ambient sounds.
+
+**Miguel** put out one of my more immediate favorite fun records of the year. I feel like he's finally shedding his more pop-filled previous records and challenging himself, creatively.
+
+**Dollarstore Keyboard** is a childhood friend's (Colin Swenson) latest music project. Colin is an exceptional musician and I always look forward to hearing what he comes up with. This is definitely the most remarkable body of work he's produced to date.
+
+### Volume 15 Tracklisting
+
+1. Nils Frahm - Ode
+2. Son Little - Lay Down
+3. Courtney Barnett - Depreston
+4. Roseau - See You Soon
+5. Jamie XX - Loud Places (featuring Romy)
+6. Empress Of - Threat
+7. Elle King - Ex's and Oh's
+8. Odesza - It's Only (featuring Zyra)
+9. Floating Points - For Marmish
+10. Kamasi Washington - Re Run
+11. Sufjan Stevens - Death with Dignity
+12. Chelsea Wolfe - Crazy Love
+13. Joanna Newsom - You Will Not Take My Heart Alive
+14. FKA Twigs - In Time
+15. Drake - Hotline Bling
+16. Antony & Yoko Ono - I Love You Earth
+17. Alabama Shakes - Sound & Color
+18. Miguel - Hollywood Dreams
+
+### Volume 16 Tracklisting
+
+1. Max Richter - Vivaldi, Four Seasons - Spring 1
+2. Leon Bridges - River
+3. Son Little - Go Blue Blood Red
+4. Thundercat - Them Changes (featuring Flying Lotus & Kamasi Washington)
+5. Julie Holter - Feel You
+6. Oneohtrix Point Never - Sticky Drama
+7. Ghost - Spirit
+8. Tribulation - Melancholia
+9. Macklemore - Downtown (featuring Eric Nally, Melle Mel, Kool Moe Dee, Grandmaster Caz)
+10. Bilal - Sirens II
+11. Doomtree - The Bends
+12. Silversun Pickups - Friendly Fires
+13. Björk - Atom Dance
+14. Dollarstore Keyboard - Teacup Falls
+15. Pinkshinyultrablast - Holy Forest
+16. Seinabo Sey - Younger
+17. Deerhunter - Living My Life
+18. Nils Frahm - Some
