@@ -10,7 +10,7 @@ meta_title: Grangler Music series - Annual music compilation
 
 meta_description: Some of my favorite songs of the year compiled on CDRs for family.
 
-summary: The gift of music.
+summary: Giving the gift of music.
 
 summary-class: design
 
