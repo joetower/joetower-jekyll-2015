@@ -80,6 +80,7 @@
 }
 .comments {
   display:block;
+  width: 100%;
   padding-top: $space;
   @include breakpoint($large) {
     @include grid-span(8,5, $output-style:'float', $gutter:3);

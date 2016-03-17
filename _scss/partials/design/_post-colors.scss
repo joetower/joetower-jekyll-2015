@@ -354,14 +354,6 @@ body {
                 fill: rgba( $flex-yellow, .8);
       }
     }
-    .bar:before,
-    .bar:after,
-    .bar {
-      background-color: $flex-yellow;
-      &:hover {
-        background-color: rgba($flex-yellow, .8);
-      }
-    }
     .site-nav {
       a {
         color: $flex-yellow;
@@ -369,8 +361,22 @@ body {
           color: rgba($flex-yellow, .8);
         }
       }
-      &.menu-open {
-        background-color: rgba($black, .85);
+    }
+  }
+  &.best-2015 {
+    background-color: $best-2015;
+    .logo {
+      fill: $jt-green;
+      &:hover {
+        fill: rgba( $jt-green, .8);
+      }
+    }
+    .site-nav {
+      a {
+        color: $jt-green;
+        &:hover {
+          color: rgba($jt-green, .8);
+        }
       }
     }
   }

@@ -1156,7 +1156,13 @@ a:visited {
   a:visited {
     color: #718f21;
     font-family: "adelle", serif;
-    border-bottom: 2.5px solid #d9d336; }
+    border-bottom: 2.5px solid #d9d336;
+    background-image: -webkit-linear-gradient(left, transparent 50%, #d9d336 50%);
+    background-image: linear-gradient(to right, transparent 50%, #d9d336 50%);
+    background-position: 0;
+    background-size: 200%;
+    -webkit-transition: all 0.2s;
+            transition: all 0.2s; }
     .post-content a:visited,
     .page-content a:visited, .post-content
     a:visited:visited,
@@ -1169,7 +1175,8 @@ a:visited {
     .page-content
     a:visited:hover {
       color: #617a1d;
-      background-color: #d9d336;
+      border-color: rgba(146, 184, 43, 0.6);
+      background-position: -100%;
       text-decoration: underline; }
 
 button,
@@ -1394,6 +1401,7 @@ img.profile, img.dogs {
 
 .comments {
   display: block;
+  width: 100%;
   padding-top: 20px; }
   @media (min-width: 1024px) {
     .comments {
@@ -1892,20 +1900,21 @@ body.flex {
     fill: #e9cf31; }
     body.flex .logo:hover {
       fill: rgba(233, 207, 49, 0.8); }
-  body.flex .bar:before,
-  body.flex .bar:after,
-  body.flex .bar {
-    background-color: #e9cf31; }
-    body.flex .bar:before:hover,
-    body.flex .bar:after:hover,
-    body.flex .bar:hover {
-      background-color: rgba(233, 207, 49, 0.8); }
   body.flex .site-nav a {
     color: #e9cf31; }
     body.flex .site-nav a:hover {
       color: rgba(233, 207, 49, 0.8); }
-  body.flex .site-nav.menu-open {
-    background-color: rgba(0, 0, 0, 0.85); }
+
+body.best-2015 {
+  background-color: #2e2e2e; }
+  body.best-2015 .logo {
+    fill: #92b82b; }
+    body.best-2015 .logo:hover {
+      fill: rgba(146, 184, 43, 0.8); }
+  body.best-2015 .site-nav a {
+    color: #92b82b; }
+    body.best-2015 .site-nav a:hover {
+      color: rgba(146, 184, 43, 0.8); }
 
 .featured-image.blake {
   background: url(/img/posts/james-blake/blake-body-repeat.jpg) no-repeat top center;
