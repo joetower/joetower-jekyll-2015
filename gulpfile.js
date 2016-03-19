@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 
-
 var jshint = require('gulp-jshint'),
     sass = require('gulp-sass'),
     minifyCSS = require('gulp-minify-css'),
@@ -17,7 +16,6 @@ var jshint = require('gulp-jshint'),
     spawn = require('child_process').spawn,
     scsslint = require('gulp-scss-lint'),
     sequence = require('run-sequence'),
-    deploy = require('gulp-gh-pages'),
     gutil = require('gulp-util'),
     c = gutil.colors,
     htmlmin = require('gulp-htmlmin');
@@ -30,7 +28,7 @@ var paths = {
   sass: '_scss/style.scss',
   sassFiles: '_scss/**/*.scss',
   css: '_site/css/',
-  jekyll: ['**/*.html', '**/*.md', '!_site/**/*.html', '!./bower_components', '!node_modules/**/*'],
+  jekyll: ['_config*, **/*.html', '**/*.md', '!_site/**/*.html', '!./bower_components', '!node_modules/**/*'],
 };
 
 //////////////////////////////
