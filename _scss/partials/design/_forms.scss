@@ -41,19 +41,18 @@ textarea:focus {
 form {
   input[type="submit"],
   a.button {
-    font-family: $sans;
+    font-family: $sans-condensed;
     padding:$space-one-half $space-double;
     background: lighten($jt-green, 5%);
     color:darken($jt-green, 30%);
     border: .1em solid darken($jt-green, 15%);
     @include border-radius(4px);
-    font-weight: 600;
     cursor:pointer;
     @include transition(background, 0.2s, ease);
     @extend %clearfix;
     vertical-align:middle;
     text-align:center;
-
+  
     @include breakpoint($tablet) {
       display:inline-block;
       text-align:left;

@@ -2,15 +2,15 @@
 
 .site-footer {
   padding: 0;
-  font-family:$serif;
+  font-family:$sans;
+  font-weight: $sans-regular;
   background-color: rgba($black, .8);
   color: darken($white, 5%);
 
   p {
     color: rgba($white, .6);
-    font-size: 16px;
+    @include font-size(1.8);
     line-height:1.8;
-    font-weight: 400;
     margin-bottom:0;
 
     span {

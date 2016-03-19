@@ -15,7 +15,7 @@ a:visited {
   .post-content &,
   .page-content & {
     color: darken($link-color, 10%);
-    font-family: $serif;
+    font-family: $sans;
     border-bottom: $space-one-eighth solid $jt-yellow;
     background-image: linear-gradient(to right, transparent 50%, $jt-yellow 50%);
     background-position: 0;
@@ -38,12 +38,14 @@ a:visited {
 button,
 .button,
 input[type="submit"] {
+  @include font-size(2.5);
+  font-family: $sans-condensed;
+  text-transform: uppercase;
   padding:$space-one-third $space;
   background: $white;
   color: darken($link-color, 15%);
   border: .1em solid darken($link-color, 15%);
   @include border-radius(4px);
-  font-weight: 600;
   cursor:pointer;
   display:block;
   @include transition(background, 0.2s, ease);

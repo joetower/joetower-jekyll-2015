@@ -4,7 +4,9 @@
 
 .browse-by-category {
   @extend %clearfix;
-  font-size:18px;
+  @include font-size(1.8);
+  font-family: $sans;
+  font-weight: $sans-regular;
   visibility:hidden;
 
   &.active {
