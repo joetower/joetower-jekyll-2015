@@ -8,9 +8,13 @@
   blockquote p {
     @include breakpoint($medium) {
       max-width: 75%;
+      padding-top: $space-one-half;
+      padding-bottom: $space-one-half;
     }
     @include breakpoint($large) {
-      padding-left: 21%;
+      padding-left: 25%;
+      padding-top: $space;
+      padding-bottom: $space;
     }
   }
   .wrap {

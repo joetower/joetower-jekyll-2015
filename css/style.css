@@ -888,7 +888,8 @@ blockquote p {
   font-size: 2rem;
   line-height: 1.5;
   font-style: italic;
-  max-width: 650px; }
+  max-width: 650px;
+  margin: 0; }
   @media (min-width: 580px) {
     blockquote,
     blockquote p {
@@ -1351,12 +1352,16 @@ img.profile, img.dogs {
 @media (min-width: 768px) {
   .summary blockquote,
   .summary blockquote p {
-    max-width: 75%; } }
+    max-width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px; } }
 
 @media (min-width: 1024px) {
   .summary blockquote,
   .summary blockquote p {
-    padding-left: 21%; } }
+    padding-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 
 .summary .wrap {
   padding: 20px;

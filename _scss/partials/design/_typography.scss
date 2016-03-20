@@ -49,6 +49,7 @@ blockquote p {
   line-height: 1.5;
   font-style: italic;
   max-width: $max-measure;
+  margin: 0;
 
   @include breakpoint($quotes) {
     @include font-size(2.2);
