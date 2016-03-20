@@ -16,6 +16,7 @@ a:visited {
   .page-content & {
     color: darken($link-color, 10%);
     font-family: $sans;
+    font-weight: $sans-bold;
     border-bottom: $space-one-eighth solid $jt-yellow;
     background-image: linear-gradient(to right, transparent 50%, $jt-yellow 50%);
     background-position: 0;

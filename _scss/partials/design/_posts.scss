@@ -49,6 +49,7 @@
   display:block;
   margin-bottom: $space-one-half;
   border-bottom: $space-one-tenth solid rgba($jt-gray, .25);
+  font-family:$sans;
 
   @include breakpoint($large) {
     @include grid-span(4,1, $output-style:'float', $gutter:3);

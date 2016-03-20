@@ -6,29 +6,30 @@ html {
   font-size: $base-font-size;
 }
 body {
-  @include font-size(1.8);
+  @include font-size(2);
 }
 html,
 body {
-  font-family: $serif;
-  font-weight: $serif-regular;
+  font-family: $sans;
+  font-weight: $sans-regular;
   color: lighten($jt-gray,20%);
 }
 
 p {
   margin-bottom: $space-double;
-  line-height: 1.8;
+  line-height: 1.6;
 
   article & {
     max-width: $max-measure;
   }
 }
 strong {
-  font-weight: $serif-bold;
+  font-weight: $sans-bold;
 }
 
 em {
   font-style: italic;
+  font-weight: $sans-semi-bold;
 }
 h1,
 h2,
@@ -42,18 +43,18 @@ h6 {
 
 blockquote,
 blockquote p {
-  font-family: $serif;
-  font-weight: $serif-bold;
-  @include font-size(1.8);
+  font-family: $sans;
+  font-weight: $sans-bold;
+  @include font-size(2);
   line-height: 1.5;
   font-style: italic;
   max-width: $max-measure;
 
   @include breakpoint($quotes) {
-    @include font-size(2);
+    @include font-size(2.2);
   }
   @include breakpoint($quotes-large) {
-    @include font-size(2.5);
+    @include font-size(2.4);
   }
   cite {
     text-transform: uppercase;
@@ -91,16 +92,24 @@ h1 {
   }
 }
 h2 {
-  @include font-size(2.8);
+  @include font-size(2.2);
   font-weight: $sans-bolder;
   margin-bottom: $space-one-fourth;
   color: lighten($jt-gray,15%);
+
+  @include breakpoint($heading-large) {
+    @include font-size(2.8);
+  }
 }
 h3 {
   @include font-size(1.8);
   font-weight: $sans-bold;
   margin-bottom: $space-one-fourth;
   color: lighten($jt-gray,25%);
+
+  @include breakpoint($heading-large) {
+    @include font-size(2);
+  }
 }
 h4 {
   @include font-size(2);
