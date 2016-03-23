@@ -21,17 +21,20 @@ a:visited {
     background-image: linear-gradient(to right, transparent 50%, $jt-yellow 50%);
     background-position: 0;
      // make the background twice as big
-    background-size: 205%;
+    background-size: 201%;
     transition: all 0.2s;
 
     &:visited {
       color: darken($link-color, 25%);
+      border-bottom: $space-one-eighth solid $jt-yellow;
+      background-image: linear-gradient(to right, transparent 50%, $jt-yellow 50%);
+      background-position: 0;
     }
     &:hover {
       color: darken($link-color, 15%);
       border-color: mix(transparent, $link-color, 40%);
       background-position: -100%;
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
