@@ -715,6 +715,8 @@ img {
           fill: #4875B4; }
         .site-footer ul li a:hover svg.feed-icon-svg {
           fill: #df9246; }
+        .site-footer ul li a:hover svg.discogs-icon-svg {
+          fill: #03b; }
 
 body {
   display: -webkit-box;

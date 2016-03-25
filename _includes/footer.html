@@ -51,19 +51,19 @@
             </svg>
           </a>
         </li>{% endif %}
+        {% if site.discogs_username %}<li>
+          <a href="https://www.discogs.com/user/{{ site.discogs_username }}/collection?sort=artist&amp;header=1&amp;sort_order=asc" title="{{ site.discogs_username }} on Discogs">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" class="discogs-icon-svg"viewBox="0 0 512 512">
+              <path d="M256 0c-141.376 0-256 114.624-256 256s114.624 256 256 256 256-114.624 256-256-114.624-256-256-256zM256.496 318.944c-35.008 0-63.44-28.368-63.44-63.44 0-35.12 28.432-63.504 63.44-63.504 35.136 0 63.504 28.368 63.504 63.504 0 35.056-28.368 63.44-63.504 63.44z"></path>
+            </svg>
+          </a>
+        </li>{% endif %}
         {% if site.lastfm_username %}<li>
           <a href="https://last.fm/user/{{ site.lastfm_username }}" title="{{ site.lastfm_username }} on LastFM">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" class="lastfm-icon-svg" viewBox="0 0 24 24">
               <path d="M19.209 19.069c-2.5-0.010-3.832-1.232-4.758-3.387l-0.265-0.588-2.282-5.203c-0.757-1.842-2.635-3.086-4.754-3.086-2.867 0-5.193 2.326-5.193 5.195s2.326 5.195 5.193 5.195c2 0 3.739-1.131 4.607-2.789l0.923 2.129c-1.31 1.598-3.302 2.615-5.53 2.615-3.949 0-7.151-3.199-7.151-7.15 0-3.949 3.201-7.152 7.15-7.152 2.98 0 5.387 1.592 6.609 4.412 0.093 0.219 1.293 3.025 2.34 5.414 0.648 1.478 1.201 2.459 2.994 2.52 1.762 0.061 2.971-1.012 2.971-2.367 0-1.324-0.922-1.643-2.479-2.16-2.798-0.922-4.242-1.848-4.242-4.066 0-2.164 1.473-3.607 3.865-3.607 1.558 0 2.684 0.693 3.463 2.076l-1.529 0.781c-0.576-0.807-1.212-1.125-2.020-1.125-1.123 0-1.925 0.781-1.925 1.82 0 1.475 1.319 1.697 3.164 2.303 2.483 0.809 3.638 1.732 3.638 4.039 0 2.422-2.078 4.186-4.791 4.182z"></path>
             </svg>
           </a>
-        </li>{% endif %}
-
-        {% if site.discogs_username %}<li>
-          <a href="https://www.discogs.com/user/{{ site.discogs_username }}/collection?sort=artist&amp;header=1&amp;sort_order=asc" title="{{ site.discogs_username }} on Discogs">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-            <path d="M672 783.999c0-44.16 35.841-80.001 80.001-80.001s80.001 35.841 80.001 80.001-35.841 80.001-80.001 80.001-80.001-35.841-80.001-80.001zM752.001 576c-114.879 0-207.999 93.12-207.999 207.999s93.12 207.999 207.999 207.999 207.999-93.12 207.999-207.999-93.12-207.999-207.999-207.999zM0 783.999c0 415.362 336.639 752.001 752.001 752.001 415.359 0 751.998-336.639 751.998-752.001 0-415.359-336.639-751.998-751.998-751.998-415.362 0-752.001 336.639-752.001 751.998zM752.001 447.999c185.598 0 336 150.402 336 336s-150.402 336-336 336-336-150.399-336-336 150.399-336 336-336z"></path>
-          </svg>
         </li>{% endif %}
         {% if site.linkedin_username %}<li>
           <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.linkedin_username }} on LinkedIn">
