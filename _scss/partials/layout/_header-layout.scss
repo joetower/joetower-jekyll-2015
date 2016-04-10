@@ -57,8 +57,11 @@
     display: inline-block; /* non-flexbox browsers */
     @include flexbox();
     @include flex(1 0 auto);
-    @include justify-content(flex-end);
+    @include justify-content(center);
     @include flex-flow(row wrap);
 
+    @include breakpoint($small) {
+      @include justify-content(flex-end);
+    }
   }
 }
