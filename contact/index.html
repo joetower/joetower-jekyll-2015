@@ -13,35 +13,24 @@ meta_description: Want to send me an email? Look no further. Boom!
 
 <div class="page contact">
 
-  <form action="http://formspree.io/joe@joetower.com" method="POST">
-
-    <fieldset>
-      <label>Name</label>
-      <input type="text" name="name">
-    </fieldset>
-
-    <fieldset>
-      <label>Your Email</label>
-      <input type="email" name="_replyto">
-    </fieldset>
-
-    <fieldset>
-      <label>Message</label>
-      <textarea name="message" rows="10" cols="60"></textarea>
-    </fieldset>
-
-    <input type="text" name="_gotcha" style="display:none" />
-
-    <input type="hidden" name="_next" value="//joetower.com/thank-you" />
-
-    <fieldset>
-      <input type="submit" id="submit" style="display:none;"/>
-      <a class="button" href="#" onclick="$('#submit').click();">
-        <i class="icon icon-send"></i>
-        <span>Send</span>
-      </a>
-    </fieldset>
-
-  </form>
+  <div id="wufoo-z1rjixve0z3c1ll">
+  Fill out my <a href="https://joetower.wufoo.com/forms/z1rjixve0z3c1ll">online form</a>.
+  </div>
+  <script type="text/javascript">var z1rjixve0z3c1ll;(function(d, t) {
+  var s = d.createElement(t), options = {
+  'userName':'joetower',
+  'formHash':'z1rjixve0z3c1ll',
+  'autoResize':true,
+  'height':'517',
+  'async':true,
+  'host':'wufoo.com',
+  'header':'show',
+  'ssl':true};
+  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+  s.onload = s.onreadystatechange = function() {
+  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+  try { z1rjixve0z3c1ll = new WufooForm();z1rjixve0z3c1ll.initialize(options);z1rjixve0z3c1ll.display(); } catch (e) {}};
+  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+  })(document, 'script');</script>
 
 </div>
